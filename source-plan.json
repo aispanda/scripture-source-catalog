@@ -1,21 +1,998 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "title": "Scripture and commentary source register",
   "status": "planning; coverage incomplete",
-  "scope": "Identify source-backed, usable digital editions and commentaries for Sanskrit scriptures represented in GRETIL and Muktabodha, including other credible repositories and scans when appropriate.",
-  "coverage": {"works_catalogued": 2, "completeness": "not established", "method": "Manual pilot records only; comprehensive work and edition reconciliation remains pending."},
+  "scope": "Plan and track Hindu, Sanatana and Buddhist scriptures, commentaries, translations and collected teachings, prioritizing classical Hindu texts. Include GRETIL, Muktabodha, Internet Archive and other credible sources.",
+  "coverage": {
+    "works_catalogued": 5,
+    "editions_catalogued": 6,
+    "completeness": "not established",
+    "method": "Five pilot work records only. Scope areas and source inventories are not evidence of collection completeness."
+  },
   "source_inventories": [
-    {"id":"gretil", "name":"GRETIL", "url":"https://gretil.sub.uni-goettingen.de/gretil.html", "scope":"Sanskrit and other Indian-language texts", "status":"inventory and work-level reconciliation pending", "notes":"Existing legacy Sanskrit download contains overlapping text representations; archive membership is not a count of distinct works."},
-    {"id":"muktabodha", "name":"Muktabodha Digital Library", "url":"https://muktabodha.org/digital-library/", "scope":"Tantric and related Sanskrit texts", "status":"inventory and rights review pending"},
-    {"id":"sarit", "name":"SARIT corpus", "url":"https://github.com/sarit/SARIT-corpus", "scope":"TEI editions and commentaries", "status":"candidate source; individual records require review"},
-    {"id":"internet-archive", "name":"Internet Archive", "url":"https://archive.org/", "scope":"Digitized editions and scans", "status":"candidate source; select and verify individual item and access conditions"}
+    {
+      "id": "gretil",
+      "name": "GRETIL",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil.html",
+      "scope": "Sanskrit and other Indian-language texts",
+      "status": "inventory and work-level reconciliation pending",
+      "notes": "Existing legacy Sanskrit download contains overlapping text representations; archive membership is not a count of distinct works."
+    },
+    {
+      "id": "muktabodha",
+      "name": "Muktabodha Digital Library",
+      "url": "https://muktabodha-digital-library.org/",
+      "scope": "Tantric and related Sanskrit texts",
+      "status": "inventory and rights review pending",
+      "license_url": "https://muktabodha-digital-library.org/about#license-etext",
+      "notes": "E-text collection terms differ from IFP transcripts and Gokarna manuscripts; check specific item and intended use. E-text AI training and resulting model use are subject to stated noncommercial terms."
+    },
+    {
+      "id": "sarit",
+      "name": "SARIT corpus",
+      "url": "https://github.com/sarit/SARIT-corpus",
+      "scope": "TEI editions and commentaries",
+      "status": "candidate source; individual records require review"
+    },
+    {
+      "id": "internet-archive",
+      "name": "Internet Archive",
+      "url": "https://archive.org/",
+      "scope": "Digitized editions and scans",
+      "status": "candidate source; select and verify individual item and access conditions"
+    },
+    {
+      "id": "vedic-heritage",
+      "name": "Vedic Heritage Portal",
+      "url": "https://vedicheritage.gov.in/",
+      "scope": "Vedic materials",
+      "status": "candidate source; item-level review pending"
+    },
+    {
+      "id": "suttacentral",
+      "name": "SuttaCentral Bilara data",
+      "url": "https://github.com/suttacentral/bilara-data",
+      "scope": "Buddhist root texts, translations and related data",
+      "status": "candidate source; item-level review pending"
+    }
   ],
-  "workflow": ["Enumerate source records and preserve source identifiers.", "Reconcile works, editions, witnesses and commentaries without merging uncertain matches.", "Find direct online text or scan links and compare provenance, completeness, access and accuracy.", "Record language, script, format, edition, source, rights, link checks and evidence.", "Choose a preferred source only after a documented comparison; record gaps and competing editions.", "Independently review representative links, metadata and coverage before claiming completion."],
-  "record_conventions": {"review_status":"pending | in_review | verified | unavailable", "preferred_source":"Null until an evidence-backed comparison; not an assertion that a source is universally best.", "rights":"unknown until checked for this edition and use", "link_status":"unchecked unless independently confirmed", "commentary":"Separate records identify author and work commented on; links remain pending when not established."},
+  "workflow": [
+    "Enumerate source records and preserve source identifiers.",
+    "Reconcile works, editions, witnesses and commentaries without merging uncertain matches.",
+    "Find direct online text or scan links and compare provenance, completeness, access and accuracy.",
+    "Record language, script, format, edition, source, rights, link checks and evidence.",
+    "Choose a preferred source only after a documented comparison; record gaps and competing editions.",
+    "Independently review representative links, metadata and coverage before claiming completion."
+  ],
+  "record_conventions": {
+    "review_status": "pending | in_review | verified | unavailable",
+    "preferred_source": "Null until an evidence-backed comparison; not an assertion that a source is universally best.",
+    "rights": "unknown until checked for this edition and use",
+    "link_status": "unchecked unless independently confirmed",
+    "commentary": "Separate records identify author and work commented on; links remain pending when not established."
+  },
   "works": [
-    {"id":"pilot-vijnana-bhairava", "title":"Vijñāna Bhairava", "kind":"root_text", "tradition":"Śaiva", "review_status":"in_review", "preferred_source":null, "editions":[{"id":"gretil-faliero", "provider":"GRETIL", "text_url":"https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/saiva/vijnbhau.htm", "related_tei_url":"https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vijJAnabhairava.xml", "language":"Sanskrit", "script":"Roman transliteration", "edition_details":"Electronic witness encoded by Marino Faliero, 1998; verify source header.", "rights":"Related TEI declares CC BY-NC-SA 4.0; verify separately for intended use and HTML.", "link_status":"previously checked in local source review; current availability pending", "verification":"Local source review reports 162 numbered verses and TEI body match after whitespace normalization."},{"id":"muktabodha-m00271", "provider":"Muktabodha", "catalog_id":"M00271", "text_url":null, "language":"Sanskrit", "edition_details":"BHU C4245 manuscript witness; numbering irregular and restarted.", "rights":"Source header reports CC BY-NC 4.0; verify for intended use.", "link_status":"direct online item link not yet identified"}]},
-    {"id":"pilot-vijnanakaumudi", "title":"Vijñānakaumudī on Vijñāna Bhairava", "kind":"commentary", "commentator":"Ānandabhaṭṭa", "comments_on":["pilot-vijnana-bhairava"], "review_status":"pending", "preferred_source":null, "editions":[{"id":"muktabodha-m00347", "provider":"Muktabodha", "catalog_id":"M00347", "text_url":null, "language":"Sanskrit", "edition_details":"Source header reports KSTS volume 9, 1936; publication details not independently verified.", "rights":"Source header reports CC BY-NC 4.0; verify for intended use.", "link_status":"direct online item link not yet identified"}]}
+    {
+      "id": "pilot-vijnana-bhairava",
+      "title": "Vijñāna Bhairava",
+      "kind": "root_text",
+      "review_status": "in_review",
+      "preferred_source": null,
+      "traditions": [
+        "Shaiva"
+      ],
+      "collections": [
+        "Tantra and Agama"
+      ],
+      "languages": [
+        "Sanskrit"
+      ],
+      "topics": [],
+      "aliases": [],
+      "classification_status": "proposed",
+      "source_tradition_label": "Śaiva"
+    },
+    {
+      "id": "pilot-vijnanakaumudi",
+      "title": "Vijñānakaumudī on Vijñāna Bhairava",
+      "kind": "commentary",
+      "commentator": "Ānandabhaṭṭa",
+      "comments_on": [
+        "pilot-vijnana-bhairava"
+      ],
+      "review_status": "pending",
+      "preferred_source": null,
+      "traditions": [
+        "Shaiva"
+      ],
+      "collections": [
+        "Tantra and Agama"
+      ],
+      "languages": [
+        "Sanskrit"
+      ],
+      "topics": [],
+      "aliases": [],
+      "classification_status": "proposed"
+    },
+    {
+      "id": "pilot-rigveda",
+      "title": "Ṛgveda",
+      "kind": "root_text",
+      "traditions": [
+        "Vedic"
+      ],
+      "collections": [
+        "Rigveda"
+      ],
+      "languages": [
+        "Sanskrit"
+      ],
+      "topics": [],
+      "aliases": [],
+      "review_status": "pending",
+      "classification_status": "proposed",
+      "preferred_source": null
+    },
+    {
+      "id": "pilot-paippalada",
+      "title": "Atharvaveda: Paippalāda Saṃhitā",
+      "kind": "root_text",
+      "traditions": [
+        "Vedic"
+      ],
+      "collections": [
+        "Atharvaveda"
+      ],
+      "languages": [
+        "Sanskrit"
+      ],
+      "topics": [],
+      "aliases": [],
+      "review_status": "pending",
+      "classification_status": "proposed",
+      "preferred_source": null
+    },
+    {
+      "id": "pilot-samaveda",
+      "title": "Sāmaveda Saṃhitā",
+      "kind": "root_text",
+      "traditions": [
+        "Vedic"
+      ],
+      "collections": [
+        "Samaveda"
+      ],
+      "languages": [
+        "Sanskrit"
+      ],
+      "topics": [],
+      "aliases": [],
+      "review_status": "pending",
+      "classification_status": "proposed",
+      "preferred_source": null
+    }
   ],
-  "open_questions": ["What constitutes a work versus an edition or representation for coverage reporting?", "Which sources and editions can be used for indexing, public display, redistribution and external model processing?", "Which commentaries are authoritative or significant within each tradition?", "How will access-limited scans and unavailable sources be tracked?"],
-  "next_steps": ["Compare a small set of GRETIL and Muktabodha records manually against their original source pages.", "Resolve missing direct links and distinguish online access from local copies.", "Define and validate the repeatable inventory workflow before scaling.", "Add a documented work-by-work backlog and independently check coverage."]
+  "open_questions": [
+    "What constitutes a work versus an edition or representation for coverage reporting?",
+    "Which sources and editions can be used for indexing, public display, redistribution and external model processing?",
+    "Which commentaries are authoritative or significant within each tradition?",
+    "How will access-limited scans and unavailable sources be tracked?",
+    "Which 20 modern masters should be included? The shortlist remains proposed, not approved.",
+    "Which scripture and commentary editions, languages and scripts are highest priority within each scope area?",
+    "What permissions apply to conversion, indexing, external AI processing, redistribution and commercial use for each source?"
+  ],
+  "next_steps": [
+    "Review first-release scope and source-specific rights.",
+    "Inventory local and online collections and reconcile works and editions without assuming completeness.",
+    "Convert approved source texts to source-aligned Markdown and validate against source.",
+    "Create passage-level IDs and reviewed alignments before indexing.",
+    "Test filters, search and source attribution with representative Hindu and Buddhist questions."
+  ],
+  "canonical_corpus": {
+    "format": "Markdown",
+    "principles": [
+      "Convert other source formats to UTF-8 Markdown with stable work, edition, passage and page or folio locators when available.",
+      "Preserve original wording, scripts, accents, variants, attribution and source alignment; mark uncertain OCR and missing material.",
+      "Keep machine-readable metadata and provenance alongside Markdown, including source URL, edition, rights, hash, conversion method, version, review status and locator mappings.",
+      "Retain authorized original source artifacts separately as evidence; the AI corpus uses Markdown. Do not assume conversion resolves reuse rights.",
+      "Split for retrieval at meaningful passage boundaries with context; never equate Markdown conversion with transcription accuracy."
+    ],
+    "search_note": "Keyword, semantic retrieval and summarization are future capabilities, not implemented by this catalogue."
+  },
+  "facet_policy": {
+    "multi_valued": "A work may belong to multiple traditions, collections, languages and topics; unknown is not none.",
+    "source_labels": "Retain source labels and map them to normalized facets only with evidence and review.",
+    "topic_tags": "Proposed discovery vocabulary; assignments are not authoritative without textual evidence.",
+    "language_script": "Language, script and transliteration scheme are separate; record source-specific values per edition.",
+    "search": "Index original and normalized titles, aliases, scripts and transliterations separately. Future semantic search must retrieve source-backed passages, with edition, access and provenance filters.",
+    "relations": "Explicitly evidence commentary, translation and parallel links; do not infer identity from names or numbering.",
+    "migration": "Version 2 moves works[].editions to top-level editions[], linked by work_id; IDs and edition evidence are retained.",
+    "filtering": "Use contains for multi-value facets; an exact is filter may not match array values."
+  },
+  "coverage_areas": [
+    {
+      "id": "scope-01",
+      "family": "Vedic",
+      "area": "Rigveda",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-02",
+      "family": "Vedic",
+      "area": "Yajurveda",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-03",
+      "family": "Vedic",
+      "area": "Samaveda",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-04",
+      "family": "Vedic",
+      "area": "Atharvaveda",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-05",
+      "family": "Vedic",
+      "area": "Brahmana",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-06",
+      "family": "Vedic",
+      "area": "Aranyaka",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-07",
+      "family": "Vedic",
+      "area": "Upanishad",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-08",
+      "family": "Vedic",
+      "area": "Vedanga",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-09",
+      "family": "Hindu",
+      "area": "Itihasa and epics",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-10",
+      "family": "Hindu",
+      "area": "Purana",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-11",
+      "family": "Hindu",
+      "area": "Bhagavad Gita",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-12",
+      "family": "Hindu",
+      "area": "Vedanta and Brahma Sutra",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-13",
+      "family": "Hindu",
+      "area": "Tantra and Agama",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-14",
+      "family": "Hindu",
+      "area": "Shaiva and Trika",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-15",
+      "family": "Hindu",
+      "area": "Shaiva Siddhanta",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-16",
+      "family": "Hindu",
+      "area": "Shakta and Srividya",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-17",
+      "family": "Hindu",
+      "area": "Vaishnava and Pancharatra",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-18",
+      "family": "Hindu",
+      "area": "Yoga and Samkhya",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-19",
+      "family": "Hindu",
+      "area": "Nyaya and Vaisheshika",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-20",
+      "family": "Hindu",
+      "area": "Mimamsa",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-21",
+      "family": "Hindu",
+      "area": "Dharma and Smriti",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-22",
+      "family": "Hindu",
+      "area": "Stotra and devotional literature",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-23",
+      "family": "Hindu",
+      "area": "Tamil and Malayalam traditions",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-24",
+      "family": "Buddhist",
+      "area": "Pali Vinaya",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-25",
+      "family": "Buddhist",
+      "area": "Pali Sutta",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-26",
+      "family": "Buddhist",
+      "area": "Pali Abhidhamma",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-27",
+      "family": "Buddhist",
+      "area": "Pali commentaries",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-28",
+      "family": "Buddhist",
+      "area": "Buddhist Agamas",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-29",
+      "family": "Buddhist",
+      "area": "Sanskrit Buddhist sutra and shastra",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-30",
+      "family": "Buddhist",
+      "area": "Tibetan Kangyur",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-31",
+      "family": "Buddhist",
+      "area": "Tibetan Tengyur",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-32",
+      "family": "Buddhist",
+      "area": "East Asian Buddhist canons",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-33",
+      "family": "Cross-tradition",
+      "area": "Modern masters and collected teachings",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    },
+    {
+      "id": "scope-34",
+      "family": "Cross-tradition",
+      "area": "Commentaries and translations",
+      "status": "inventory_pending",
+      "notes": "Scope target; availability and completeness not established."
+    }
+  ],
+  "editions": [
+    {
+      "id": "gretil-faliero",
+      "provider": "GRETIL",
+      "text_url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/saiva/vijnbhau.htm",
+      "related_tei_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vijJAnabhairava.xml",
+      "language": "Sanskrit",
+      "script": "Roman transliteration",
+      "edition_details": "Electronic witness encoded by Marino Faliero, 1998; verify source header.",
+      "rights": "Related TEI declares CC BY-NC-SA 4.0; verify separately for intended use and HTML.",
+      "link_status": "previously checked in local source review; current availability pending",
+      "verification": "Local source review reports 162 numbered verses and TEI body match after whitespace normalization.",
+      "work_id": "pilot-vijnana-bhairava",
+      "corpus_markdown_status": "local_markdown_exists_scan_verification_pending",
+      "source_format": "unknown"
+    },
+    {
+      "id": "muktabodha-m00271",
+      "provider": "Muktabodha",
+      "catalog_id": "M00271",
+      "text_url": null,
+      "language": "Sanskrit",
+      "edition_details": "BHU C4245 manuscript witness; numbering irregular and restarted.",
+      "rights": "Source header reports CC BY-NC 4.0; verify for intended use.",
+      "link_status": "direct online item link not yet identified",
+      "work_id": "pilot-vijnana-bhairava",
+      "corpus_markdown_status": "local_markdown_exists_scan_verification_pending",
+      "source_format": "unknown"
+    },
+    {
+      "id": "muktabodha-m00347",
+      "provider": "Muktabodha",
+      "catalog_id": "M00347",
+      "text_url": null,
+      "language": "Sanskrit",
+      "edition_details": "Source header reports KSTS volume 9, 1936; publication details not independently verified.",
+      "rights": "Source header reports CC BY-NC 4.0; verify for intended use.",
+      "link_status": "direct online item link not yet identified",
+      "work_id": "pilot-vijnanakaumudi",
+      "corpus_markdown_status": "local_markdown_exists_scan_verification_pending",
+      "source_format": "unknown"
+    },
+    {
+      "id": "gretil-rigveda-aufrecht",
+      "work_id": "pilot-rigveda",
+      "provider": "GRETIL",
+      "text_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_Rgveda-edAufrecht.xml",
+      "source_format": "TEI XML",
+      "language": "Sanskrit",
+      "script": "unknown",
+      "rights": "unknown; review individual source",
+      "link_status": "listed in GRETIL catalogue; content and access not independently inspected",
+      "corpus_markdown_status": "not_assessed"
+    },
+    {
+      "id": "gretil-paippalada",
+      "work_id": "pilot-paippalada",
+      "provider": "GRETIL",
+      "text_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_paippalAdasaMhitA.xml",
+      "source_format": "TEI XML",
+      "language": "Sanskrit",
+      "script": "unknown",
+      "rights": "unknown; review individual source",
+      "link_status": "listed in GRETIL catalogue; content and access not independently inspected",
+      "corpus_markdown_status": "not_assessed"
+    },
+    {
+      "id": "gretil-samaveda",
+      "work_id": "pilot-samaveda",
+      "provider": "GRETIL",
+      "text_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_sAmavedasaMhitA.xml",
+      "source_format": "TEI XML",
+      "language": "Sanskrit",
+      "script": "unknown",
+      "rights": "unknown; review individual source",
+      "link_status": "listed in GRETIL catalogue; content and access not independently inspected",
+      "corpus_markdown_status": "not_assessed"
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-vijnanakaumudi-vijnanabhairava",
+      "subject_work_id": "pilot-vijnanakaumudi",
+      "predicate": "commentary_on",
+      "object_work_id": "pilot-vijnana-bhairava",
+      "review_status": "pending",
+      "evidence": "Muktabodha M00347 source header and body; passage-level alignment not yet reviewed."
+    }
+  ],
+  "$jsonviews": {
+    "version": 1,
+    "schema": {
+      "$.works[*].title": {
+        "type": "text",
+        "title": "Work"
+      },
+      "$.works[*].kind": {
+        "type": "select",
+        "title": "Type",
+        "options": [
+          "root_text",
+          "commentary",
+          "translation",
+          "modern_teaching",
+          "retelling",
+          "unknown"
+        ]
+      },
+      "$.works[*].traditions": {
+        "type": "multi-select",
+        "title": "Traditions",
+        "options": [
+          "Vedic",
+          "Shaiva",
+          "Shaiva Siddhanta",
+          "Shakta",
+          "Srividya",
+          "Vaishnava",
+          "Vedanta",
+          "Yoga",
+          "Buddhist Theravada",
+          "Buddhist Mahayana",
+          "Buddhist Vajrayana"
+        ]
+      },
+      "$.works[*].collections": {
+        "type": "multi-select",
+        "title": "Collections",
+        "options": [
+          "Rigveda",
+          "Yajurveda",
+          "Samaveda",
+          "Atharvaveda",
+          "Brahmana",
+          "Aranyaka",
+          "Upanishad",
+          "Vedanga",
+          "Itihasa and epics",
+          "Purana",
+          "Bhagavad Gita",
+          "Vedanta and Brahma Sutra",
+          "Tantra and Agama",
+          "Shaiva and Trika",
+          "Shaiva Siddhanta",
+          "Shakta and Srividya",
+          "Vaishnava and Pancharatra",
+          "Yoga and Samkhya",
+          "Nyaya and Vaisheshika",
+          "Mimamsa",
+          "Dharma and Smriti",
+          "Stotra and devotional literature",
+          "Tamil and Malayalam traditions",
+          "Pali Vinaya",
+          "Pali Sutta",
+          "Pali Abhidhamma",
+          "Pali commentaries",
+          "Buddhist Agamas",
+          "Sanskrit Buddhist sutra and shastra",
+          "Tibetan Kangyur",
+          "Tibetan Tengyur",
+          "East Asian Buddhist canons",
+          "Modern masters and collected teachings",
+          "Commentaries and translations"
+        ]
+      },
+      "$.works[*].languages": {
+        "type": "multi-select",
+        "title": "Languages",
+        "options": [
+          "Sanskrit",
+          "Pali",
+          "Tamil",
+          "Malayalam",
+          "Hindi",
+          "Marathi",
+          "Tibetan",
+          "Chinese",
+          "English"
+        ]
+      },
+      "$.works[*].topics": {
+        "type": "multi-select",
+        "title": "Topics",
+        "options": [
+          "devotion",
+          "meditation",
+          "liberation",
+          "dharma",
+          "grace",
+          "ethics",
+          "nonduality",
+          "ritual"
+        ]
+      },
+      "$.works[*].review_status": {
+        "type": "select",
+        "title": "Review status",
+        "options": [
+          "pending",
+          "in_review",
+          "verified",
+          "unavailable"
+        ]
+      },
+      "$.editions[*].text_url": {
+        "type": "url",
+        "title": "Text link"
+      },
+      "$.editions[*].related_tei_url": {
+        "type": "url",
+        "title": "Related TEI"
+      },
+      "$.source_inventories[*].url": {
+        "type": "url",
+        "title": "Source"
+      },
+      "$.source_inventories[*].license_url": {
+        "type": "url",
+        "title": "Terms"
+      },
+      "$.coverage_areas[*].status": {
+        "type": "select",
+        "title": "Inventory status",
+        "options": [
+          "inventory_pending",
+          "in_review",
+          "partially_catalogued",
+          "catalogued"
+        ]
+      }
+    },
+    "views": [
+      {
+        "id": "works",
+        "name": "Works",
+        "path": "$.works",
+        "columns": [
+          {
+            "label": "Work",
+            "path": "$.works[*].title"
+          },
+          {
+            "label": "Type",
+            "path": "$.works[*].kind"
+          },
+          {
+            "label": "Traditions",
+            "path": "$.works[*].traditions"
+          },
+          {
+            "label": "Collections",
+            "path": "$.works[*].collections"
+          },
+          {
+            "label": "Languages",
+            "path": "$.works[*].languages"
+          },
+          {
+            "label": "Review",
+            "path": "$.works[*].review_status"
+          }
+        ]
+      },
+      {
+        "id": "editions",
+        "name": "Editions and links",
+        "path": "$.editions",
+        "columns": [
+          {
+            "label": "Edition",
+            "path": "$.editions[*].id"
+          },
+          {
+            "label": "Work ID",
+            "path": "$.editions[*].work_id"
+          },
+          {
+            "label": "Provider",
+            "path": "$.editions[*].provider"
+          },
+          {
+            "label": "Text link",
+            "path": "$.editions[*].text_url"
+          },
+          {
+            "label": "Format",
+            "path": "$.editions[*].source_format"
+          },
+          {
+            "label": "Markdown",
+            "path": "$.editions[*].corpus_markdown_status"
+          },
+          {
+            "label": "Rights",
+            "path": "$.editions[*].rights"
+          },
+          {
+            "label": "Link status",
+            "path": "$.editions[*].link_status"
+          }
+        ]
+      },
+      {
+        "id": "board",
+        "name": "Review board",
+        "path": "$.works",
+        "display": "kanban",
+        "groupBy": "$.works[*].review_status",
+        "groupOrder": [
+          "pending",
+          "in_review",
+          "verified",
+          "unavailable"
+        ],
+        "columns": [
+          {
+            "label": "Work",
+            "path": "$.works[*].title"
+          },
+          {
+            "label": "Type",
+            "path": "$.works[*].kind"
+          },
+          {
+            "label": "Traditions",
+            "path": "$.works[*].traditions"
+          }
+        ]
+      },
+      {
+        "id": "coverage",
+        "name": "Coverage plan",
+        "path": "$.coverage_areas",
+        "columns": [
+          {
+            "label": "Area",
+            "path": "$.coverage_areas[*].area"
+          },
+          {
+            "label": "Family",
+            "path": "$.coverage_areas[*].family"
+          },
+          {
+            "label": "Status",
+            "path": "$.coverage_areas[*].status"
+          },
+          {
+            "label": "Notes",
+            "path": "$.coverage_areas[*].notes"
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "name": "Source libraries",
+        "path": "$.source_inventories",
+        "columns": [
+          {
+            "label": "Source",
+            "path": "$.source_inventories[*].name"
+          },
+          {
+            "label": "Website",
+            "path": "$.source_inventories[*].url"
+          },
+          {
+            "label": "Scope",
+            "path": "$.source_inventories[*].scope"
+          },
+          {
+            "label": "Status",
+            "path": "$.source_inventories[*].status"
+          }
+        ]
+      },
+      {
+        "id": "relations",
+        "name": "Relationships",
+        "path": "$.relations",
+        "columns": [
+          {
+            "label": "Relation",
+            "path": "$.relations[*].predicate"
+          },
+          {
+            "label": "From",
+            "path": "$.relations[*].subject_work_id"
+          },
+          {
+            "label": "To",
+            "path": "$.relations[*].object_work_id"
+          },
+          {
+            "label": "Review",
+            "path": "$.relations[*].review_status"
+          },
+          {
+            "label": "Evidence",
+            "path": "$.relations[*].evidence"
+          }
+        ]
+      },
+      {
+        "id": "masters",
+        "name": "Masters shortlist",
+        "path": "$.master_candidates",
+        "columns": [
+          {
+            "label": "Master",
+            "path": "$.master_candidates[*].name"
+          },
+          {
+            "label": "Selection",
+            "path": "$.master_candidates[*].selection_status"
+          },
+          {
+            "label": "Works",
+            "path": "$.master_candidates[*].works_status"
+          }
+        ]
+      }
+    ]
+  },
+  "master_candidates": [
+    {
+      "id": "master-01",
+      "name": "Swami Vivekananda",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-02",
+      "name": "Sri Ramakrishna",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-03",
+      "name": "Sri Sarada Devi",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-04",
+      "name": "Sri Aurobindo",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-05",
+      "name": "The Mother",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-06",
+      "name": "Ramana Maharshi",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-07",
+      "name": "Swami Sivananda",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-08",
+      "name": "Swami Chinmayananda",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-09",
+      "name": "Swami Dayananda Saraswati (Arsha Vidya)",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-10",
+      "name": "Swami Lakshmanjoo",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-11",
+      "name": "Anandamayi Ma",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-12",
+      "name": "Swami Abhedananda",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-13",
+      "name": "Swami Rama",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-14",
+      "name": "Paramahansa Yogananda",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-15",
+      "name": "Nisargadatta Maharaj",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-16",
+      "name": "Jiddu Krishnamurti",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-17",
+      "name": "Ram Dass",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-18",
+      "name": "14th Dalai Lama",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-19",
+      "name": "Thich Nhat Hanh",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    },
+    {
+      "id": "master-20",
+      "name": "Bhikkhu Bodhi",
+      "selection_status": "proposed",
+      "works_status": "inventory_pending"
+    }
+  ]
 }
