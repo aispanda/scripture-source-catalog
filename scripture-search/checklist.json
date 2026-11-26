@@ -54,7 +54,7 @@
     "status": "In design",
     "ownerType": "AI",
     "model": "GPT-6.2 Sol",
-    "outputs": "Reproducible performance report and retrieval decision",
+    "outputs": "Performance report, retrieval decision, frozen configuration revisions, holdout checksum and tuning access verification",
     "completion": "Compare fixed lexical, semantic, translation-assisted and hybrid variants on identical held-out queries. Measure reranking and structure-based routing separately.",
     "requires": [
       "C-03"
@@ -62,7 +62,8 @@
     "supports": [
       "A-03",
       "A-06"
-    ]
+    ],
+    "guardrails": "Record configuration revisions and holdout checksum before evaluation. Verify tuning agents lacked holdout access. Use a fresh holdout after retuning."
   },
   {
     "stepId": "C-05",
@@ -83,12 +84,12 @@
   },
   {
     "stepId": "C-06",
-    "task": "Independently verify Codex build tasks",
+    "task": "Recheck task verification on selected build",
     "status": "In design",
     "ownerType": "AI",
     "model": "GPT-6.2 Sol",
     "outputs": "Private task verification evidence and build revision",
-    "completion": "A separate Codex verifier checks the build tasks and records evidence against the selected revision.",
+    "completion": "A separate Codex verifier rechecks C-01 through C-05 on the selected revision and records that revision and evidence before formal acceptance.",
     "requires": [
       "C-05"
     ],
