@@ -1,0 +1,105 @@
+[
+  {
+    "stepId": "C-01",
+    "task": "Prepare pilot records",
+    "status": "In design",
+    "ownerType": "AI",
+    "model": "GPT-6.2 Sol",
+    "outputs": "Source manifest, passage export and reviewed fixtures",
+    "completion": "Every indexed passage traces to a Markdown source and an edition locator.",
+    "supports": [
+      "A-01",
+      "A-04"
+    ]
+  },
+  {
+    "stepId": "C-02",
+    "task": "Define held-out evaluation",
+    "status": "In design",
+    "ownerType": "AI",
+    "model": "GPT-6.2 Sol",
+    "outputs": "Reference labels, query groups and selection rule",
+    "completion": "Freeze expected matches and no-match cases before comparing retrieval variants.",
+    "requires": [
+      "C-01"
+    ],
+    "supports": [
+      "A-01",
+      "A-02",
+      "A-03",
+      "A-04",
+      "A-05",
+      "A-06"
+    ]
+  },
+  {
+    "stepId": "C-03",
+    "task": "Build exact and lexical search",
+    "status": "In design",
+    "ownerType": "AI",
+    "model": "GPT-6.2 Sol",
+    "outputs": "Legal-AI baseline and scripture normalization",
+    "completion": "Run exact and variant queries with verified editions and unmodified display text.",
+    "requires": [
+      "C-01"
+    ],
+    "supports": [
+      "A-01",
+      "A-02"
+    ]
+  },
+  {
+    "stepId": "C-04",
+    "task": "Compare retrieval variants",
+    "status": "In design",
+    "ownerType": "AI",
+    "model": "GPT-6.2 Sol",
+    "outputs": "Reproducible performance report and retrieval decision",
+    "completion": "Measure lexical, semantic, translation-assisted and hybrid performance on the same held-out queries.",
+    "requires": [
+      "C-02",
+      "C-03"
+    ],
+    "supports": [
+      "A-03",
+      "A-06"
+    ]
+  },
+  {
+    "stepId": "C-05",
+    "task": "Deliver passage search and context",
+    "status": "In design",
+    "ownerType": "AI",
+    "model": "GPT-6.2 Sol",
+    "outputs": "Local search entry point with inspectable evidence",
+    "completion": "Results provide locators, context and reviewed commentary links and handle missing evidence.",
+    "requires": [
+      "C-04"
+    ],
+    "supports": [
+      "A-01",
+      "A-04",
+      "A-05"
+    ]
+  },
+  {
+    "stepId": "C-06",
+    "task": "Independently verify selected build",
+    "status": "In design",
+    "ownerType": "AI",
+    "model": "GPT-6.2 Sol",
+    "outputs": "Scenario results with evidence and build revision",
+    "completion": "A separate verifier runs the scenarios and records results against the selected build.",
+    "requires": [
+      "C-05"
+    ],
+    "supports": [
+      "A-01",
+      "A-02",
+      "A-03",
+      "A-04",
+      "A-05",
+      "A-06"
+    ]
+  }
+]
