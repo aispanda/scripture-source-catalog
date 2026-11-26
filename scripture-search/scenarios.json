@@ -3,7 +3,7 @@
     {
       "id": "A-01",
       "title": "Exact verse and edition",
-      "version": 1,
+      "version": 2,
       "actor": "scripture-researcher",
       "surfaces": {
         "desktopUi": false,
@@ -12,9 +12,9 @@
       },
       "startingState": "The pilot contains verified reference fixtures with edition-specific locators.",
       "actions": [
-        "Search a work alias with a verse reference."
+        "Search a work alias with a verse reference and request a specific edition."
       ],
-      "expectedResult": "The intended passage and edition resolve, or alternative edition matches are labeled separately."
+      "expectedResult": "The intended passage resolves in the requested edition with its locator, and matches from other editions are labeled separately."
     },
     {
       "id": "A-02",
@@ -35,7 +35,7 @@
     {
       "id": "A-03",
       "title": "Search by meaning",
-      "version": 1,
+      "version": 2,
       "actor": "scripture-researcher",
       "surfaces": {
         "desktopUi": false,
@@ -46,7 +46,7 @@
       "actions": [
         "Run the held-out meaning queries."
       ],
-      "expectedResult": "Results meet the agreed passage recall target and cite the intended passages."
+      "expectedResult": "Results meet the Recall@k target frozen for the held-out evaluation and cite the intended passages."
     },
     {
       "id": "A-04",
@@ -83,7 +83,7 @@
     {
       "id": "A-06",
       "title": "Select retrieval from measured results",
-      "version": 1,
+      "version": 2,
       "actor": "scripture-researcher",
       "surfaces": {
         "desktopUi": false,
@@ -92,9 +92,9 @@
       },
       "startingState": "The pilot inputs, held-out queries, comparison metrics and selection rule are fixed.",
       "actions": [
-        "Compare lexical, semantic and hybrid variants on identical inputs."
+        "Compare fixed lexical, semantic, translation-assisted and hybrid variants on identical held-out inputs."
       ],
-      "expectedResult": "The decision record reports quality and latency by query class and explains the chosen variant against the selection rule."
+      "expectedResult": "The decision record reports quality and latency by query class. Hybrid qualifies only if it beats the best non-hybrid variant by the agreed quality margin within the latency budget."
     }
   ]
 }

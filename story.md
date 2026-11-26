@@ -12,7 +12,7 @@
 
 ## Requirements and verification
 
-[Acceptance criteria](scenarios.json) · [Planning register](source-plan.json)
+[Acceptance criteria](scenarios.json) · [Planning register](source-plan.json) · [SCR-02 Scripture Search MVP](scripture-search/story.md)
 
 ## Execution record
 
