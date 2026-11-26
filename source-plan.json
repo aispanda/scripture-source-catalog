@@ -1198,16 +1198,16 @@
       "name": "Ramana Maharshi",
       "selection_status": "proposed",
       "works_status": "inventory_pending",
-      "bibliography_url": null,
-      "bibliography_status": "publisher_index_pending"
+      "bibliography_url": "https://archive.arunachala.org/docs/collected-worm/",
+      "bibliography_status": "ashram_index_candidate_title_volume_reconciliation_pending"
     },
     {
       "id": "master-07",
       "name": "Swami Sivananda",
       "selection_status": "proposed",
       "works_status": "inventory_pending",
-      "bibliography_url": null,
-      "bibliography_status": "publisher_index_pending"
+      "bibliography_url": "https://www.dlshq.org/download/",
+      "bibliography_status": "publisher_index_candidate_title_volume_reconciliation_pending"
     },
     {
       "id": "master-08",
@@ -1230,8 +1230,8 @@
       "name": "Swami Lakshmanjoo",
       "selection_status": "proposed",
       "works_status": "inventory_pending",
-      "bibliography_url": null,
-      "bibliography_status": "publisher_index_pending"
+      "bibliography_url": "https://lakshmanjooacademy.myshopify.com/en-de/products/complete-book-series-of-classic-texts-of-kashmir-shaivism",
+      "bibliography_status": "publisher_series_candidate_full_bibliography_pending"
     },
     {
       "id": "master-11",
@@ -56523,12 +56523,15 @@
       "title": "Isha",
       "family": "Muktikā Upaniṣads",
       "reference_url": "https://sanskritdocuments.org/doc_upanishhat/upanishad_list.itx",
-      "coverage_status": "target_listed_edition_match_pending",
+      "coverage_status": "candidate_edition_linked_title_identity_and_file_verification_pending",
       "text_url": null,
       "canonical_reference": "Muktikā list 1",
       "title_scheme": "ITRANS",
       "vedic_affiliation": "shukla yajurveda",
-      "source_category": "mukhya upaniShad.h"
+      "source_category": "mukhya upaniShad.h",
+      "candidate_source_ids": [
+        "gretil-fc9e4c68fd318198eec1"
+      ]
     },
     {
       "id": "muktika-002",
@@ -56547,24 +56550,30 @@
       "title": "kaTha",
       "family": "Muktikā Upaniṣads",
       "reference_url": "https://sanskritdocuments.org/doc_upanishhat/upanishad_list.itx",
-      "coverage_status": "target_listed_edition_match_pending",
+      "coverage_status": "candidate_edition_linked_title_identity_and_file_verification_pending",
       "text_url": null,
       "canonical_reference": "Muktikā list 3",
       "title_scheme": "ITRANS",
       "vedic_affiliation": "kR^iShNa yajurveda",
-      "source_category": "mukhya upaniShad.h"
+      "source_category": "mukhya upaniShad.h",
+      "candidate_source_ids": [
+        "gretil-d3f7f01df08cadea1fe4"
+      ]
     },
     {
       "id": "muktika-004",
       "title": "prashna",
       "family": "Muktikā Upaniṣads",
       "reference_url": "https://sanskritdocuments.org/doc_upanishhat/upanishad_list.itx",
-      "coverage_status": "target_listed_edition_match_pending",
+      "coverage_status": "candidate_edition_linked_title_identity_and_file_verification_pending",
       "text_url": null,
       "canonical_reference": "Muktikā list 4",
       "title_scheme": "ITRANS",
       "vedic_affiliation": "atharva veda",
-      "source_category": "mukhya upaniShad.h"
+      "source_category": "mukhya upaniShad.h",
+      "candidate_source_ids": [
+        "gretil-e53fd9c68b574bc29f38"
+      ]
     },
     {
       "id": "muktika-005",
@@ -56583,12 +56592,15 @@
       "title": "mANDukya",
       "family": "Muktikā Upaniṣads",
       "reference_url": "https://sanskritdocuments.org/doc_upanishhat/upanishad_list.itx",
-      "coverage_status": "target_listed_edition_match_pending",
+      "coverage_status": "candidate_edition_linked_title_identity_and_file_verification_pending",
       "text_url": null,
       "canonical_reference": "Muktikā list 6",
       "title_scheme": "ITRANS",
       "vedic_affiliation": "atharva veda",
-      "source_category": "mukhya upaniShad.h"
+      "source_category": "mukhya upaniShad.h",
+      "candidate_source_ids": [
+        "gretil-5ba1e6e9640917f0ccdb"
+      ]
     },
     {
       "id": "muktika-007",
@@ -56607,36 +56619,45 @@
       "title": "aitareya",
       "family": "Muktikā Upaniṣads",
       "reference_url": "https://sanskritdocuments.org/doc_upanishhat/upanishad_list.itx",
-      "coverage_status": "target_listed_edition_match_pending",
+      "coverage_status": "candidate_edition_linked_title_identity_and_file_verification_pending",
       "text_url": null,
       "canonical_reference": "Muktikā list 8",
       "title_scheme": "ITRANS",
       "vedic_affiliation": "R^ig veda",
-      "source_category": "mukhya upaniShad.h"
+      "source_category": "mukhya upaniShad.h",
+      "candidate_source_ids": [
+        "gretil-3a1f17a747abece6e87f"
+      ]
     },
     {
       "id": "muktika-009",
       "title": "ChAndogya",
       "family": "Muktikā Upaniṣads",
       "reference_url": "https://sanskritdocuments.org/doc_upanishhat/upanishad_list.itx",
-      "coverage_status": "target_listed_edition_match_pending",
+      "coverage_status": "candidate_edition_linked_title_identity_and_file_verification_pending",
       "text_url": null,
       "canonical_reference": "Muktikā list 9",
       "title_scheme": "ITRANS",
       "vedic_affiliation": "sAma veda",
-      "source_category": "mukhya upaniShad.h"
+      "source_category": "mukhya upaniShad.h",
+      "candidate_source_ids": [
+        "gretil-008585edc99ac497853c"
+      ]
     },
     {
       "id": "muktika-010",
       "title": "bR^ihadAraNyaka",
       "family": "Muktikā Upaniṣads",
       "reference_url": "https://sanskritdocuments.org/doc_upanishhat/upanishad_list.itx",
-      "coverage_status": "target_listed_edition_match_pending",
+      "coverage_status": "candidate_edition_linked_title_identity_and_file_verification_pending",
       "text_url": null,
       "canonical_reference": "Muktikā list 10",
       "title_scheme": "ITRANS",
       "vedic_affiliation": "shukla yajurveda",
-      "source_category": "mukhya upaniShad.h"
+      "source_category": "mukhya upaniShad.h",
+      "candidate_source_ids": [
+        "gretil-2626fe2c3a3e575953a9"
+      ]
     },
     {
       "id": "muktika-011",
