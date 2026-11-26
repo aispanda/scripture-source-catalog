@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "stepId": "C-01",
+    "task": "Verify catalogue platform access",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "Read-only probe records for GitHub and applicable source hosts",
+    "completion": "Record the account, source URL, accessible surface and time for each target, including any export or access limitation.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "model": "GPT-6.2 Sol",
+    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#platform-access-check",
+    "githubFile": "https://github.com/aispanda/scripture-source-catalog",
+    "evidence": "GitHub API returned the intended private repository. Source snapshots describe export scope. Independent task verification remains pending."
+  },
+  {
+    "stepId": "C-02",
+    "task": "Reconcile publisher and canon inventories",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "Dated source snapshots, counts, title and volume mappings, and gaps by named list",
+    "completion": "Reconcile each priority list against item records and show declared, retrieved and matched counts, with evidence for gaps and duplicates.",
+    "supports": [
+      "A-02"
+    ],
+    "requires": [
+      "C-01"
+    ],
+    "model": "GPT-6.2 Sol",
+    "docs": "https://gretil.sub.uni-goettingen.de/gretil.html https://muktabodha-digital-library.org/metadata/download/csv https://vedicheritage.gov.in/samhitas/ https://vedicheritage.gov.in/Upanishads/",
+    "evidence": "source-plan.json records 1,743 source items, 171 work targets, five inventory snapshots, and outstanding reconciliation."
+  },
+  {
+    "stepId": "C-03",
+    "task": "Verify edition links, provenance and permissions",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "Source-backed work, edition and file records with item terms and unresolved links",
+    "completion": "Check each selected edition, volume, commentary and source link against primary evidence. Record its access, rights, and uncertainty.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "requires": [
+      "C-02"
+    ],
+    "model": "GPT-6.2 Sol",
+    "inputs": "Priority-source list, publisher metadata, source readers, scans and item-level terms.",
+    "docs": "https://muktabodha-digital-library.org/ https://gretil.sub.uni-goettingen.de/gr_elib.htm https://github.com/suttacentral/bilara-data"
+  },
+  {
+    "stepId": "C-04",
+    "task": "Review scripture editions and relationships",
+    "status": "In design",
+    "ownerType": "Human",
+    "outputs": "Scholarly validation notes and release dispositions for selected scripture witnesses",
+    "completion": "Compare edition attribution, recension, language, locator and commentary alignment with primary evidence. Record the reviewer, evidence, disagreements and unresolved claims.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "requires": [
+      "C-03"
+    ],
+    "comments": "Earlier model review addressed classification and coverage. A scholarly reviewer and item-level validation are pending."
+  },
+  {
+    "stepId": "C-05",
+    "task": "Independently verify the catalogue handoff",
+    "status": "In design",
+    "ownerType": "AI",
+    "outputs": "Revision-specific catalogue verification and reviewed intake slice for SCR-02",
+    "completion": "A separate Codex verifier checks C-01 through C-04, records evidence for both criteria, and identifies the reviewed candidate list and open gaps.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "requires": [
+      "C-04"
+    ],
+    "model": "GPT-6.2 Sol",
+    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#review-and-acceptance"
+  },
+  {
+    "stepId": "C-06",
+    "task": "Record catalogue acceptance",
+    "status": "In design",
+    "ownerType": "Human",
+    "outputs": "Human acceptance decision and any criteria remaining open",
+    "completion": "The accountable human records the decision, supporting run evidence and any unresolved coverage after the applicable A-01 and A-02 results are available.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "requires": [
+      "C-05"
+    ]
+  }
+]

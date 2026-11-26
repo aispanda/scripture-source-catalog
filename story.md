@@ -1,21 +1,25 @@
 # SCR-01 · Track source-backed scripture editions
 
-**Owner** · Pending confirmation · [Checklist](checklist.json) · [Guide](https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/new/START.md)
+**Owner** · Pending confirmation · [Checklist](checklist.json) · [Guide](https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md)
 
 **Outcome** · As a scripture researcher, I want a source-backed register of digital texts and commentaries so that I can find and assess reliable editions.
 
-**Scope** · Plan a comprehensive register for Sanskrit scriptures represented in GRETIL and Muktabodha, including credible online editions, commentaries and scans. Identify preferred sources only with evidence. Coverage and reuse rights are not assumed.
+**Scope** · Build a comprehensive register against named publisher and canonical inventories. Start with GRETIL and Muktabodha, then reconcile the recorded Vedic, Upanishadic, Purāṇa, Āgama, Buddhist, regional and collected-works lists. Cover individual works, editions, recensions, translations, commentaries, volumes and source files where available. Assign preferred editions only where source evidence supports the choice.
 
-**Operations** · Reconcile source inventories; record work, edition, commentary, source URL, provenance, access, rights and review status; resolve uncertain links with evidence.
+**Operations** · Capture dated source snapshots and counts. Match each title or volume to its work, edition and direct source, with publisher, access, rights, provenance and review status. Record duplicates, conflicts and missing items against the named list. Hand off eligible sources for Markdown ingestion and link their verified output paths back to the catalogue. [SCR-02 ingestion and search](scripture-search/story.md)
 
-**Acceptance** · Pending decision. Complete coverage, independent verification and human acceptance remain open.
+**Acceptance** · Pending decision. Criterion A-01 and A-02 formal results are NOT RUN. Coverage reconciliation, independent verification and human acceptance remain open.
 
 ## Requirements and verification
 
-[Acceptance criteria](scenarios.json) · [Planning register](source-plan.json) · [SCR-02 Scripture Search MVP](scripture-search/story.md)
+[Acceptance criteria](scenarios.json) · [Planning register](source-plan.json) · [Coverage review](inventory-review.md)
 
 ## Execution record
 
-NEW route, guide SHA 45a5e6653f202e37f181dce8c14e6bc0d34278b7. Modules loaded: agreement, privacy, story, execution, states, platform, review, publication, reference, automation, using. GitHub API read-only probe returned the intended account. Initial records are examples, not verified coverage. LangGraph applicability: Pending; revisit after manual validation and before batch implementation. Independent task verification, formal acceptance and human review: NOT RUN. ClickUp synchronization: Pending; no item or authority supplied. No source content is published.
+- **Delivery route.** Existing catalogue scope follows MIGRATE at `45a5e6653f202e37f181dce8c14e6bc0d34278b7`. The initial catalogue used NEW at the same revision and loaded agreement, privacy, story, execution, states, platform, review, publication, reference, automation and using. SCR-02 is the linked NEW scope. The acceptance criteria and IDs carry forward verbatim. [Initial guide](https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/new/START.md) · [Migration guide](https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md)
+- **Inventory.** The register has 1,743 source items and 171 work targets. GRETIL has 1,125 parsed legacy entries. Its e-library yielded 10 of a reported 405 records in the RIS export. All 569 Muktabodha E-Texts metadata IDs match members of the local IAST archive. The publisher and canonical lists still need title-level and edition-level reconciliation, including the separate IFP and Gokarna collections. [Register and dated snapshots](source-plan.json) · [GRETIL register](https://gretil.sub.uni-goettingen.de/gretil.html) · [GRETIL e-library](https://gretil.sub.uni-goettingen.de/gr_elib.htm) · [Muktabodha Digital Library](https://muktabodha-digital-library.org/)
+- **Discovery and review.** Gemini and Grok supplied leads. GPT-6.1 Terra checked selected source links. TypeSafe Jev reviewed representative classification choices, and Claude Opus 5.5 reviewed coverage gaps and inventory fields. Exact public source links and the review scope are recorded in the register. Edition identity, rights and textual fidelity still require item-level evidence and scholarly review. [Register](source-plan.json) · [Inventory review](inventory-review.md)
+- **Priority sources.** Reconcile the Vedic Heritage Portal’s recension and Upanishad lists, GRETIL and Muktabodha titles, Pali/Buddhist reference lists and publisher bibliographies for the collected works. Record coverage per source and describe any export limits. [Vedic Saṃhitās](https://vedicheritage.gov.in/samhitas/) · [Vedic Heritage Upanishads](https://vedicheritage.gov.in/Upanishads/) · [SuttaCentral Bilara data](https://github.com/suttacentral/bilara-data)
+- **Platform and acceptance.** A read-only GitHub API probe returned the intended repository. Agent assignments, independent task verification and human acceptance are pending. ClickUp synchronization is pending the item and edit authority. Private run evidence and its access owner still need to be recorded. LangGraph applicability remains pending with the implementation lead, to be revisited after manual validation and before workflow automation. [Catalogue repository](https://github.com/aispanda/scripture-source-catalog)
 
-**Next** · Reconcile the item inventory against named publisher and canon lists. Record each missing title, edition or volume and attach verified Markdown paths for the items already available. [Coverage review](inventory-review.md)
+**Next** · Reconcile the priority publisher and canonical lists, starting with the named inventory gaps. Record missing titles, editions and volumes with evidence before widening the Markdown corpus. [Coverage review](inventory-review.md) · [Checklist](checklist.json)

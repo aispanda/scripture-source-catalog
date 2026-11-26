@@ -1,5 +1,104 @@
 [
   {
+    "stepId": "C-08",
+    "task": "Verify source and repository access",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "Read-only access records for the catalogue and Legal-AI source, plus implementation destination when confirmed",
+    "completion": "Record the executor and read-only probe for each required repository, including access limitations and source revisions.",
+    "supports": [
+      "A-01"
+    ],
+    "model": "GPT-6.2 Sol",
+    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#platform-access-check",
+    "githubFile": "https://github.com/aispanda/scripture-source-catalog",
+    "evidence": "GitHub API returned the intended catalogue repository and the Legal-AI architecture and importer paths. Implementation destination and independent verification remain pending."
+  },
+  {
+    "stepId": "C-09",
+    "task": "Verify private Cloud Storage access",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "Bucket settings, effective access and read-only object inventory evidence",
+    "completion": "Verify the intended bucket, authorized identity, public access protection, uniform access, and read and upload permissions before transfer.",
+    "supports": [
+      "A-01"
+    ],
+    "model": "GPT-6.2 Sol",
+    "docs": "https://docs.cloud.google.com/storage/docs/uniform-bucket-level-access https://docs.cloud.google.com/storage/docs/public-access-prevention",
+    "evidence": "The private bucket was created. Access and object-state readback for the ingestion executor remain pending."
+  },
+  {
+    "stepId": "C-10",
+    "task": "Verify Legal-AI importer reuse",
+    "status": "In design",
+    "ownerType": "AI",
+    "outputs": "Pinned Legal-AI revision, field mapping and small import fixture result",
+    "completion": "Build a separate Tantivy index with the existing importer. Verify exact scripture edition and locator lookup, source trace and unchanged display text.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "requires": [
+      "C-08"
+    ],
+    "model": "GPT-6.2 Sol",
+    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md",
+    "githubFile": "https://github.com/aispanda/Legal-AI/blob/main/build_corpus.py"
+  },
+  {
+    "stepId": "C-11",
+    "task": "Validate Markdown drafts and batch exceptions",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "Reviewed Markdown and per-item provenance, accepted or quarantined conversions, and batch exception reasons",
+    "completion": "Resolve or quarantine the nine header-ID exceptions. Verify approved inputs against source identity, rights, textual fidelity, Markdown hashes and locators.",
+    "supports": [
+      "A-01",
+      "A-04"
+    ],
+    "model": "GPT-6.2 Sol",
+    "inputs": "Reviewed SCR-01 source slice, Muktabodha HTML archive, Markdown drafts, manifests and local batch report.",
+    "evidence": "The local Muktabodha batch report records 560 automatic Markdown drafts and nine failures from 569 input records.",
+    "comments": "Rights and source fidelity are pending. Record scholarly findings and independent task verification for the exact slice before upload."
+  },
+  {
+    "stepId": "C-12",
+    "task": "Upload eligible Markdown to the private corpus",
+    "status": "Blocked",
+    "ownerType": "AI",
+    "outputs": "Authorized Markdown objects in the private corpus prefix",
+    "completion": "Transfer only approved Markdown at stable provider and edition paths. Keep original files, manifests and derived indexes separate from corpus text.",
+    "supports": [
+      "A-01"
+    ],
+    "requires": [
+      "C-09",
+      "C-11"
+    ],
+    "model": "GPT-6.2 Sol",
+    "docs": "https://docs.cloud.google.com/storage/docs/uploading-objects",
+    "comments": "Corpus upload has not run. The target access probe and source, rights and fidelity validation are pending."
+  },
+  {
+    "stepId": "C-13",
+    "task": "Verify uploaded objects and link provenance",
+    "status": "In design",
+    "ownerType": "AI",
+    "outputs": "Readback evidence and catalogue pointers for the approved Markdown slice",
+    "completion": "Read back each exact object generation, verify its content checksum, and record verified URI, source evidence and review status against the matching catalogue row.",
+    "supports": [
+      "A-01",
+      "A-04"
+    ],
+    "requires": [
+      "C-12"
+    ],
+    "model": "GPT-6.2 Sol",
+    "docs": "https://docs.cloud.google.com/storage/docs/data-validation https://docs.cloud.google.com/storage/docs/metadata",
+    "guardrails": "Leave cloud URIs unset until readback confirms the exact uploaded object and generation."
+  },
+  {
     "stepId": "C-01",
     "task": "Prepare pilot records",
     "status": "In design",
@@ -10,7 +109,13 @@
     "supports": [
       "A-01",
       "A-04"
-    ]
+    ],
+    "requires": [
+      "C-10",
+      "C-13"
+    ],
+    "inputs": "Reviewed priority-source handoff from SCR-01 and verified Vijñāna Bhairava pilot Markdown assets.",
+    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md"
   },
   {
     "stepId": "C-02",
@@ -46,7 +151,8 @@
     "supports": [
       "A-01",
       "A-02"
-    ]
+    ],
+    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md"
   },
   {
     "stepId": "C-04",
@@ -100,7 +206,8 @@
       "A-04",
       "A-05",
       "A-06"
-    ]
+    ],
+    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#review-and-acceptance"
   },
   {
     "stepId": "C-07",
@@ -120,6 +227,26 @@
       "A-04",
       "A-05",
       "A-06"
+    ],
+    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/scripts/validate_results.py"
+  },
+  {
+    "stepId": "C-14",
+    "task": "Record human search acceptance",
+    "status": "In design",
+    "ownerType": "Human",
+    "outputs": "Human acceptance decision and any scenario exceptions",
+    "completion": "The accountable human records the decision on the selected revision with the formal scenario results and any remaining open criteria.",
+    "supports": [
+      "A-01",
+      "A-02",
+      "A-03",
+      "A-04",
+      "A-05",
+      "A-06"
+    ],
+    "requires": [
+      "C-07"
     ]
   }
 ]

@@ -4,7 +4,7 @@
       "id": "A-01",
       "title": "Exact verse and edition",
       "version": 2,
-      "actor": "scripture-researcher",
+      "actor": "scripture_researcher",
       "surfaces": {
         "desktopUi": false,
         "mobileUi": false,
@@ -20,7 +20,7 @@
       "id": "A-02",
       "title": "Script and spelling variants",
       "version": 1,
-      "actor": "scripture-researcher",
+      "actor": "scripture_researcher",
       "surfaces": {
         "desktopUi": false,
         "mobileUi": false,
@@ -36,7 +36,7 @@
       "id": "A-03",
       "title": "Search by meaning",
       "version": 2,
-      "actor": "scripture-researcher",
+      "actor": "scripture_researcher",
       "surfaces": {
         "desktopUi": false,
         "mobileUi": false,
@@ -52,7 +52,7 @@
       "id": "A-04",
       "title": "Inspect commentary and context",
       "version": 1,
-      "actor": "scripture-researcher",
+      "actor": "scripture_researcher",
       "surfaces": {
         "desktopUi": false,
         "mobileUi": false,
@@ -68,7 +68,7 @@
       "id": "A-05",
       "title": "Insufficient evidence",
       "version": 1,
-      "actor": "scripture-researcher",
+      "actor": "scripture_researcher",
       "surfaces": {
         "desktopUi": false,
         "mobileUi": false,
@@ -84,7 +84,7 @@
       "id": "A-06",
       "title": "Select retrieval from measured results",
       "version": 2,
-      "actor": "scripture-researcher",
+      "actor": "scripture_researcher",
       "surfaces": {
         "desktopUi": false,
         "mobileUi": false,
