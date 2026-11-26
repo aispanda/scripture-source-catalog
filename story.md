@@ -18,4 +18,4 @@
 
 NEW route, guide SHA 45a5e6653f202e37f181dce8c14e6bc0d34278b7. Modules loaded: agreement, privacy, story, execution, states, platform, review, publication, reference, automation, using. GitHub API read-only probe returned the intended account. Initial records are examples, not verified coverage. LangGraph applicability: Pending; revisit after manual validation and before batch implementation. Independent task verification, formal acceptance and human review: NOT RUN. ClickUp synchronization: Pending; no item or authority supplied. No source content is published.
 
-**Next** · Validate representative records and missing-source cases, then decide the repeatable workflow before inventory expansion; identify an authorized ClickUp item if synchronization is desired.
+**Next** · Reconcile the item inventory against named publisher and canon lists. Record each missing title, edition or volume and attach verified Markdown paths for the items already available. [Coverage review](inventory-review.md)
