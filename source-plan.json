@@ -8,7 +8,7 @@
     "editions_catalogued": 6,
     "completeness": "not established",
     "method": "Publisher catalogue items and local archive IDs are source inventory rows. Separate work, edition and file mappings are still under review. Completeness is reported against each named reference list.",
-    "catalog_item_rows": 1710,
+    "catalog_item_rows": 1723,
     "local_markdown_assets": 5,
     "work_target_rows": 171
   },
@@ -1358,10 +1358,12 @@
           "label": "Accented text"
         }
       ],
-      "access_status": "listed_link_unchecked",
+      "access_status": "title_and_file_access_verified",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "source_format": "HTML",
+      "source_file_sha256": "7e3f74f313d1b4348bf9e1f60a80e03bb72709994b85585a4f854a51bf57272c"
     },
     {
       "id": "gretil-1ae523f93a673229db97",
@@ -1390,10 +1392,15 @@
           "label": "Plain Transformation (txt)"
         }
       ],
-      "access_status": "listed_link_unchecked",
+      "access_status": "download_and_tei_body_verified",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "source_format": "TEI XML",
+      "source_file_sha256": "c6ffd9e8bae027999794ce90051213888d3b587125af630a7983a496ed657f1d",
+      "rights_source_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_paippalAdasaMhitA.xml",
+      "edition_provenance": "Dipak Bhattacharya The Paippalāda-Saṁhitā of the Atharvaveda. Volume One, Consisting of the first fifteen Kāṇḍas Calcutta The Asiatic Society Dipak Bhattacharya The Paippalāda-Saṁhitā of the Atharvaveda. Volume Two, Consisting of the sixteenth Kāṇḍa Calcutta The Asiatic Society Dipak Bhattacharya The Paippalāda-Saṁhitā of the Atharvaveda. Volume three, consisting of the Seventeenth and Eighteenth Kāṇḍas Calcutta The Asiatic Society Dipak Bhattacharya The Paippalāda-Saṁhitā of the Atharvaveda.Volume Four, Consisting of the nineteenth and twentieth Kāṇḍas Calcutta The Asiatic Society Durgamohan Bhattacharyya Paippalāda Saṁhitā of the Atharvaveda. First Kāṇḍa. Edited from Original Manuscripts with Critical Notes Calcutta Sanskrit College Durgamohan Bhattacharyya Paippalāda Saṁhitā of the Atharvaveda. Volume Two. Edited from Original Manuscripts with Critical Notes Calcutta Sanskrit College Thomas Zehnder Atharvaveda-Paippalāda, Buch 2, Text, Übersetzung, Kommentar Idstein Schulz-Kirchner Alexander Lubotsky Atharvaveda-Paippalāda, Kāṇḍa Five. Text, translation, commentary. Cambridge, Mass. Harvard University Press Arlo Griffiths The Paippalādasaṁhitā of the Atharvaveda, Kāṇḍas 6 and 7: A new edition with translation and commentary Groningen E. Forsten Philipp Kubisch Paippalāda-Saṁhitā Kāṇḍa 20, Sūkta 1-30: Kritische Edition, Übersetzung, Kommentar [PhD Thesis] Bonn Bonn University",
+      "rights_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
     },
     {
       "id": "gretil-a4cd8b4d9855cd16b379",
@@ -4069,10 +4076,15 @@
           "label": "\"Sanskrit Documents\""
         }
       ],
-      "access_status": "listed_link_unchecked",
+      "access_status": "download_and_tei_body_verified",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "source_format": "TEI XML",
+      "source_file_sha256": "5b4271b0703cb1ad21c97142e7366a61de608988c6073464eef0749bcfa20d43",
+      "rights_source_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_bhAgavatapurANa.xml",
+      "edition_provenance": null,
+      "rights_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
     },
     {
       "id": "gretil-38fb3475b92937ac913c",
@@ -4353,10 +4365,16 @@
           "label": "Plain Transformation (txt)"
         }
       ],
-      "access_status": "listed_link_unchecked",
+      "access_status": "download_and_tei_body_verified",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "source_format": "TEI XML",
+      "source_file_sha256": "7f2db461e724c675317130c653258a4b277e647e938b946b40687decd535111e",
+      "rights_source_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mArkaNDeyapurANa1-93.xml",
+      "edition_provenance": null,
+      "rights_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "extent": "Chapters 1–93 only, per TEI title"
     },
     {
       "id": "gretil-2b477e23996cb18059ee",
@@ -4723,10 +4741,15 @@
           "label": "Plain Transformation (txt)"
         }
       ],
-      "access_status": "listed_link_unchecked",
+      "access_status": "download_and_tei_body_verified",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "source_format": "TEI XML",
+      "source_file_sha256": "9b5c0f2ba2f3b8f725cf3244dffe5b4f785e698461edefae836fa102de6af01b",
+      "rights_source_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_viSNupurANa-crit.xml",
+      "edition_provenance": "The Critical Edition of the Viṣṇupurāṇam, critically edited by M. M. Pathak. Vadodara : Oriental Institute 1997-1999",
+      "rights_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
     },
     {
       "id": "gretil-ba3ee4ef1b8e8c9774a6",
@@ -53669,6 +53692,206 @@
       "access_status": "provider_file_identified",
       "rights_status": "item_review_pending",
       "markdown_status": "not_converted"
+    },
+    {
+      "id": "ia-in.ernet.dli.2015.408325-1",
+      "provider": "Internet Archive",
+      "provider_item_id": "in.ernet.dli.2015.408325",
+      "title": "The Vajasaneyi Samhita In The Madhyandina And The Kanva Sakha With The Commentary Of Mahidhara",
+      "catalog_url": "https://archive.org/details/in.ernet.dli.2015.408325",
+      "source_file_url": "https://archive.org/download/in.ernet.dli.2015.408325/2015.408325.The-Vajasaneyi.pdf",
+      "text_url": null,
+      "source_format": "PDF scan",
+      "access_status": "public_file_listed",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "ocr_and_verification_pending",
+      "target_ids": [
+        "vedic-2-1",
+        "vedic-2-2"
+      ],
+      "discovery": "Gemini follow-up; confirmed against Internet Archive file metadata"
+    },
+    {
+      "id": "ia-in.ernet.dli.2015.485992-1",
+      "provider": "Internet Archive",
+      "provider_item_id": "in.ernet.dli.2015.485992",
+      "title": "Samaveda Of The Jaiminiyas",
+      "catalog_url": "https://archive.org/details/in.ernet.dli.2015.485992",
+      "source_file_url": "https://archive.org/download/in.ernet.dli.2015.485992/2015.485992.Samaveda-of.pdf",
+      "text_url": null,
+      "source_format": "PDF scan",
+      "access_status": "public_file_listed",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "ocr_and_verification_pending",
+      "target_ids": [
+        "vedic-3-2"
+      ],
+      "discovery": "Gemini follow-up; confirmed against Internet Archive file metadata"
+    },
+    {
+      "id": "ia-upanishadbrahmayogin1-1",
+      "provider": "Internet Archive",
+      "provider_item_id": "upanishadbrahmayogin1",
+      "title": "1 Dasonapanishads with Upanishadbrahman's commentary Vol 1 1935",
+      "catalog_url": "https://archive.org/details/upanishadbrahmayogin1",
+      "source_file_url": "https://archive.org/download/upanishadbrahmayogin1/1%20Dasonapanishads%20with%20Upanishadbrahman%27s%20commentary%20Vol%201%201935.pdf",
+      "text_url": null,
+      "source_format": "PDF scan",
+      "access_status": "public_file_listed",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "ocr_and_verification_pending",
+      "target_ids": [],
+      "discovery": "Gemini follow-up; confirmed against Internet Archive file metadata"
+    },
+    {
+      "id": "ia-upanishadbrahmayogin1-2",
+      "provider": "Internet Archive",
+      "provider_item_id": "upanishadbrahmayogin1",
+      "title": "2 Dasonapanishads with Upanishadbrahman's commentary Vol 2 1935",
+      "catalog_url": "https://archive.org/details/upanishadbrahmayogin1",
+      "source_file_url": "https://archive.org/download/upanishadbrahmayogin1/2%20Dasonapanishads%20with%20Upanishadbrahman%27s%20commentary%20Vol%202%201935.pdf",
+      "text_url": null,
+      "source_format": "PDF scan",
+      "access_status": "public_file_listed",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "ocr_and_verification_pending",
+      "target_ids": [],
+      "discovery": "Gemini follow-up; confirmed against Internet Archive file metadata"
+    },
+    {
+      "id": "ia-upanishadbrahmayogin1-3",
+      "provider": "Internet Archive",
+      "provider_item_id": "upanishadbrahmayogin1",
+      "title": "3 The Yoga Upanisads with Upanishadbrahman's commentary 1920",
+      "catalog_url": "https://archive.org/details/upanishadbrahmayogin1",
+      "source_file_url": "https://archive.org/download/upanishadbrahmayogin1/3%20The%20Yoga%20Upanisads%20with%20Upanishadbrahman%27s%20commentary%201920.pdf",
+      "text_url": null,
+      "source_format": "PDF scan",
+      "access_status": "public_file_listed",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "ocr_and_verification_pending",
+      "target_ids": [],
+      "discovery": "Gemini follow-up; confirmed against Internet Archive file metadata"
+    },
+    {
+      "id": "ia-upanishadbrahmayogin1-4",
+      "provider": "Internet Archive",
+      "provider_item_id": "upanishadbrahmayogin1",
+      "title": "4 Samanya Vedanta Upanishads - AM Sastri - 1921",
+      "catalog_url": "https://archive.org/details/upanishadbrahmayogin1",
+      "source_file_url": "https://archive.org/download/upanishadbrahmayogin1/4%20Samanya%20Vedanta%20Upanishads%20-%20AM%20Sastri%20-%201921.pdf",
+      "text_url": null,
+      "source_format": "PDF scan",
+      "access_status": "public_file_listed",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "ocr_and_verification_pending",
+      "target_ids": [],
+      "discovery": "Gemini follow-up; confirmed against Internet Archive file metadata"
+    },
+    {
+      "id": "ia-upanishadbrahmayogin2-1",
+      "provider": "Internet Archive",
+      "provider_item_id": "upanishadbrahmayogin2",
+      "title": "5 The Vaishnava Upanisads - AM Sastri - 1923",
+      "catalog_url": "https://archive.org/details/upanishadbrahmayogin2",
+      "source_file_url": "https://archive.org/download/upanishadbrahmayogin2/5%20The%20Vaishnava%20Upanisads%20-%20AM%20Sastri%20-%201923.pdf",
+      "text_url": null,
+      "source_format": "PDF scan",
+      "access_status": "public_file_listed",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "ocr_and_verification_pending",
+      "target_ids": [],
+      "discovery": "Gemini follow-up; confirmed against Internet Archive file metadata"
+    },
+    {
+      "id": "ia-upanishadbrahmayogin2-2",
+      "provider": "Internet Archive",
+      "provider_item_id": "upanishadbrahmayogin2",
+      "title": "6 The Saiva Upanishads - AM Sastri - 1925",
+      "catalog_url": "https://archive.org/details/upanishadbrahmayogin2",
+      "source_file_url": "https://archive.org/download/upanishadbrahmayogin2/6%20The%20Saiva%20Upanishads%20-%20AM%20Sastri%20-%201925.pdf",
+      "text_url": null,
+      "source_format": "PDF scan",
+      "access_status": "public_file_listed",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "ocr_and_verification_pending",
+      "target_ids": [],
+      "discovery": "Gemini follow-up; confirmed against Internet Archive file metadata"
+    },
+    {
+      "id": "ia-upanishadbrahmayogin2-3",
+      "provider": "Internet Archive",
+      "provider_item_id": "upanishadbrahmayogin2",
+      "title": "7 The Sanyasa Upanishads with Upanishadbrahman's commentary 1929",
+      "catalog_url": "https://archive.org/details/upanishadbrahmayogin2",
+      "source_file_url": "https://archive.org/download/upanishadbrahmayogin2/7%20The%20Sanyasa%20Upanishads%20with%20Upanishadbrahman%27s%20commentary%201929.pdf",
+      "text_url": null,
+      "source_format": "PDF scan",
+      "access_status": "public_file_listed",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "ocr_and_verification_pending",
+      "target_ids": [],
+      "discovery": "Gemini follow-up; confirmed against Internet Archive file metadata"
+    },
+    {
+      "id": "ia-upanishadbrahmayogin2-4",
+      "provider": "Internet Archive",
+      "provider_item_id": "upanishadbrahmayogin2",
+      "title": "8 The Sakta Upanishads - AM Sastri - 1950",
+      "catalog_url": "https://archive.org/details/upanishadbrahmayogin2",
+      "source_file_url": "https://archive.org/download/upanishadbrahmayogin2/8%20The%20Sakta%20Upanishads%20-%20AM%20Sastri%20-%201950.pdf",
+      "text_url": null,
+      "source_format": "PDF scan",
+      "access_status": "public_file_listed",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "ocr_and_verification_pending",
+      "target_ids": [],
+      "discovery": "Gemini follow-up; confirmed against Internet Archive file metadata"
+    },
+    {
+      "id": "titus-vs-madhyandina",
+      "provider": "TITUS",
+      "title": "Vājasaneyī Saṃhitā — Mādhyaṃdina",
+      "catalog_url": "https://titus.uni-frankfurt.de/texte/etcs/ind/aind/ved/yvw/vs/vs001.htm",
+      "text_url": "https://titus.uni-frankfurt.de/texte/etcs/ind/aind/ved/yvw/vs/vs001.htm",
+      "source_format": "HTML web edition",
+      "access_status": "institutional_item_verified",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "not_converted",
+      "target_ids": [
+        "vedic-2-1"
+      ],
+      "reference_notes": "First readable text page verified. Bulk download and rights require separate verification."
+    },
+    {
+      "id": "titus-taittiriya",
+      "provider": "TITUS",
+      "title": "Taittirīya Saṃhitā",
+      "catalog_url": "https://titus.uni-frankfurt.de/texte/etcs/ind/aind/ved/yvs/ts/ts.htm",
+      "text_url": null,
+      "source_format": "HTML frameset",
+      "access_status": "institutional_item_verified",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "not_converted",
+      "target_ids": [
+        "vedic-2-3"
+      ],
+      "reference_notes": "Institutional reader entry point verified. Direct files, extent, bulk access and terms pending."
+    },
+    {
+      "id": "lars-paippalada-book-1",
+      "provider": "SWISSUbase / LaRS",
+      "title": "Atharvaveda Paippalāda Zurich Edition — Book 1",
+      "catalog_url": "https://doi.org/10.48656/w0a9-s246",
+      "text_url": null,
+      "source_format": "Edition DOI",
+      "access_status": "institutional_item_verified",
+      "rights_status": "item_reuse_unverified",
+      "markdown_status": "not_converted",
+      "target_ids": [
+        "vedic-4-2"
+      ],
+      "reference_notes": "Published Book 1 record verified. File access, license and corpus-wide extent pending."
     }
   ],
   "local_markdown_assets": [
@@ -55227,9 +55450,10 @@
       "title": "Viṣṇu Purāṇa",
       "family": "Mahāpurāṇa",
       "reference_url": "https://sanskritdocuments.org/itrans/doc_purana.php",
-      "coverage_status": "target_listed_edition_match_pending",
-      "text_url": null,
-      "reference_status": "working checklist; tradition and recension variants to reconcile"
+      "coverage_status": "source_text_access_verified_markdown_pending",
+      "text_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_viSNupurANa-crit.xml",
+      "reference_status": "working checklist; tradition and recension variants to reconcile",
+      "catalog_item_id": "gretil-7c2f954f37185396ba55"
     },
     {
       "id": "mahapurana-04",
@@ -55245,9 +55469,10 @@
       "title": "Bhāgavata Purāṇa",
       "family": "Mahāpurāṇa",
       "reference_url": "https://sanskritdocuments.org/itrans/doc_purana.php",
-      "coverage_status": "target_listed_edition_match_pending",
-      "text_url": null,
-      "reference_status": "working checklist; tradition and recension variants to reconcile"
+      "coverage_status": "source_text_access_verified_markdown_pending",
+      "text_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_bhAgavatapurANa.xml",
+      "reference_status": "working checklist; tradition and recension variants to reconcile",
+      "catalog_item_id": "gretil-87f553ae1d2bbfca4164"
     },
     {
       "id": "mahapurana-06",
@@ -55263,9 +55488,10 @@
       "title": "Mārkaṇḍeya Purāṇa",
       "family": "Mahāpurāṇa",
       "reference_url": "https://sanskritdocuments.org/itrans/doc_purana.php",
-      "coverage_status": "target_listed_edition_match_pending",
-      "text_url": null,
-      "reference_status": "working checklist; tradition and recension variants to reconcile"
+      "coverage_status": "partial_source_verified_complete_edition_pending",
+      "text_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mArkaNDeyapurANa1-93.xml",
+      "reference_status": "working checklist; tradition and recension variants to reconcile",
+      "catalog_item_id": "gretil-7e5027487bb01d6b7b67"
     },
     {
       "id": "mahapurana-08",
@@ -55399,7 +55625,11 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "candidate_source_ids": [
+        "ia-in.ernet.dli.2015.408325-1",
+        "titus-vs-madhyandina"
+      ]
     },
     {
       "id": "vedic-2-2",
@@ -55408,7 +55638,10 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "candidate_source_ids": [
+        "ia-in.ernet.dli.2015.408325-1"
+      ]
     },
     {
       "id": "vedic-2-3",
@@ -55417,7 +55650,10 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "candidate_source_ids": [
+        "titus-taittiriya"
+      ]
     },
     {
       "id": "vedic-2-4",
@@ -55462,7 +55698,10 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "candidate_source_ids": [
+        "ia-in.ernet.dli.2015.485992-1"
+      ]
     },
     {
       "id": "vedic-3-3",
@@ -55478,18 +55717,23 @@
       "title": "Atharvaveda — Śaunaka",
       "family": "Vedic Saṃhitā or school",
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
-      "coverage_status": "target_listed_edition_match_pending",
-      "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "coverage_status": "source_text_access_verified_markdown_pending",
+      "text_url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/1_veda/1_sam/avs___u.htm",
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "catalog_item_id": "gretil-3eb16610b3eba47987e0"
     },
     {
       "id": "vedic-4-2",
       "title": "Atharvaveda — Paippalāda",
       "family": "Vedic Saṃhitā or school",
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
-      "coverage_status": "target_listed_edition_match_pending",
-      "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "coverage_status": "source_text_access_verified_markdown_pending",
+      "text_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_paippalAdasaMhitA.xml",
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "catalog_item_id": "gretil-1ae523f93a673229db97",
+      "candidate_source_ids": [
+        "lars-paippalada-book-1"
+      ]
     },
     {
       "id": "commentary-01",
@@ -55812,6 +56056,9 @@
       "result_path": "inventory-review.md",
       "scope": "Coverage gaps and inventory fields; advice only, not completeness certification.",
       "followup": "Opus reviewed preliminary counts. Both apparently missing Muktabodha volumes matched after preserving the lowercase a/b catalogue ID suffix, so all 569 metadata IDs are present in the local archive."
+    },
+    "gemini_exact_links": {
+      "scope": "Same conversation follow-up on Vedic recensions, three Puranas, and Adyar commentary scans. Links were checked against primary sites or file metadata. Catalogue records distinguish files, readers and OCR scans."
     }
   }
 }
