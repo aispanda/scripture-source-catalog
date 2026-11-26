@@ -1,0 +1,100 @@
+{
+  "criteria": [
+    {
+      "id": "A-01",
+      "title": "Exact verse and edition",
+      "version": 2,
+      "actor": "scripture_researcher",
+      "surfaces": {
+        "desktopUi": false,
+        "mobileUi": false,
+        "backend": true
+      },
+      "startingState": "The pilot contains verified reference fixtures with edition-specific locators.",
+      "actions": [
+        "Search a work alias with a verse reference and request a specific edition."
+      ],
+      "expectedResult": "The intended passage resolves in the requested edition with its locator, and matches from other editions are labeled separately."
+    },
+    {
+      "id": "A-02",
+      "title": "Script and spelling variants",
+      "version": 1,
+      "actor": "scripture_researcher",
+      "surfaces": {
+        "desktopUi": false,
+        "mobileUi": false,
+        "backend": true
+      },
+      "startingState": "Reviewed Devanāgarī, IAST and plain Latin forms identify the same passage.",
+      "actions": [
+        "Search each equivalent form."
+      ],
+      "expectedResult": "Each variant retrieves the expected passage and displays the source wording intact."
+    },
+    {
+      "id": "A-03",
+      "title": "Search by meaning",
+      "version": 2,
+      "actor": "scripture_researcher",
+      "surfaces": {
+        "desktopUi": false,
+        "mobileUi": false,
+        "backend": true
+      },
+      "startingState": "Held-out questions name concepts or describe passages without copying their words.",
+      "actions": [
+        "Run the held-out meaning queries."
+      ],
+      "expectedResult": "Results meet the Recall@k target frozen for the held-out evaluation and cite the intended passages."
+    },
+    {
+      "id": "A-04",
+      "title": "Inspect commentary and context",
+      "version": 1,
+      "actor": "scripture_researcher",
+      "surfaces": {
+        "desktopUi": false,
+        "mobileUi": false,
+        "backend": true
+      },
+      "startingState": "A fixture has a verified commentary alignment and neighboring passages.",
+      "actions": [
+        "Open a verse from the results and inspect its commentary and context."
+      ],
+      "expectedResult": "The result distinguishes complete source text, context, commentary author and edition, and the alignment evidence."
+    },
+    {
+      "id": "A-05",
+      "title": "Insufficient evidence",
+      "version": 1,
+      "actor": "scripture_researcher",
+      "surfaces": {
+        "desktopUi": false,
+        "mobileUi": false,
+        "backend": true
+      },
+      "startingState": "The fixture set includes absent references and unanswerable queries.",
+      "actions": [
+        "Search for an absent reference or a question outside corpus coverage."
+      ],
+      "expectedResult": "The system reports insufficient evidence and supplies no fabricated citation."
+    },
+    {
+      "id": "A-06",
+      "title": "Select retrieval from measured results",
+      "version": 2,
+      "actor": "scripture_researcher",
+      "surfaces": {
+        "desktopUi": false,
+        "mobileUi": false,
+        "backend": true
+      },
+      "startingState": "The pilot inputs, held-out queries, comparison metrics and selection rule are fixed.",
+      "actions": [
+        "Compare fixed lexical, semantic, translation-assisted and hybrid variants on identical held-out inputs."
+      ],
+      "expectedResult": "The decision record reports quality and latency by query class. Hybrid qualifies only if it beats the best non-hybrid variant by the agreed quality margin within the latency budget."
+    }
+  ]
+}
