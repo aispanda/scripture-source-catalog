@@ -1,0 +1,6 @@
+{
+  "criteria": [
+    {"id":"A-01","title":"Traceable source entries","version":1,"actor":"researcher","surfaces":{"desktopUi":false,"mobileUi":false,"backend":true},"startingState":"A candidate scripture and commentary have been identified.","actions":["Inspect the register and its supporting source evidence.","Compare source, edition, links and uncertainty with the evidence."],"expectedResult":"Records distinguish works, editions and commentaries; direct links and rights are supported or clearly pending."},
+    {"id":"A-02","title":"Coverage and uncertainty","version":1,"actor":"researcher","surfaces":{"desktopUi":false,"mobileUi":false,"backend":true},"startingState":"The catalog includes source inventory records and unresolved items.","actions":["Compare the register with the source inventories.","Inspect a missing or conflicting source entry."],"expectedResult":"Coverage is measurable and missing, duplicate or unverified items remain explicitly unresolved."}
+  ]
+}
