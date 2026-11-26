@@ -773,6 +773,30 @@
           {
             "label": "Review",
             "path": "$.works[*].review_status"
+          },
+          {
+            "label": "Sampradāya",
+            "path": "$.works[*].sampradaya"
+          },
+          {
+            "label": "School / śākhā",
+            "path": "$.works[*].school"
+          },
+          {
+            "label": "Darśana",
+            "path": "$.works[*].darshana"
+          },
+          {
+            "label": "Author",
+            "path": "$.works[*].author"
+          },
+          {
+            "label": "Publisher",
+            "path": "$.works[*].publisher"
+          },
+          {
+            "label": "Digital publisher",
+            "path": "$.works[*].digital_publisher"
           }
         ]
       },
@@ -812,6 +836,30 @@
           {
             "label": "Link status",
             "path": "$.editions[*].link_status"
+          },
+          {
+            "label": "Sampradāya",
+            "path": "$.editions[*].sampradaya"
+          },
+          {
+            "label": "School / śākhā",
+            "path": "$.editions[*].school"
+          },
+          {
+            "label": "Darśana",
+            "path": "$.editions[*].darshana"
+          },
+          {
+            "label": "Author",
+            "path": "$.editions[*].author"
+          },
+          {
+            "label": "Publisher",
+            "path": "$.editions[*].publisher"
+          },
+          {
+            "label": "Digital publisher",
+            "path": "$.editions[*].digital_publisher"
           }
         ]
       },
@@ -990,6 +1038,30 @@
           {
             "label": "File",
             "path": "$.catalog_items[*].text_url"
+          },
+          {
+            "label": "Sampradāya",
+            "path": "$.catalog_items[*].sampradaya"
+          },
+          {
+            "label": "School / śākhā",
+            "path": "$.catalog_items[*].school"
+          },
+          {
+            "label": "Darśana",
+            "path": "$.catalog_items[*].darshana"
+          },
+          {
+            "label": "Author",
+            "path": "$.catalog_items[*].author"
+          },
+          {
+            "label": "Publisher",
+            "path": "$.catalog_items[*].publisher"
+          },
+          {
+            "label": "Digital publisher",
+            "path": "$.catalog_items[*].digital_publisher"
           }
         ]
       },
@@ -1013,6 +1085,30 @@
           {
             "label": "Reference",
             "path": "$.work_targets[*].reference_url"
+          },
+          {
+            "label": "Sampradāya",
+            "path": "$.work_targets[*].sampradaya"
+          },
+          {
+            "label": "School / śākhā",
+            "path": "$.work_targets[*].school"
+          },
+          {
+            "label": "Darśana",
+            "path": "$.work_targets[*].darshana"
+          },
+          {
+            "label": "Author",
+            "path": "$.work_targets[*].author"
+          },
+          {
+            "label": "Publisher",
+            "path": "$.work_targets[*].publisher"
+          },
+          {
+            "label": "Digital publisher",
+            "path": "$.work_targets[*].digital_publisher"
           }
         ]
       },
@@ -4749,7 +4845,8 @@
       "source_file_sha256": "9b5c0f2ba2f3b8f725cf3244dffe5b4f785e698461edefae836fa102de6af01b",
       "rights_source_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_viSNupurANa-crit.xml",
       "edition_provenance": "The Critical Edition of the Viṣṇupurāṇam, critically edited by M. M. Pathak. Vadodara : Oriental Institute 1997-1999",
-      "rights_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      "rights_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "publisher": "Oriental Institute, Vadodara"
     },
     {
       "id": "gretil-ba3ee4ef1b8e8c9774a6",
@@ -37507,7 +37604,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-e00003",
@@ -37535,7 +37633,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-e00004",
@@ -37564,7 +37663,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-e00005",
@@ -37592,7 +37692,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-e00006",
@@ -37620,7 +37721,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-e00007",
@@ -37648,7 +37750,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-e00008",
@@ -37676,7 +37779,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-e00009",
@@ -37704,7 +37808,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-e00010",
@@ -37732,7 +37837,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-e00011",
@@ -37788,7 +37894,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-i00001",
@@ -38460,7 +38567,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00025",
@@ -38488,7 +38596,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00026",
@@ -38516,7 +38625,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00027",
@@ -38544,7 +38654,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00028",
@@ -38572,7 +38683,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00029",
@@ -38600,7 +38712,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00030",
@@ -38628,7 +38741,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00031",
@@ -38656,7 +38770,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00032",
@@ -38684,7 +38799,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00033",
@@ -38712,7 +38828,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00034",
@@ -38740,7 +38857,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00035",
@@ -38768,7 +38886,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00036",
@@ -38796,7 +38915,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00037",
@@ -38824,7 +38944,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00038",
@@ -38852,7 +38973,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00039",
@@ -38880,7 +39002,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00040",
@@ -38908,7 +39031,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00041",
@@ -38936,7 +39060,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00042",
@@ -38964,7 +39089,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00043",
@@ -38992,7 +39118,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00044",
@@ -39020,7 +39147,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00045",
@@ -39048,7 +39176,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00046",
@@ -39076,7 +39205,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00047",
@@ -39104,7 +39234,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00048",
@@ -39132,7 +39263,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00049",
@@ -39160,7 +39292,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00050",
@@ -39188,7 +39321,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00051",
@@ -39216,7 +39350,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00052",
@@ -39244,7 +39379,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00053",
@@ -39272,7 +39408,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00054",
@@ -39300,7 +39437,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00056",
@@ -39328,7 +39466,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00057",
@@ -39356,7 +39495,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00058",
@@ -39384,7 +39524,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00059",
@@ -39412,7 +39553,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00060",
@@ -39440,7 +39582,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-i00061",
@@ -39468,7 +39611,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet publisher IFP and Muktabodha"
     },
     {
       "id": "muktabodha-m00001",
@@ -39524,7 +39668,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "The Adyar Library and Research Center"
     },
     {
       "id": "muktabodha-m00002b",
@@ -39552,7 +39697,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "The Adyar Library and Research Center"
     },
     {
       "id": "muktabodha-m00003",
@@ -39580,7 +39726,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Metropolitan Printing and Pub. House"
     },
     {
       "id": "muktabodha-m00004",
@@ -39608,7 +39755,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Deaprtment Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00005",
@@ -39636,7 +39784,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgama siddhānta paripalana saṅgham"
     },
     {
       "id": "muktabodha-m00006",
@@ -39664,7 +39813,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgama siddhānta paripalana saṅgham"
     },
     {
       "id": "muktabodha-m00007",
@@ -39692,7 +39842,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgama siddhānta paripalana saṅgham"
     },
     {
       "id": "muktabodha-m00008",
@@ -39720,7 +39871,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgama siddhānta paripalana saṅgham"
     },
     {
       "id": "muktabodha-m00009",
@@ -39748,7 +39900,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgama siddhānta paripalana saṅgham"
     },
     {
       "id": "muktabodha-m00010",
@@ -39776,7 +39929,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgamasiddhāntaparipālanasaṅgham"
     },
     {
       "id": "muktabodha-m00011",
@@ -39804,7 +39958,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgamasiddhāntaparipālanasaṅgham"
     },
     {
       "id": "muktabodha-m00012",
@@ -39832,7 +39987,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgamasiddhāntaparipālanasaṅgham"
     },
     {
       "id": "muktabodha-m00013",
@@ -39860,7 +40016,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "dhuṇḍhirāja gaṇeśa"
     },
     {
       "id": "muktabodha-m00014",
@@ -39889,7 +40046,8 @@
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
       "work_id": null,
-      "online_link_status": "text_read"
+      "online_link_status": "text_read",
+      "publisher": "Sanskrit Book Depot"
     },
     {
       "id": "muktabodha-m00015",
@@ -39917,7 +40075,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "saṃskṛtapustakālaya kacauṇīgalī"
     },
     {
       "id": "muktabodha-m00016",
@@ -39945,7 +40104,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "bharatiya vidya prakāśan"
     },
     {
       "id": "muktabodha-m00017",
@@ -39973,7 +40133,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "bharatiya vidya prakāśan"
     },
     {
       "id": "muktabodha-m00018",
@@ -40001,7 +40162,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "bharatiya vidya prakāśan"
     },
     {
       "id": "muktabodha-m00019",
@@ -40029,7 +40191,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Print and Stationery, United Provinces"
     },
     {
       "id": "muktabodha-m00020",
@@ -40057,7 +40220,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00021",
@@ -40085,7 +40249,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00022",
@@ -40113,7 +40278,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00023",
@@ -40141,7 +40307,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00024",
@@ -40169,7 +40336,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Metropolitan Printing and Pub. House"
     },
     {
       "id": "muktabodha-m00025",
@@ -40197,7 +40365,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00026",
@@ -40253,7 +40422,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Metropolitan Printing and Pub. House"
     },
     {
       "id": "muktabodha-m00028",
@@ -40281,7 +40451,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "asthana vidwan k. p. narayana sastry"
     },
     {
       "id": "muktabodha-m00029",
@@ -40309,7 +40480,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "kalikātā"
     },
     {
       "id": "muktabodha-m00030",
@@ -40365,7 +40537,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Muktabodha Indological Research Institut"
     },
     {
       "id": "muktabodha-m00032",
@@ -40393,7 +40566,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00033",
@@ -40421,7 +40595,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00034",
@@ -40449,7 +40624,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Trivandrum Sanskrit Series"
     },
     {
       "id": "muktabodha-m00035",
@@ -40477,7 +40653,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Trivandrum Sanskrit Series"
     },
     {
       "id": "muktabodha-m00036",
@@ -40505,7 +40682,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "swaminattha gurukkal c."
     },
     {
       "id": "muktabodha-m00037",
@@ -40533,7 +40711,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgama siddhānta paripalana saṅgham"
     },
     {
       "id": "muktabodha-m00038",
@@ -40562,7 +40741,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Electronic publisher Muktabodha Indological Research Institu"
     },
     {
       "id": "muktabodha-m00039",
@@ -40590,7 +40770,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00040",
@@ -40618,7 +40799,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "The Adyar Library and Research Center"
     },
     {
       "id": "muktabodha-m00041",
@@ -40646,7 +40828,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00042",
@@ -40674,7 +40857,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Departement Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00043",
@@ -40702,7 +40886,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00044",
@@ -40730,7 +40915,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00045",
@@ -40758,7 +40944,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Prabhakari and Co"
     },
     {
       "id": "muktabodha-m00046",
@@ -40786,7 +40973,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Prabhakari and Co"
     },
     {
       "id": "muktabodha-m00047",
@@ -40814,7 +41002,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Prabhakari and Co"
     },
     {
       "id": "muktabodha-m00048",
@@ -40842,7 +41031,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00049",
@@ -40870,7 +41060,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "luzac and company"
     },
     {
       "id": "muktabodha-m00050",
@@ -40898,7 +41089,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Oriental Research Institute"
     },
     {
       "id": "muktabodha-m00051",
@@ -40954,7 +41146,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "ānandāśrama"
     },
     {
       "id": "muktabodha-m00053",
@@ -41010,7 +41203,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śrīveṃkaṭeśvara press"
     },
     {
       "id": "muktabodha-m00055",
@@ -41038,7 +41232,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Sanskrit Book Depot"
     },
     {
       "id": "muktabodha-m00057",
@@ -41066,7 +41261,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "pānduraṅga tāvaji nirṇaya sāgara press"
     },
     {
       "id": "muktabodha-m00058",
@@ -41150,7 +41346,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "kalikātā"
     },
     {
       "id": "muktabodha-m00061",
@@ -41178,7 +41375,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "kalikātā"
     },
     {
       "id": "muktabodha-m00062",
@@ -41262,7 +41460,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "kṣemarāja śrī kṛṣṇa dāsa"
     },
     {
       "id": "muktabodha-m00065",
@@ -41318,7 +41517,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha Indological Research Institute"
     },
     {
       "id": "muktabodha-m00067",
@@ -41346,7 +41546,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha Indological Research Institute"
     },
     {
       "id": "muktabodha-m00068",
@@ -41374,7 +41575,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha Indological Research Institute"
     },
     {
       "id": "muktabodha-m00069",
@@ -41402,7 +41604,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha Indological Research Institute"
     },
     {
       "id": "muktabodha-m00070",
@@ -41430,7 +41633,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "kalikātā"
     },
     {
       "id": "muktabodha-m00071",
@@ -41458,7 +41662,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "kalikātā"
     },
     {
       "id": "muktabodha-m00072",
@@ -41486,7 +41691,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "kalikātā"
     },
     {
       "id": "muktabodha-m00073",
@@ -41514,7 +41720,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "kalikātā"
     },
     {
       "id": "muktabodha-m00074",
@@ -41542,7 +41749,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Muktabodha Indological Research Institut"
     },
     {
       "id": "muktabodha-m00075",
@@ -41570,7 +41778,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Oriental Research Institute, University of Madras"
     },
     {
       "id": "muktabodha-m00076",
@@ -41598,7 +41807,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Trivandrum Sanskrit Series"
     },
     {
       "id": "muktabodha-m00077",
@@ -41626,7 +41836,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Electronic publisher: Muktabodha Indological Research Instit"
     },
     {
       "id": "muktabodha-m00078",
@@ -41654,7 +41865,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Luzac and Co."
     },
     {
       "id": "muktabodha-m00079",
@@ -41682,7 +41894,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgama siddhānta paripalana saṅgham"
     },
     {
       "id": "muktabodha-m00080",
@@ -41710,7 +41923,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00081",
@@ -41738,7 +41952,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00082",
@@ -41766,7 +41981,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Tara Press"
     },
     {
       "id": "muktabodha-m00083",
@@ -41794,7 +42010,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00084",
@@ -41822,7 +42039,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00085",
@@ -41962,7 +42180,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00090",
@@ -41990,7 +42209,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgama siddhānta paripalana saṅgham"
     },
     {
       "id": "muktabodha-m00091",
@@ -42018,7 +42238,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Muktabodha Indological Research Institut"
     },
     {
       "id": "muktabodha-m00092",
@@ -42046,7 +42267,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Muktabodha Indological Research Institut"
     },
     {
       "id": "muktabodha-m00093",
@@ -42074,7 +42296,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Muktabodha Indological Research Institut"
     },
     {
       "id": "muktabodha-m00094",
@@ -42102,7 +42325,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Reprinted by Bani Prakashan 1983 of original edition prior t"
     },
     {
       "id": "muktabodha-m00095",
@@ -42130,7 +42354,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Calcutta Press"
     },
     {
       "id": "muktabodha-m00096",
@@ -42158,7 +42383,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Calcutta Press (first publisher)"
     },
     {
       "id": "muktabodha-m00097",
@@ -42186,7 +42412,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00098",
@@ -42214,7 +42441,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar Library and Research Centre"
     },
     {
       "id": "muktabodha-m00099",
@@ -42242,7 +42470,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Dept. Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00101",
@@ -42298,7 +42527,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00103",
@@ -42326,7 +42556,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00104",
@@ -42354,7 +42585,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00105",
@@ -42382,7 +42614,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00106",
@@ -42410,7 +42643,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00107",
@@ -42438,7 +42672,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00108",
@@ -42466,7 +42701,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00109",
@@ -42494,7 +42730,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00110",
@@ -42522,7 +42759,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00111",
@@ -42550,7 +42788,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00112",
@@ -42578,7 +42817,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00113",
@@ -42606,7 +42846,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00114",
@@ -42634,7 +42875,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00115",
@@ -42662,7 +42904,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "sarasvatībhavana sanskrit series, Queenâ€™s College,"
     },
     {
       "id": "muktabodha-m00116",
@@ -42718,7 +42961,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha Indological Research Institut"
     },
     {
       "id": "muktabodha-m00118",
@@ -42746,7 +42990,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Oriental Research Institute"
     },
     {
       "id": "muktabodha-m00119",
@@ -42774,7 +43019,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Baroda Oriental Institute"
     },
     {
       "id": "muktabodha-m00120",
@@ -42830,7 +43076,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Metropolitan Printing and Pub. House"
     },
     {
       "id": "muktabodha-m00122",
@@ -42858,7 +43105,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Tantrik Text Series"
     },
     {
       "id": "muktabodha-m00123",
@@ -42886,7 +43134,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Baroda Oriental Institute"
     },
     {
       "id": "muktabodha-m00124",
@@ -42970,7 +43219,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "cidambaram"
     },
     {
       "id": "muktabodha-m00127",
@@ -42999,7 +43249,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha Indological Research Institut"
     },
     {
       "id": "muktabodha-m00128",
@@ -43027,7 +43278,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Baroda Oriental Institute"
     },
     {
       "id": "muktabodha-m00129",
@@ -43055,7 +43307,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Gwaekads Oriental Series"
     },
     {
       "id": "muktabodha-m00130",
@@ -43083,7 +43336,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Unknown: late 19th century"
     },
     {
       "id": "muktabodha-m00131",
@@ -43111,7 +43365,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "unknown"
     },
     {
       "id": "muktabodha-m00132",
@@ -43139,7 +43394,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "unknown-pree 1900 Bengali Script"
     },
     {
       "id": "muktabodha-m00133",
@@ -43167,7 +43423,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "unknown-pree 1900 Bengali Script"
     },
     {
       "id": "muktabodha-m00134",
@@ -43195,7 +43452,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "unknown-pree 1900 Bengali Script"
     },
     {
       "id": "muktabodha-m00151",
@@ -43223,7 +43481,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00153",
@@ -43251,7 +43510,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00154",
@@ -43279,7 +43539,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00155",
@@ -43307,7 +43568,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00158",
@@ -43335,7 +43597,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00160",
@@ -43363,7 +43626,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00163",
@@ -43391,7 +43655,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00166",
@@ -43419,7 +43684,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00167",
@@ -43447,7 +43713,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00169",
@@ -43475,7 +43742,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00170",
@@ -43503,7 +43771,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00173",
@@ -43531,7 +43800,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00181",
@@ -43559,7 +43829,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śivāgamasiddhāntaparipālanasaṅghaṃ"
     },
     {
       "id": "muktabodha-m00190",
@@ -43587,7 +43858,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Unknown, late 19th century"
     },
     {
       "id": "muktabodha-m00191",
@@ -43615,7 +43887,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Unknown, late 19th century"
     },
     {
       "id": "muktabodha-m00193",
@@ -43699,7 +43972,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śrīvenkateśvara"
     },
     {
       "id": "muktabodha-m00196",
@@ -43868,7 +44142,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "jaṃgamavāḍī maṭha"
     },
     {
       "id": "muktabodha-m00202",
@@ -43896,7 +44171,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śaivabhāratī śodhapratiṣṭhāna"
     },
     {
       "id": "muktabodha-m00203",
@@ -43980,7 +44256,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Asthana Vidwan K. P. Narayana Sastry"
     },
     {
       "id": "muktabodha-m00206",
@@ -44008,7 +44285,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar Library and Research Center"
     },
     {
       "id": "muktabodha-m00207",
@@ -44036,7 +44314,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śaivabhārati"
     },
     {
       "id": "muktabodha-m00208",
@@ -44064,7 +44343,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śaivabhāratīśodhapratiṣṭhāna"
     },
     {
       "id": "muktabodha-m00209",
@@ -44092,7 +44372,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Web publisher Muktabodha"
     },
     {
       "id": "muktabodha-m00210",
@@ -44120,7 +44401,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Web publisher Muktabodha"
     },
     {
       "id": "muktabodha-m00211",
@@ -44148,7 +44430,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Web publisher Muktabodha"
     },
     {
       "id": "muktabodha-m00212",
@@ -44176,7 +44459,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Web Publisher: Muktabodha"
     },
     {
       "id": "muktabodha-m00213",
@@ -44204,7 +44488,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Web Publisher: Muktabodha"
     },
     {
       "id": "muktabodha-m00214",
@@ -44232,7 +44517,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Baroda Oriental Institute"
     },
     {
       "id": "muktabodha-m00215",
@@ -44316,7 +44602,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Varanasi Tantrika Text Series"
     },
     {
       "id": "muktabodha-m00218",
@@ -44512,7 +44799,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Chowkhamba"
     },
     {
       "id": "muktabodha-m00226",
@@ -44680,7 +44968,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Tantrik Text Series"
     },
     {
       "id": "muktabodha-m00232",
@@ -44736,7 +45025,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "bharatiya vidya prakāśan"
     },
     {
       "id": "muktabodha-m00234",
@@ -44820,7 +45110,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Calcutta Anusamdhana Samiti"
     },
     {
       "id": "muktabodha-m00237",
@@ -44876,7 +45167,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Shri Venkateshvar Press"
     },
     {
       "id": "muktabodha-m00239",
@@ -44904,7 +45196,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Assam Government Press"
     },
     {
       "id": "muktabodha-m00240",
@@ -45016,7 +45309,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Bombay"
     },
     {
       "id": "muktabodha-m00244",
@@ -45044,7 +45338,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Kashmiri Pratap Steam Press"
     },
     {
       "id": "muktabodha-m00245",
@@ -45464,7 +45759,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "A. śrīnivāsa and M. C. Thirumalachariar"
     },
     {
       "id": "muktabodha-m00260",
@@ -45492,7 +45788,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Sanskrit Book Depot"
     },
     {
       "id": "muktabodha-m00261",
@@ -45942,7 +46239,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha"
     },
     {
       "id": "muktabodha-m00277",
@@ -46110,7 +46408,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Sudhakar Malaviya"
     },
     {
       "id": "muktabodha-m00283",
@@ -46502,7 +46801,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00297",
@@ -46530,7 +46830,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00298",
@@ -46558,7 +46859,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00299",
@@ -46586,7 +46888,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00300",
@@ -46614,7 +46917,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00301",
@@ -46642,7 +46946,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00302",
@@ -46670,7 +46975,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Adyar library and research centre"
     },
     {
       "id": "muktabodha-m00303",
@@ -46698,7 +47004,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet Publisher Muktabodha Indological Research Institute"
     },
     {
       "id": "muktabodha-m00304",
@@ -46726,7 +47033,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet Publisher Muktabodha Indological Research Institute"
     },
     {
       "id": "muktabodha-m00305",
@@ -46754,7 +47062,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet Publisher: Muktabodha Indological Research Institut"
     },
     {
       "id": "muktabodha-m00306",
@@ -46782,7 +47091,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Fine Art Press"
     },
     {
       "id": "muktabodha-m00307",
@@ -46810,7 +47120,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Fine Art Press"
     },
     {
       "id": "muktabodha-m00308",
@@ -46866,7 +47177,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Rajasthan Oriental Research Institute"
     },
     {
       "id": "muktabodha-m00310",
@@ -46895,7 +47207,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Unknown"
     },
     {
       "id": "muktabodha-m00311",
@@ -47315,7 +47628,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet Publisher - Muktabodha Indological Research Institu"
     },
     {
       "id": "muktabodha-m00327",
@@ -47427,7 +47741,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "śrijagadgurumurugharājendravidyāpīṭhagranthamālāyā"
     },
     {
       "id": "muktabodha-m00331",
@@ -47455,7 +47770,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet published Muktabodha Indological Research Institute"
     },
     {
       "id": "muktabodha-m00332",
@@ -47511,7 +47827,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Medical Hall"
     },
     {
       "id": "muktabodha-m00334",
@@ -47539,7 +47856,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "The Adyar Library and Research Centre"
     },
     {
       "id": "muktabodha-m00335",
@@ -47707,7 +48025,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Ghanaśyāma Gosvāmī"
     },
     {
       "id": "muktabodha-m00341",
@@ -47735,7 +48054,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Princess of Wales Saraswati Bhavana Texts"
     },
     {
       "id": "muktabodha-m00342",
@@ -47763,7 +48083,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Baroda Oriental Institute"
     },
     {
       "id": "muktabodha-m00343",
@@ -47791,7 +48112,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Baroda Oriental Institute"
     },
     {
       "id": "muktabodha-m00344",
@@ -47875,7 +48197,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Bangalore Press"
     },
     {
       "id": "muktabodha-m00347",
@@ -47905,7 +48228,8 @@
       "markdown_status": "conversion_passed; witness_limitations_documented",
       "work_id": "pilot-vijnanakaumudi",
       "edition_id": "muktabodha-m00347",
-      "markdown_asset_id": "vijnana-bhairava-vijnanakaumudi-m00347"
+      "markdown_asset_id": "vijnana-bhairava-vijnanakaumudi-m00347",
+      "publisher": "Kashmir Series of Texts and Studies"
     },
     {
       "id": "muktabodha-m00348",
@@ -47933,7 +48257,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Chowkhamba Sanskrit Book Depot"
     },
     {
       "id": "muktabodha-m00349",
@@ -47961,7 +48286,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00350",
@@ -47989,7 +48315,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Research Department, Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00351",
@@ -48045,7 +48372,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Kashmir Series of Texts and Studies"
     },
     {
       "id": "muktabodha-m00353",
@@ -48073,7 +48401,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "A. Shrinivasa Iyengar"
     },
     {
       "id": "muktabodha-m00355",
@@ -48101,7 +48430,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "ānantaśayanasaṃskṛtagranthavali"
     },
     {
       "id": "muktabodha-m00357",
@@ -48129,7 +48459,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Barodi Oriental Institute"
     },
     {
       "id": "muktabodha-m00358",
@@ -48157,7 +48488,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "N. Rajam & Co."
     },
     {
       "id": "muktabodha-m00359",
@@ -48185,7 +48517,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Oriental Institute"
     },
     {
       "id": "muktabodha-m00360",
@@ -48213,7 +48546,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Baroda Oriental Institute"
     },
     {
       "id": "muktabodha-m00361",
@@ -48241,7 +48575,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Oriental Institute"
     },
     {
       "id": "muktabodha-m00362",
@@ -48269,7 +48604,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Oriental Institute"
     },
     {
       "id": "muktabodha-m00363",
@@ -48297,7 +48633,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Government Press Travancore"
     },
     {
       "id": "muktabodha-m00364",
@@ -48325,7 +48662,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Government Press Travancore"
     },
     {
       "id": "muktabodha-m00365",
@@ -48353,7 +48691,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Government Press Travancore"
     },
     {
       "id": "muktabodha-m00366",
@@ -48381,7 +48720,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Luzac and Co."
     },
     {
       "id": "muktabodha-m00400",
@@ -48437,7 +48777,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Varendra Research Society"
     },
     {
       "id": "muktabodha-m00402",
@@ -48465,7 +48806,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Ganesh and Co."
     },
     {
       "id": "muktabodha-m00403",
@@ -48549,7 +48891,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Vangavasi Pree"
     },
     {
       "id": "muktabodha-m00407",
@@ -48633,7 +48976,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Kashmir and Jammu Research Dept."
     },
     {
       "id": "muktabodha-m00410",
@@ -49025,7 +49369,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "The Research Dept. Jammu and Kashmir State"
     },
     {
       "id": "muktabodha-m00503",
@@ -49053,7 +49398,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Internet published by Muktabodha Indological Research Instit"
     },
     {
       "id": "muktabodha-m00504",
@@ -49081,7 +49427,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "Muktabodha Indological Research Institute"
     },
     {
       "id": "muktabodha-m00505",
@@ -49193,7 +49540,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Government of Baroda"
     },
     {
       "id": "muktabodha-m00509",
@@ -49221,7 +49569,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Bhuvanacandra Vasaka"
     },
     {
       "id": "muktabodha-m00510",
@@ -49249,7 +49598,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Oriental Institute"
     },
     {
       "id": "muktabodha-m00511",
@@ -49305,7 +49655,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Caukhamba krishnadasa academy"
     },
     {
       "id": "muktabodha-m00513",
@@ -49529,7 +49880,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Oxford University Press"
     },
     {
       "id": "muktabodha-m00523",
@@ -49753,7 +50105,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Rasika Monana Caṭṭopādhyāya"
     },
     {
       "id": "muktabodha-m00531",
@@ -49809,7 +50162,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "SUNY Press"
     },
     {
       "id": "muktabodha-m00533",
@@ -49893,7 +50247,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Travancore Government Press"
     },
     {
       "id": "muktabodha-m00536",
@@ -51517,7 +51872,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "vīraśaivaliṅgibrahmaṇagranthamala"
     },
     {
       "id": "muktabodha-m00616",
@@ -51545,7 +51901,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "vīraśaivaliṅgibrahmaṇagranthamala"
     },
     {
       "id": "muktabodha-m00617",
@@ -51601,7 +51958,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "vīraśaivaliṅgibrahmaṇagranthamala"
     },
     {
       "id": "muktabodha-m00619",
@@ -51629,7 +51987,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "vīraśaivaliṅgibrahmaṇagranthamala"
     },
     {
       "id": "muktabodha-m00620",
@@ -51657,7 +52016,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "vīraśaivaliṅgibrahmaṇagranthamala"
     },
     {
       "id": "muktabodha-m00621",
@@ -51685,7 +52045,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "digital_publisher": "vīraśaivaliṅgibrahmaṇagranthamala"
     },
     {
       "id": "muktabodha-m00622",
@@ -52385,7 +52746,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Maharaja Harasinghji Bahadur"
     },
     {
       "id": "muktabodha-m00647",
@@ -52833,7 +53195,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Metropolitan Printing and Publishing House"
     },
     {
       "id": "muktabodha-m00663",
@@ -53029,7 +53392,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "jīānandavidyāsāgarabhaṭṭacāryya"
     },
     {
       "id": "muktabodha-m00670",
@@ -53085,7 +53449,8 @@
       "access_status": "local_archive_member_found",
       "rights_status": "verify_collection_and_item_terms",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "publisher": "Venkatesvara Steam Press"
     },
     {
       "id": "muktabodha-m00672",
@@ -53461,7 +53826,8 @@
       "access_status": "catalogue_link_unchecked",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "author": "Grünendahl, Reinhold"
     },
     {
       "id": "gretil-elib-1742642187",
@@ -53478,7 +53844,8 @@
       "access_status": "catalogue_link_unchecked",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "author": "Grünendahl, Reinhold"
     },
     {
       "id": "gretil-elib-1686268394",
@@ -53495,7 +53862,8 @@
       "access_status": "catalogue_link_unchecked",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "author": "Slaje, Walter"
     },
     {
       "id": "gretil-elib-1686259611",
@@ -53512,7 +53880,8 @@
       "access_status": "catalogue_link_unchecked",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "author": "Slaje, Walter"
     },
     {
       "id": "gretil-elib-1686259190",
@@ -53529,7 +53898,8 @@
       "access_status": "catalogue_link_unchecked",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "author": "Slaje, Walter"
     },
     {
       "id": "gretil-elib-1686258313",
@@ -53546,7 +53916,8 @@
       "access_status": "catalogue_link_unchecked",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "author": "Slaje, Walter"
     },
     {
       "id": "gretil-elib-1686166788",
@@ -53563,7 +53934,8 @@
       "access_status": "catalogue_link_unchecked",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "author": "Slaje, Walter"
     },
     {
       "id": "gretil-elib-1686166249",
@@ -53580,7 +53952,8 @@
       "access_status": "catalogue_link_unchecked",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "author": "Slaje, Walter"
     },
     {
       "id": "gretil-elib-1686165390",
@@ -53597,7 +53970,8 @@
       "access_status": "catalogue_link_unchecked",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "author": "Slaje, Walter"
     },
     {
       "id": "gretil-elib-1686164637",
@@ -53614,7 +53988,8 @@
       "access_status": "catalogue_link_unchecked",
       "rights_status": "item_review_pending",
       "markdown_status": "unmatched",
-      "work_id": null
+      "work_id": null,
+      "author": "Slaje, Walter"
     },
     {
       "id": "pm-pmuni0004",
@@ -54000,7 +54375,12 @@
       "author",
       "commentator",
       "canonical_reference",
-      "provider_item_id"
+      "provider_item_id",
+      "sampradaya",
+      "school",
+      "darshana",
+      "publisher",
+      "digital_publisher"
     ],
     "filter": [
       "genre",
@@ -54015,7 +54395,13 @@
       "markdown_status",
       "review_status",
       "original_language",
-      "edition_language"
+      "edition_language",
+      "sampradaya",
+      "school",
+      "darshana",
+      "author",
+      "publisher",
+      "digital_publisher"
     ],
     "identity": [
       "work_id",
@@ -54071,7 +54457,17 @@
         "unknown"
       ]
     },
-    "coverage_rule": "Record source-declared, retrieved and matched counts, dated snapshot and each unresolved row. Catalogue coverage, accessible files, converted Markdown and verified editions are separate."
+    "coverage_rule": "Record source-declared, retrieved and matched counts, dated snapshot and each unresolved row. Catalogue coverage, accessible files, converted Markdown and verified editions are separate.",
+    "classification_definitions": {
+      "traditions": "Broad religious or textual affiliations as recorded by providers.",
+      "sampradaya": "Named teaching lineage or community. Record the evidence for the specific affiliation.",
+      "school": "Named textual, ritual or interpretive school. For Vedic rows this may be a śākhā.",
+      "darshana": "Philosophical system or systems associated with the work. Use source-backed review before normalizing.",
+      "author": "Attributed creator of the work. Keep narrator, compiler, commentator, translator and editor roles explicit.",
+      "publisher": "Publisher of the source edition.",
+      "digital_publisher": "Organization responsible for the digital edition or publication.",
+      "provider": "Repository or platform hosting the item. Hosting alone does not establish publishing responsibility."
+    }
   },
   "coverage_reference_lists": [
     {
@@ -55607,7 +56003,9 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "school": "Śākala",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-1-2",
@@ -55616,7 +56014,9 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "school": "Āśvalāyana",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-2-1",
@@ -55629,7 +56029,9 @@
       "candidate_source_ids": [
         "ia-in.ernet.dli.2015.408325-1",
         "titus-vs-madhyandina"
-      ]
+      ],
+      "school": "Mādhyaṃdina",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-2-2",
@@ -55641,7 +56043,9 @@
       "reference_status": "Publisher index target; witness extent and availability pending.",
       "candidate_source_ids": [
         "ia-in.ernet.dli.2015.408325-1"
-      ]
+      ],
+      "school": "Kāṇva",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-2-3",
@@ -55653,7 +56057,9 @@
       "reference_status": "Publisher index target; witness extent and availability pending.",
       "candidate_source_ids": [
         "titus-taittiriya"
-      ]
+      ],
+      "school": "Taittirīya",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-2-4",
@@ -55662,7 +56068,9 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "school": "Maitrāyaṇī",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-2-5",
@@ -55671,7 +56079,9 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "school": "Kāṭhaka",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-2-6",
@@ -55680,7 +56090,9 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "school": "Katha-Kapiṣṭhala",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-3-1",
@@ -55689,7 +56101,9 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "school": "Kauthuma",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-3-2",
@@ -55701,7 +56115,9 @@
       "reference_status": "Publisher index target; witness extent and availability pending.",
       "candidate_source_ids": [
         "ia-in.ernet.dli.2015.485992-1"
-      ]
+      ],
+      "school": "Jaiminīya",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-3-3",
@@ -55710,7 +56126,9 @@
       "reference_url": "https://vedicheritage.gov.in/samhitas/",
       "coverage_status": "target_listed_edition_match_pending",
       "text_url": null,
-      "reference_status": "Publisher index target; witness extent and availability pending."
+      "reference_status": "Publisher index target; witness extent and availability pending.",
+      "school": "Rāṇāyaṇīya",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-4-1",
@@ -55720,7 +56138,9 @@
       "coverage_status": "source_text_access_verified_markdown_pending",
       "text_url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/1_veda/1_sam/avs___u.htm",
       "reference_status": "Publisher index target; witness extent and availability pending.",
-      "catalog_item_id": "gretil-3eb16610b3eba47987e0"
+      "catalog_item_id": "gretil-3eb16610b3eba47987e0",
+      "school": "Śaunaka",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "vedic-4-2",
@@ -55733,7 +56153,9 @@
       "catalog_item_id": "gretil-1ae523f93a673229db97",
       "candidate_source_ids": [
         "lars-paippalada-book-1"
-      ]
+      ],
+      "school": "Paippalāda",
+      "school_basis": "Listed Vedic branch or recension in the referenced IGNCA catalogue."
     },
     {
       "id": "commentary-01",
@@ -55909,7 +56331,9 @@
       "coverage_status": "candidate_requires_reference_and_edition_check",
       "text_url": null,
       "reference_url": null,
-      "review_source": "inventory-review.md"
+      "review_source": "inventory-review.md",
+      "darshana": "Vedānta",
+      "darshana_status": "proposed classification pending review"
     },
     {
       "id": "priority-05",
@@ -55936,7 +56360,9 @@
       "coverage_status": "candidate_requires_reference_and_edition_check",
       "text_url": null,
       "reference_url": null,
-      "review_source": "inventory-review.md"
+      "review_source": "inventory-review.md",
+      "darshana": "Yoga",
+      "darshana_status": "proposed classification pending review"
     },
     {
       "id": "priority-08",
@@ -55945,7 +56371,9 @@
       "coverage_status": "candidate_requires_reference_and_edition_check",
       "text_url": null,
       "reference_url": null,
-      "review_source": "inventory-review.md"
+      "review_source": "inventory-review.md",
+      "darshana": "Nyāya",
+      "darshana_status": "proposed classification pending review"
     },
     {
       "id": "priority-09",
@@ -55954,7 +56382,9 @@
       "coverage_status": "candidate_requires_reference_and_edition_check",
       "text_url": null,
       "reference_url": null,
-      "review_source": "inventory-review.md"
+      "review_source": "inventory-review.md",
+      "darshana": "Vaiśeṣika",
+      "darshana_status": "proposed classification pending review"
     },
     {
       "id": "priority-10",
@@ -55963,7 +56393,9 @@
       "coverage_status": "candidate_requires_reference_and_edition_check",
       "text_url": null,
       "reference_url": null,
-      "review_source": "inventory-review.md"
+      "review_source": "inventory-review.md",
+      "darshana": "Pūrva Mīmāṃsā",
+      "darshana_status": "proposed classification pending review"
     },
     {
       "id": "priority-11",
@@ -55972,7 +56404,9 @@
       "coverage_status": "candidate_requires_reference_and_edition_check",
       "text_url": null,
       "reference_url": null,
-      "review_source": "inventory-review.md"
+      "review_source": "inventory-review.md",
+      "darshana": "Sāṃkhya",
+      "darshana_status": "proposed classification pending review"
     },
     {
       "id": "priority-12",
@@ -56059,6 +56493,48 @@
     },
     "gemini_exact_links": {
       "scope": "Same conversation follow-up on Vedic recensions, three Puranas, and Adyar commentary scans. Links were checked against primary sites or file metadata. Catalogue records distinguish files, readers and OCR scans."
+    }
+  },
+  "metadata_coverage": {
+    "catalog_items": {
+      "total": 1723,
+      "traditions": 569,
+      "sampradaya": 0,
+      "school": 0,
+      "darshana": 0,
+      "author": 264,
+      "publisher": 202,
+      "digital_publisher": 67
+    },
+    "work_targets": {
+      "total": 171,
+      "traditions": 0,
+      "sampradaya": 0,
+      "school": 13,
+      "darshana": 6,
+      "author": 14,
+      "publisher": 0,
+      "digital_publisher": 0
+    },
+    "works": {
+      "total": 5,
+      "traditions": 5,
+      "sampradaya": 0,
+      "school": 0,
+      "darshana": 0,
+      "author": 0,
+      "publisher": 0,
+      "digital_publisher": 0
+    },
+    "editions": {
+      "total": 6,
+      "traditions": 0,
+      "sampradaya": 0,
+      "school": 0,
+      "darshana": 0,
+      "author": 0,
+      "publisher": 0,
+      "digital_publisher": 0
     }
   }
 }
