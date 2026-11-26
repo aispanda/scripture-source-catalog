@@ -20,7 +20,7 @@
     "status": "Open",
     "ownerType": "AI",
     "outputs": "Bucket settings, effective access and read-only object inventory evidence",
-    "completion": "Verify the intended bucket, authorized identity, public access protection, uniform access, and read and upload permissions before transfer.",
+    "completion": "Verify the intended bucket, authorized identity, public access protection, uniform access, and read and upload permissions before transfer. Record the soft delete and versioning settings and the granted IAM policy.",
     "supports": [
       "A-01"
     ],
@@ -34,7 +34,7 @@
     "status": "In design",
     "ownerType": "AI",
     "outputs": "Pinned Legal-AI revision, field mapping and small import fixture result",
-    "completion": "Build a separate Tantivy index with the existing importer. Verify exact scripture edition and locator lookup, source trace and unchanged display text.",
+    "completion": "Build a separate Tantivy index with the existing importer. Verify exact edition and locator lookup, source trace and unchanged display text. Put facets in a parallel chunk ID file.",
     "supports": [
       "A-01",
       "A-02"
@@ -52,7 +52,7 @@
     "status": "Open",
     "ownerType": "AI",
     "outputs": "Reviewed Markdown and per-item provenance, accepted or quarantined conversions, and batch exception reasons",
-    "completion": "Resolve or quarantine the nine header-ID exceptions. Verify approved inputs against source identity, rights, textual fidelity, Markdown hashes and locators.",
+    "completion": "Resolve or quarantine the nine header ID exceptions. Verify source identity, rights, fidelity, hashes and locators. Keep only Markdown in the corpus folder. Quarantined exceptions do not block the pilot.",
     "supports": [
       "A-01",
       "A-04"
@@ -68,7 +68,7 @@
     "status": "Blocked",
     "ownerType": "AI",
     "outputs": "Authorized Markdown objects in the private corpus prefix",
-    "completion": "Transfer only approved Markdown at stable provider and edition paths. Keep original files, manifests and derived indexes separate from corpus text.",
+    "completion": "Transfer only approved Markdown at stable provider and edition paths, with a recorded storage rights decision and no overwrite. Keep originals, manifests and indexes outside. Object metadata holds pointers only.",
     "supports": [
       "A-01"
     ],
@@ -86,7 +86,7 @@
     "status": "In design",
     "ownerType": "AI",
     "outputs": "Readback evidence and catalogue pointers for the approved Markdown slice",
-    "completion": "Read back each exact object generation, verify its content checksum, and record verified URI, source evidence and review status against the matching catalogue row.",
+    "completion": "Read back each exact object generation, verify its checksum, record the verified URI, evidence and review status on the catalogue row, and reconcile local, manifest and bucket listings.",
     "supports": [
       "A-01",
       "A-04"
@@ -105,7 +105,7 @@
     "ownerType": "AI",
     "model": "GPT-6.2 Sol",
     "outputs": "Source catalogue JSON entries, passage export and reviewed fixtures",
-    "completion": "Every indexed passage traces to a Markdown source, source catalogue entry and edition locator.",
+    "completion": "Every indexed passage traces to a Markdown source, source catalogue entry and edition locator. Native and canonical locators stay separate until a reviewer maps them.",
     "supports": [
       "A-01",
       "A-04"
@@ -125,6 +125,7 @@
     "model": "GPT-6.2 Sol",
     "outputs": "Separate tuning and restricted held-out sets, reference labels, metric targets and selection rule",
     "completion": "Freeze human-checked matches, no-match cases, Recall@k targets and selection rules before tuning.",
+    "comments": "Design proposal, not measured: 60 pilot queries plus 10 unanswerable. Frozen scenario targets govern where they differ. A-02 fixtures need reviewed Devanāgarī, IAST and plain Latin forms.",
     "requires": [
       "C-01"
     ],
@@ -178,7 +179,7 @@
     "ownerType": "AI",
     "model": "GPT-6.2 Sol",
     "outputs": "Local search entry point with inspectable evidence",
-    "completion": "Results provide locators, context and reviewed commentary links and handle missing evidence.",
+    "completion": "Results provide locators, context and reviewed commentary links and handle missing evidence. Disputed and unknown facet values appear as such, and display follows the rights record.",
     "requires": [
       "C-04"
     ],

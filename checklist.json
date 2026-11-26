@@ -38,7 +38,7 @@
     "status": "Open",
     "ownerType": "AI",
     "outputs": "Source-backed work, edition and file records with item terms and unresolved links",
-    "completion": "Check each selected edition, volume, commentary and source link against primary evidence. Record its access, rights, and uncertainty.",
+    "completion": "Check each selected edition, volume, commentary and source link against primary evidence. Record access, uncertainty and rights per use, leaving each use unknown until the owner decides. See linked design.",
     "supports": [
       "A-01",
       "A-02"
@@ -48,7 +48,8 @@
     ],
     "model": "GPT-6.2 Sol",
     "inputs": "Priority-source list, publisher metadata, source readers, scans and item-level terms.",
-    "docs": "https://muktabodha-digital-library.org/ https://gretil.sub.uni-goettingen.de/gr_elib.htm https://github.com/suttacentral/bilara-data"
+    "docs": "https://muktabodha-digital-library.org/ https://gretil.sub.uni-goettingen.de/gr_elib.htm https://github.com/suttacentral/bilara-data",
+    "comments": "For the SCR-02 pilot slice, C-02 counts as met once the pilot works and editions are reconciled. Reconciliation of the other lists continues in parallel."
   },
   {
     "stepId": "C-04",
@@ -56,7 +57,7 @@
     "status": "In design",
     "ownerType": "Human",
     "outputs": "Scholarly validation notes and release dispositions for selected scripture witnesses",
-    "completion": "Compare edition attribution, recension, language, locator and commentary alignment with primary evidence. Record the reviewer, evidence, disagreements and unresolved claims.",
+    "completion": "Compare edition attribution, recension, language, locator and commentary alignment with primary evidence. Record the reviewer, evidence, disagreements and unresolved claims. Keep disputed values with their evidence instead of choosing one.",
     "supports": [
       "A-01",
       "A-02"
@@ -72,13 +73,14 @@
     "status": "In design",
     "ownerType": "AI",
     "outputs": "Revision-specific catalogue verification and reviewed intake slice for SCR-02",
-    "completion": "A separate Codex verifier checks C-01 through C-04, records evidence for both criteria, and identifies the reviewed candidate list and open gaps.",
+    "completion": "A separate Codex verifier checks C-01 through C-04, C-15, and C-16 if a model facet is enabled, records evidence for both criteria, and lists reviewed candidates and open gaps.",
     "supports": [
       "A-01",
       "A-02"
     ],
     "requires": [
-      "C-04"
+      "C-04",
+      "C-15"
     ],
     "model": "GPT-6.2 Sol",
     "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#review-and-acceptance"
@@ -97,5 +99,37 @@
     "requires": [
       "C-05"
     ]
+  },
+  {
+    "stepId": "C-15",
+    "task": "Migrate the register to schema 3.0",
+    "status": "In design",
+    "ownerType": "AI",
+    "outputs": "Schema 3.0 register, migration report and facet assertions from provider metadata",
+    "completion": "Keep every 2.0 field, value and JSON View path. Record provider labels verbatim as facet assertions with evidence and status. Regenerate counts. A round trip check shows nothing lost.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "model": "GPT-6.2 Sol",
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md",
+    "guardrails": "Do not rename or remove existing IDs or fields. No model output sets a value to verified."
+  },
+  {
+    "stepId": "C-16",
+    "task": "Gate model facet suggestions on a reviewed holdout",
+    "status": "In design",
+    "ownerType": "Human",
+    "outputs": "Frozen reviewed facet holdout, per facet results and enablement decisions",
+    "completion": "Two reviewers label a frozen stratified holdout. Report metrics per facet and stratum. Enable a model facet only where the recorded threshold is met. Skip if no model is used.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "requires": [
+      "C-15"
+    ],
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md",
+    "comments": "Proposed, not measured: 240 items, 30 applicable items per facet and stratum, 0.95 precision. Measured: one six file Jev trial without gold labels. Class A fields stay human only."
   }
 ]
