@@ -163,7 +163,9 @@
       "A-01",
       "A-02"
     ],
-    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements"
+    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements",
+    "evidence": "2026-11-27 exploratory baseline on temporary 155-paragraph M00271 index: an exact section-4 query returned no result because the fixture did not map source markers to the importer's section field; IAST śrutaṃ returned its passage while plain Latin srutam and Devanāgarī श्रुतं returned no hits. These are diagnostic checks, not frozen R1/R2 evaluation results. See https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-importer-pilot-test.md",
+    "comments": "Build edition-aware source-marker lookup that returns all repeated-marker matches and reports ambiguity; test derived script normalization and diacritic folding without changing display text."
   },
   {
     "stepId": "C-04",
