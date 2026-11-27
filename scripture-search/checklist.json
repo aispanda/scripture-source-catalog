@@ -145,7 +145,8 @@
       "A-04",
       "A-05",
       "A-06"
-    ]
+    ],
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements"
   },
   {
     "stepId": "C-03",
@@ -162,7 +163,7 @@
       "A-01",
       "A-02"
     ],
-    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md"
+    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements"
   },
   {
     "stepId": "C-04",
@@ -179,7 +180,8 @@
       "A-03",
       "A-06"
     ],
-    "guardrails": "Record configuration revisions and holdout checksum before evaluation. Verify tuning agents lacked holdout access. Use a fresh holdout after retuning."
+    "guardrails": "Record configuration revisions and holdout checksum before evaluation. Verify tuning agents lacked holdout access. Use a fresh holdout after retuning.",
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#3-retrieval-candidates"
   },
   {
     "stepId": "C-05",
@@ -196,7 +198,8 @@
       "A-01",
       "A-04",
       "A-05"
-    ]
+    ],
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements"
   },
   {
     "stepId": "C-06",
