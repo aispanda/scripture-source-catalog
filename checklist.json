@@ -65,7 +65,7 @@
     "requires": [
       "C-03"
     ],
-    "comments": "Automation can resolve clear cases. The owner confirms ambiguous matches; scholarly review is not required for the MVP.",
+    "comments": "Earlier model review addressed classification and coverage. A scholarly reviewer and item-level validation were previously pending; scholarly review is not required for the MVP. Automation can resolve clear cases; the owner confirms ambiguous matches.",
     "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md"
   },
   {
