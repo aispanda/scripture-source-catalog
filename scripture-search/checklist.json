@@ -282,6 +282,7 @@
       "A-04"
     ],
     "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md",
-    "comments": "This tracks the full corpus independently of the MVP pilot. Continue eligible uploads while unresolved items await confirmation; maintain one combined Markdown per confirmed multipart edition and preserve original source and part provenance."
+    "comments": "This tracks the full corpus independently of the MVP pilot. Continue eligible uploads while unresolved items await confirmation; maintain one combined Markdown per confirmed multipart edition and preserve original source and part provenance.",
+    "evidence": "2026-11-27 direct bucket inventory and local review catalogue matched: 490 Markdown object URIs in each, with no missing or extra objects. The review catalogue records 1,742 items, including 606 with local Markdown; 116 local records have no cloud URI, including 61 marked for manual or multipart review. Remaining items need source, conversion and scope reconciliation. Counts are a point-in-time snapshot."
   }
 ]
