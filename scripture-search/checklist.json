@@ -18,7 +18,7 @@
   {
     "stepId": "C-09",
     "task": "Verify private Cloud Storage access",
-    "status": "Open",
+    "status": "Done",
     "ownerType": "AI",
     "outputs": "Bucket settings, effective access and read-only object inventory evidence",
     "completion": "Verify the intended bucket, authorized identity, public access protection, uniform access, and read and upload permissions before transfer. Record the soft delete and versioning settings and the granted IAM policy.",
@@ -27,7 +27,8 @@
     ],
     "model": "GPT-6.2 Sol",
     "docs": "https://docs.cloud.google.com/storage/docs/uniform-bucket-level-access https://docs.cloud.google.com/storage/docs/public-access-prevention",
-    "evidence": "The private bucket was created. Access and object-state readback for the ingestion executor remain pending."
+    "evidence": "2026-11-27: direct Google Cloud MCP bucket and IAM reads succeeded for active account rajeevkasat@gmail.com. Bucket gs://aispanda-scripture-corpus-2026 is in US-EAST1, has enforced public access prevention, uniform bucket-level access and seven-day soft delete. Raw bucket metadata did not report object versioning as enabled. Bucket IAM lists project owners/editors as legacy bucket and object owners, and project viewers as legacy readers. The upload automation recorded 457 successful upload and SHA-256 readback verifications in its resumed batch; full-corpus reconciliation remains tracked in C-12 and C-13.",
+    "comments": "Direct listing, upload and readback have been demonstrated; per-object corpus reconciliation continues separately."
   },
   {
     "stepId": "C-10",
