@@ -27,7 +27,7 @@
     ],
     "model": "GPT-6.2 Sol",
     "docs": "https://docs.cloud.google.com/storage/docs/uniform-bucket-level-access https://docs.cloud.google.com/storage/docs/public-access-prevention",
-    "evidence": "2026-11-27: direct Google Cloud MCP bucket and IAM reads succeeded for active account rajeevkasat@gmail.com. Bucket gs://aispanda-scripture-corpus-2026 is in US-EAST1, has enforced public access prevention, uniform bucket-level access and seven-day soft delete. Raw bucket metadata did not report object versioning as enabled. Bucket IAM lists project owners/editors as legacy bucket and object owners, and project viewers as legacy readers. The upload automation recorded 457 successful upload and SHA-256 readback verifications in its resumed batch; full-corpus reconciliation remains tracked in C-12 and C-13.",
+    "evidence": "2026-11-27: direct Google Cloud access, upload and readback were verified. The resumed upload batch recorded 457 successful uploads and checksum-matched readbacks. Full-corpus reconciliation remains tracked in C-12, C-13 and C-16.",
     "comments": "Direct listing, upload and readback have been demonstrated; per-object corpus reconciliation continues separately."
   },
   {
@@ -48,7 +48,7 @@
     "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md",
     "githubFile": "https://github.com/aispanda/Legal-AI/blob/main/build_corpus.py",
     "evidence": "2026-11-27: Legal-AI importer at revision adf4fea92b39dc38338a26535902f18eafdd48b2 built a separate one-record Tantivy index from the M00271 Markdown pilot, using the existing Python 3.14 environment. The source verse 1 was copied unchanged; a keyword query for rudrayāmalasambhavam and exact lookup for Vijñānabhairava section 1 both returned the passage with source URL, locator, chunk ID and Markdown SHA-256. A parallel facet JSONL was keyed to the same chunk ID. Input SHA-256 d3c8eb203c2faf82c5cb41c513c81f81f77a5f447d89bc2d4d7f7346ddee0bcd. This is a one-passage smoke test; the exact query uses Legal-AI's section syntax and does not establish scripture-specific citation parsing or multilingual retrieval.",
-    "comments": "Pilot artifacts are local temporary files; expand the test to real verse references and scripture variants in the search tasks."
+    "comments": "Pilot artifacts are local temporary files; expand the test to real verse references and scripture variants in the search tasks. Test record: https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-importer-pilot-test.md"
   },
   {
     "stepId": "C-11",
