@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "parsers": [
+    {
+      "id": "fenced-paragraph",
+      "version": "0.1.0",
+      "status": "experimental",
+      "supported_input": "UTF-8 Markdown with a single text code fence",
+      "output": "Source-identical paragraph spans with UTF-8 byte offsets and optional printed markers",
+      "limitations": "Does not distinguish source metadata from scripture text or map canonical verses; other formats require another parser.",
+      "validation": "Synthetic tests passed; one Muktabodha text tried. Not production approved."
+    }
+  ]
+}
