@@ -10,7 +10,7 @@
       "A-01"
     ],
     "model": "GPT-6.2 Sol",
-    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#platform-access-check",
+    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#platform-access-check https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#2-actual-versus-planned",
     "githubFile": "https://github.com/aispanda/scripture-source-catalog",
     "evidence": "Codex read-only GitHub probes succeeded on 2026-11-27 using the aispanda connection: catalogue main 398ec59fd816cb3cdbbd7ba08a747dc820e16e55; Legal-AI main f7e3bfaf2c00da146370fd3d9dede67836f24065. Legal-AI architecture and importer files were readable.",
     "comments": "Website and search service target Google Cloud Run. The implementation repository remains to be identified."
@@ -26,7 +26,7 @@
       "A-01"
     ],
     "model": "GPT-6.2 Sol",
-    "docs": "https://docs.cloud.google.com/storage/docs/uniform-bucket-level-access https://docs.cloud.google.com/storage/docs/public-access-prevention",
+    "docs": "https://docs.cloud.google.com/storage/docs/uniform-bucket-level-access https://docs.cloud.google.com/storage/docs/public-access-prevention https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#113-permissions https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#114-upload-and-reconciliation-procedure",
     "evidence": "2026-11-27: direct Google Cloud access, upload and readback were verified. The resumed upload batch recorded 457 successful uploads and checksum-matched readbacks. Full-corpus reconciliation remains tracked in C-12, C-13 and C-16.",
     "comments": "Direct listing, upload and readback have been demonstrated; per-object corpus reconciliation continues separately."
   },
@@ -45,7 +45,7 @@
       "C-08"
     ],
     "model": "GPT-6.2 Sol",
-    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md",
+    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#121-mapping-to-the-import-contract",
     "githubFile": "https://github.com/aispanda/Legal-AI/blob/main/build_corpus.py",
     "evidence": "2026-11-27: Legal-AI importer at revision adf4fea92b39dc38338a26535902f18eafdd48b2 built a separate one-record Tantivy index from the M00271 Markdown pilot, using the existing Python 3.14 environment. The source verse 1 was copied unchanged; a keyword query for rudrayāmalasambhavam and exact lookup for Vijñānabhairava section 1 both returned the passage with source URL, locator, chunk ID and Markdown SHA-256. A parallel facet JSONL was keyed to the same chunk ID. Input SHA-256 d3c8eb203c2faf82c5cb41c513c81f81f77a5f447d89bc2d4d7f7346ddee0bcd. This is a one-passage smoke test; the exact query uses Legal-AI's section syntax and does not establish scripture-specific citation parsing or multilingual retrieval.",
     "comments": "Pilot artifacts are local temporary files; expand the test to real verse references and scripture variants in the search tasks. Test record: https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-importer-pilot-test.md"
@@ -64,7 +64,8 @@
     "model": "GPT-6.2 Sol",
     "inputs": "Reviewed SCR-01 source slice, Muktabodha HTML archive, Markdown drafts, manifests and local batch report.",
     "evidence": "M00271: independent source-text comparison matches ignoring whitespace; preformatted section preserved after line-end trimming; all 24 page markers retained. Scholarly review pending.",
-    "comments": "Use provider metadata first. Optionally use local models, then Jev for gaps or disagreements and a reviewed sample; preserve evidence and uncertainty."
+    "comments": "Use provider metadata first. Optionally use local models, then Jev for gaps or disagreements and a reviewed sample; preserve evidence and uncertainty.",
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#9-evidence-and-quality-rules https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#64-exact-pointer"
   },
   {
     "stepId": "C-12",
@@ -81,7 +82,7 @@
       "C-11"
     ],
     "model": "GPT-6.2 Sol",
-    "docs": "https://docs.cloud.google.com/storage/docs/uploading-objects",
+    "docs": "https://docs.cloud.google.com/storage/docs/uploading-objects https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#114-upload-and-reconciliation-procedure https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md#9-uploads-and-previously-uploaded-witnesses",
     "comments": "Record source and file checksum before upload. Passage parsing and indexing may run later or in parallel; verify cloud readback. Hold ambiguous edition or multipart records until confirmed; eligible independent items continue. Include known catalogue metadata and verify readback.",
     "evidence": "M00271 draft uploaded as Markdown with catalogue ID, checksum and fidelity-pending metadata. Other files remain outstanding. Further Markdown uploads have verified readbacks in the local automation log; batch reconciliation remains open."
   },
@@ -100,7 +101,7 @@
       "C-12"
     ],
     "model": "GPT-6.2 Sol",
-    "docs": "https://docs.cloud.google.com/storage/docs/data-validation https://docs.cloud.google.com/storage/docs/metadata",
+    "docs": "https://docs.cloud.google.com/storage/docs/data-validation https://docs.cloud.google.com/storage/docs/metadata https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#114-upload-and-reconciliation-procedure https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#63-checksums",
     "guardrails": "Leave cloud URIs unset until readback confirms the exact uploaded object and generation.",
     "evidence": "M00271 cloud generation 1795791085155146 was downloaded and SHA-256 matched the local Markdown; the review catalogue records its cloud URI.",
     "comments": "Additional verified uploads are recorded in the local automation log and review catalogue; reconcile the full batch before marking complete."
@@ -122,7 +123,7 @@
       "C-13"
     ],
     "inputs": "Reviewed priority-source handoff from SCR-01 and verified Vijñāna Bhairava pilot Markdown assets.",
-    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#64-exact-pointer https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#95-per-item-stage-tracking-proposed https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#121-mapping-to-the-import-contract https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#122-retrieval-behaviour-planned",
+    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#64-exact-pointer https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#95-per-item-stage-tracking-proposed https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#121-mapping-to-the-import-contract https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#122-retrieval-behaviour-planned https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#61-identifiers",
     "comments": "Passage parsing may start locally before upload. Cite a cloud object only after readback confirms the same file version. Search the selected primary edition; preserve source part boundaries and cite the correct original locators. Exclude unresolved held cases from the MVP index. Implement the documented passage pipeline; use the M00271 numbering findings as test cases, retaining source-specific labels. Record processing status and passage-set version.",
     "evidence": "2026-11-27: prepared and indexed the first 10 numbered M00271 passages as a temporary JSONL fixture. Exact section-style lookups for 3 and 8 returned source text and provenance. A preliminary marker scan found repeated numbers elsewhere, so the remaining text and passage IDs need further inspection. See https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-importer-pilot-test.md Follow-up: 155 exact source paragraphs indexed with unique sequential IDs, including text after source numbering restarts. This is a temporary pilot; native-to-canonical verse mapping and robust passage review remain open."
   },
@@ -146,7 +147,7 @@
       "A-05",
       "A-06"
     ],
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements"
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#132-retrieval-evaluation-pilot"
   },
   {
     "stepId": "C-03",
@@ -163,7 +164,7 @@
       "A-01",
       "A-02"
     ],
-    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements",
+    "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#122-retrieval-behaviour-planned https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#123-query-flow-proposed",
     "evidence": "2026-11-27 exploratory baseline on temporary 155-paragraph M00271 index: an exact section-4 query returned no result because the fixture did not map source markers to the importer's section field; IAST śrutaṃ returned its passage while plain Latin srutam and Devanāgarī श्रुतं returned no hits. These are diagnostic checks, not frozen R1/R2 evaluation results. See https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-importer-pilot-test.md",
     "comments": "Build edition-aware source-marker lookup that returns all repeated-marker matches and reports ambiguity; test derived script normalization and diacritic folding without changing display text."
   },
@@ -183,7 +184,7 @@
       "A-06"
     ],
     "guardrails": "Record configuration revisions and holdout checksum before evaluation. Verify tuning agents lacked holdout access. Use a fresh holdout after retuning.",
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#3-retrieval-candidates"
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#3-retrieval-candidates https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#124-retrieval-candidates-and-the-evidence-each-needs"
   },
   {
     "stepId": "C-05",
@@ -201,7 +202,7 @@
       "A-04",
       "A-05"
     ],
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements"
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#2-retrieval-requirements https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#122-retrieval-behaviour-planned https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#123-query-flow-proposed"
   },
   {
     "stepId": "C-06",
@@ -222,7 +223,7 @@
       "A-05",
       "A-06"
     ],
-    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#review-and-acceptance"
+    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#review-and-acceptance https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#133-gates"
   },
   {
     "stepId": "C-07",
@@ -243,7 +244,7 @@
       "A-05",
       "A-06"
     ],
-    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/scripts/validate_results.py"
+    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/scripts/validate_results.py https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#134-gates-scenarios-and-tasks"
   },
   {
     "stepId": "C-14",
@@ -262,7 +263,8 @@
     ],
     "requires": [
       "C-07"
-    ]
+    ],
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#134-gates-scenarios-and-tasks"
   },
   {
     "stepId": "C-15",
@@ -275,7 +277,7 @@
       "A-01",
       "A-04"
     ],
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md",
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md#8-primary-edition-for-mvp-search https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md#75-locators-and-citations",
     "comments": "Clear cases may be reconciled by evidence-backed rules; ambiguous cases await owner confirmation. This task does not imply that the reconciliation pipeline or search index is already built."
   },
   {
@@ -289,7 +291,7 @@
       "A-01",
       "A-04"
     ],
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md",
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#114-upload-and-reconciliation-procedure https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#95-per-item-stage-tracking-proposed",
     "comments": "This tracks the full corpus independently of the MVP pilot. Continue eligible uploads while unresolved items await confirmation; maintain one combined Markdown per confirmed multipart edition and preserve original source and part provenance.",
     "evidence": "2026-11-27 direct bucket inventory and local review catalogue matched: 490 Markdown object URIs in each, with no missing or extra objects. The review catalogue records 1,742 items, including 606 with local Markdown; 116 local records have no cloud URI, including 61 marked for manual or multipart review. Remaining items need source, conversion and scope reconciliation. Counts are a point-in-time snapshot."
   }
