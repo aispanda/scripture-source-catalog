@@ -12,7 +12,7 @@
     "model": "GPT-6.2 Sol",
     "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#platform-access-check",
     "githubFile": "https://github.com/aispanda/scripture-source-catalog",
-    "evidence": "Read-only GitHub probes succeeded on 2026-11-27 using the aispanda connection: catalogue main 398ec59fd816cb3cdbbd7ba08a747dc820e16e55; Legal-AI main f7e3bfaf2c00da146370fd3d9dede67836f24065. Legal-AI architecture and importer files were readable.",
+    "evidence": "Codex read-only GitHub probes succeeded on 2026-11-27 using the aispanda connection: catalogue main 398ec59fd816cb3cdbbd7ba08a747dc820e16e55; Legal-AI main f7e3bfaf2c00da146370fd3d9dede67836f24065. Legal-AI architecture and importer files were readable.",
     "comments": "Website and search service target Google Cloud Run. The implementation repository remains to be identified."
   },
   {
