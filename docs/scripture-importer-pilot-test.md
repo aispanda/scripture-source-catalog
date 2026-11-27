@@ -29,3 +29,9 @@ The importer built a separate temporary index and reported one indexed record. A
 - One result does not establish Sanskrit normalization, script variants, multilingual search, ranking quality, or performance at corpus scale.
 - Source extraction and formatting were checked automatically; no scholarly review is claimed.
 - Build and evaluate scripture-specific passage preparation, citations, and search against representative texts as called for in the [search checklist](../scripture-search/checklist.json).
+
+## Ten-passage preparation follow-up
+
+On 2026-11-27, the first ten consecutive source-numbered paragraphs were copied into a temporary JSONL fixture and indexed separately. Exact lookups using Legal-AI section syntax for numbers 3 and 8 returned the corresponding unaltered text, source URL, locator, and source-file hash. The verse 3 result retained its source page marker. The JSONL SHA-256 was `18a90a915eda1f4fb83fa209e5f976e0029a5e05fe7c820076bd1a3f815da3d4`.
+
+A simple scan found 149 numbered markers but only 101 distinct marker values in the full Markdown. These counts may include non-verse numbers or editorial material; do not apply the pilot paragraph parser to the entire text or infer unique verse identifiers without further analysis. This fixture demonstrates preparation of ten passages, not completion of the pilot dataset or evaluation.
