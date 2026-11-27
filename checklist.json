@@ -34,11 +34,11 @@
   },
   {
     "stepId": "C-03",
-    "task": "Verify edition links, provenance and permissions",
+    "task": "Verify edition links and provenance",
     "status": "Open",
     "ownerType": "AI",
-    "outputs": "Source-backed work, edition and file records with item terms and unresolved links",
-    "completion": "Check each selected edition, volume, commentary and source link against primary evidence. Record access, uncertainty and rights per use, leaving each use unknown until the owner decides. See linked design.",
+    "outputs": "Source-backed work, edition and file records with unresolved links",
+    "completion": "Check selected edition, volume, commentary and source links. Record attribution, access, uncertainty and any known source terms.",
     "supports": [
       "A-01",
       "A-02"
@@ -117,11 +117,11 @@
   },
   {
     "stepId": "C-16",
-    "task": "Gate model facet suggestions on a reviewed holdout",
+    "task": "Evaluate model facets before automatic adoption",
     "status": "In design",
     "ownerType": "Human",
     "outputs": "Frozen reviewed facet holdout, per facet results and enablement decisions",
-    "completion": "Two reviewers label a frozen stratified holdout. Report metrics per facet and stratum. Enable a model facet only where the recorded threshold is met. Skip if no model is used.",
+    "completion": "Before automatically adopting a model facet, compare it against independently reviewed examples and record accuracy, disagreements and unknowns.",
     "supports": [
       "A-01",
       "A-02"
@@ -130,6 +130,20 @@
       "C-15"
     ],
     "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md",
-    "comments": "Proposed, not measured: 240 items, 30 applicable items per facet and stratum, 0.95 precision. Measured: one six file Jev trial without gold labels. Class A fields stay human only."
+    "comments": "An optional Jev trial may run during the MVP without blocking search; the six-file pilot did not establish accuracy."
+  },
+  {
+    "stepId": "C-17",
+    "task": "Try optional Jev metadata triage",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "Unverified suggestions with source evidence, unknowns and disagreements",
+    "completion": "Optionally test Jev on a small pilot after provider metadata; preserve unknowns, evidence and disagreements. Suggestions do not block search.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md",
+    "comments": "Evaluate each field against reviewed examples before automatic adoption."
   }
 ]
