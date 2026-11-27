@@ -60,7 +60,7 @@
     ],
     "model": "GPT-6.2 Sol",
     "inputs": "Reviewed SCR-01 source slice, Muktabodha HTML archive, Markdown drafts, manifests and local batch report.",
-    "evidence": "The local Muktabodha batch report records 560 automatic Markdown drafts and nine failures from 569 input records.",
+    "evidence": "M00271: original source hash matches manifest; independent extraction matches all 13,870 non-whitespace characters. Formatting and scholarly review remain pending.",
     "comments": "Use provider metadata first. Optionally use local models, then Jev for gaps or disagreements and a reviewed sample; preserve evidence and uncertainty."
   },
   {
@@ -79,7 +79,8 @@
     ],
     "model": "GPT-6.2 Sol",
     "docs": "https://docs.cloud.google.com/storage/docs/uploading-objects",
-    "comments": "Record source and file checksum before upload. Passage parsing and indexing may run later or in parallel; verify cloud readback."
+    "comments": "Record source and file checksum before upload. Passage parsing and indexing may run later or in parallel; verify cloud readback.",
+    "evidence": "M00271 draft uploaded as Markdown with catalogue ID, checksum and fidelity-pending metadata. Other files remain outstanding."
   },
   {
     "stepId": "C-13",
@@ -97,7 +98,8 @@
     ],
     "model": "GPT-6.2 Sol",
     "docs": "https://docs.cloud.google.com/storage/docs/data-validation https://docs.cloud.google.com/storage/docs/metadata",
-    "guardrails": "Leave cloud URIs unset until readback confirms the exact uploaded object and generation."
+    "guardrails": "Leave cloud URIs unset until readback confirms the exact uploaded object and generation.",
+    "evidence": "M00271 cloud generation 1795791085155146 was downloaded and SHA-256 matched the local Markdown; the review catalogue records its cloud URI."
   },
   {
     "stepId": "C-01",
