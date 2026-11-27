@@ -11,7 +11,7 @@
       "A-02"
     ],
     "model": "GPT-6.2 Sol",
-    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#platform-access-check",
+    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#platform-access-check https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#1-purpose-and-scope",
     "githubFile": "https://github.com/aispanda/scripture-source-catalog",
     "evidence": "GitHub API returned the intended private repository. Source snapshots describe export scope. Independent task verification remains pending."
   },
@@ -29,7 +29,7 @@
       "C-01"
     ],
     "model": "GPT-6.2 Sol",
-    "docs": "https://gretil.sub.uni-goettingen.de/gretil.html https://muktabodha-digital-library.org/metadata/download/csv https://vedicheritage.gov.in/samhitas/ https://vedicheritage.gov.in/Upanishads/",
+    "docs": "https://gretil.sub.uni-goettingen.de/gretil.html https://muktabodha-digital-library.org/metadata/download/csv https://vedicheritage.gov.in/samhitas/ https://vedicheritage.gov.in/Upanishads/ https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#1-purpose-and-scope https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#15-risks-and-open-decisions",
     "evidence": "source-plan.json records 1,743 source items, 171 work targets, five inventory snapshots, and outstanding reconciliation."
   },
   {
@@ -48,7 +48,7 @@
     ],
     "model": "GPT-6.2 Sol",
     "inputs": "Priority-source list, publisher metadata, source readers, scans and item-level terms.",
-    "docs": "https://muktabodha-digital-library.org/ https://gretil.sub.uni-goettingen.de/gr_elib.htm https://github.com/suttacentral/bilara-data",
+    "docs": "https://muktabodha-digital-library.org/ https://gretil.sub.uni-goettingen.de/gr_elib.htm https://github.com/suttacentral/bilara-data https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#75-entity-provenance-and-location-model https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#64-exact-pointer",
     "comments": "For the SCR-02 pilot slice, C-02 counts as met once the pilot works and editions are reconciled. Reconciliation of the other lists continues in parallel."
   },
   {
@@ -66,7 +66,7 @@
       "C-03"
     ],
     "comments": "Earlier model review addressed classification and coverage. A scholarly reviewer and item-level validation were previously pending; scholarly review is not required for the MVP. Automation can resolve clear cases; the owner confirms ambiguous matches.",
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md"
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md#4-relationships-statuses-and-search-roles https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md#6-signals-rules-and-models"
   },
   {
     "stepId": "C-05",
@@ -84,7 +84,7 @@
       "C-15"
     ],
     "model": "GPT-6.2 Sol",
-    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#review-and-acceptance"
+    "docs": "https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md#review-and-acceptance https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#133-gates https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#134-gates-scenarios-and-tasks"
   },
   {
     "stepId": "C-06",
@@ -99,7 +99,8 @@
     ],
     "requires": [
       "C-05"
-    ]
+    ],
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#134-gates-scenarios-and-tasks"
   },
   {
     "stepId": "C-15",
@@ -113,7 +114,7 @@
       "A-02"
     ],
     "model": "GPT-6.2 Sol",
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md",
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#8-migration-from-20-to-30 https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#74-json-views-compatibility",
     "guardrails": "Do not rename or remove existing IDs or fields. No model output sets a value to verified."
   },
   {
@@ -130,7 +131,7 @@
     "requires": [
       "C-15"
     ],
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#4-catalogue-and-reconciliation-evaluations",
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#4-catalogue-and-reconciliation-evaluations https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#131-metadata-holdout-proposed-nothing-measured",
     "comments": "An optional Jev trial may run during the MVP without blocking search; the six-file pilot did not establish accuracy."
   },
   {
@@ -144,7 +145,7 @@
       "A-01",
       "A-02"
     ],
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#4-catalogue-and-reconciliation-evaluations",
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#4-catalogue-and-reconciliation-evaluations https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md#stage-2-optional-small-jev-triage-during-the-mvp",
     "comments": "Evaluate each field against reviewed examples before automatic adoption."
   },
   {
@@ -158,7 +159,7 @@
       "A-01",
       "A-02"
     ],
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#4-catalogue-and-reconciliation-evaluations",
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#4-catalogue-and-reconciliation-evaluations https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md#5-workflow https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md#63-rules",
     "comments": "Use deterministic checks first; Jev, local models and Bhashini are optional aids. Similarity or model confidence alone does not establish an edition match."
   },
   {
@@ -175,6 +176,6 @@
     "requires": [
       "C-18"
     ],
-    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#4-catalogue-and-reconciliation-evaluations"
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-technology-evaluation-plan.md#4-catalogue-and-reconciliation-evaluations https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md#7-multipart-assembly https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md#74-verification"
   }
 ]
