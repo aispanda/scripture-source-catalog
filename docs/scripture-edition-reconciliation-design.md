@@ -342,6 +342,8 @@ Numbering often restarts in each volume, so a passage ID in an assembled edition
 
 ## 10. Evaluation (proposed; nothing measured)
 
+Tests M1 to M4 in the [technology evaluation plan](scripture-technology-evaluation-plan.md#4-catalogue-and-reconciliation-evaluations) state what is tested, the success criterion and the decision that follows.
+
 * **Reviewed pairs.** The owner labels a set of pairs with the classes in section 4.1. Proposed size: every pair in the multivolume groups that step 1 finds, plus at least 40 other pairs from title groups, frozen before any threshold is set.
 * **Metrics.** For each rule and each optional model, report precision and recall per class, the share left `unclear`, and the disagreement rate with the owner.
 * **Automatic rules.** A clear evidence rule runs unattended only after it makes no wrong confirmation on the reviewed pairs. Its stop thresholds are tuned there and recorded with the recipe version.
