@@ -754,7 +754,7 @@ A requested edition is answered first. When no passage meets the threshold, the 
 | Knowledge graph of works, editions and commentary | navigation | a defined query class and a measured benefit; no current scenario requires it |
 | Any hosted model or embedding | any | evaluate usefulness and cost; preserve source and review metadata |
 
-None of these is selected or implemented.
+None of these is selected or implemented. Each candidate's test, success criterion and resulting decision are in the [technology evaluation plan](scripture-technology-evaluation-plan.md#3-retrieval-candidates).
 
 ## 13. Evaluation and acceptance gates
 
@@ -767,7 +767,7 @@ None of these is selected or implemented.
 
 ### 13.2 Retrieval evaluation (pilot)
 
-Proposed sizes, not measured: 60 queries, 20 by citation, 20 by wording and 20 by meaning (English), plus 10 queries the corpus cannot answer. Every wording fixture has reviewed Devanāgarī, IAST and plain Latin forms of the same passage, as SCR-02 A-02 requires. Metrics: exact locator hit at 1 and at 5, Recall@k with k and targets frozen in SCR-02 C-02, edition labelling, correct abstention, correct commentary attribution, and quality and latency by query class for SCR-02 A-06. Frozen scenario targets govern where they differ from these proposals.
+Proposed sizes, not measured: 60 queries, 20 by citation, 20 by wording and 20 by meaning (English), plus 10 queries the corpus cannot answer. Every wording fixture has reviewed Devanāgarī, IAST and plain Latin forms of the same passage, as SCR-02 A-02 requires. Metrics: exact locator hit at 1 and at 5, Recall@k with k and targets frozen in SCR-02 C-02, edition labelling, correct abstention, correct commentary attribution, and quality and latency by query class for SCR-02 A-06. Frozen scenario targets govern where they differ from these proposals. Requirement tests R1 to R6 are in the [technology evaluation plan](scripture-technology-evaluation-plan.md#2-retrieval-requirements).
 
 ### 13.3 Gates
 
