@@ -35,3 +35,9 @@ The importer built a separate temporary index and reported one indexed record. A
 On 2026-11-27, the first ten consecutive source-numbered paragraphs were copied into a temporary JSONL fixture and indexed separately. Exact lookups using Legal-AI section syntax for numbers 3 and 8 returned the corresponding unaltered text, source URL, locator, and source-file hash. The verse 3 result retained its source page marker. The JSONL SHA-256 was `18a90a915eda1f4fb83fa209e5f976e0029a5e05fe7c820076bd1a3f815da3d4`.
 
 A simple scan found 149 numbered markers but only 101 distinct marker values in the full Markdown. These counts may include non-verse numbers or editorial material; do not apply the pilot paragraph parser to the entire text or infer unique verse identifiers without further analysis. This fixture demonstrates preparation of ten passages, not completion of the pilot dataset or evaluation.
+
+## Full text paragraph pilot
+
+On 2026-11-27, the source text from its opening through its final paragraph was split on blank lines into 155 temporary, source-identical paragraph records, indexed with unique sequential IDs and a source hash. Of these, 149 end with a detected double-bar numeric marker. The source itself restarts its displayed numbering at 4 after 103; another paragraph ends with a single bar. Source numbers therefore remain descriptive labels and are not used as unique or canonical verse IDs. Keyword searches recovered a paragraph after the numbering restart and a paragraph near the end, with their original text and source links.
+
+The paragraph fixture is a working pilot, not a verified verse map. Native-to-canonical verse alignment, robust handling of unnumbered and irregular paragraphs, broader retrieval evaluation and persistent pilot artifacts remain open. JSONL SHA-256: `443037a7c7c8e8125d9d8d852de5a8465347bc880ba4b7d537bce59f216d2b8d`.
