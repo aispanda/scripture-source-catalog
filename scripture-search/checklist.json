@@ -52,7 +52,7 @@
     "status": "Open",
     "ownerType": "AI",
     "outputs": "Reviewed Markdown and per-item provenance, accepted or quarantined conversions, and batch exception reasons",
-    "completion": "Resolve or quarantine the nine header ID exceptions. Verify source identity, rights, fidelity, hashes and locators. Keep only Markdown in the corpus folder. Quarantined exceptions do not block the pilot.",
+    "completion": "Resolve or quarantine header ID exceptions. Verify source identity, fidelity, hashes and locators. Keep only Markdown in the corpus folder.",
     "supports": [
       "A-01",
       "A-04"
@@ -60,15 +60,15 @@
     "model": "GPT-6.2 Sol",
     "inputs": "Reviewed SCR-01 source slice, Muktabodha HTML archive, Markdown drafts, manifests and local batch report.",
     "evidence": "The local Muktabodha batch report records 560 automatic Markdown drafts and nine failures from 569 input records.",
-    "comments": "Rights and source fidelity are pending. Record scholarly findings and independent task verification for the exact slice before upload."
+    "comments": "Source fidelity and independent verification remain pending for the selected pilot slice."
   },
   {
     "stepId": "C-12",
-    "task": "Upload eligible Markdown to the private corpus",
+    "task": "Upload Markdown to the private corpus",
     "status": "Blocked",
     "ownerType": "AI",
     "outputs": "Authorized Markdown objects in the private corpus prefix",
-    "completion": "Transfer only approved Markdown at stable provider and edition paths, with a recorded storage rights decision and no overwrite. Keep originals, manifests and indexes outside. Object metadata holds pointers only.",
+    "completion": "Transfer Markdown to stable edition paths without overwriting. Record source and attribution; keep originals, manifests and indexes outside the corpus.",
     "supports": [
       "A-01"
     ],
@@ -78,7 +78,7 @@
     ],
     "model": "GPT-6.2 Sol",
     "docs": "https://docs.cloud.google.com/storage/docs/uploading-objects",
-    "comments": "Corpus upload has not run. The target access probe and source, rights and fidelity validation are pending."
+    "comments": "Recheck target access and pilot source and fidelity before transfer; verify actual upload state."
   },
   {
     "stepId": "C-13",
@@ -179,7 +179,7 @@
     "ownerType": "AI",
     "model": "GPT-6.2 Sol",
     "outputs": "Local search entry point with inspectable evidence",
-    "completion": "Results provide locators, context and reviewed commentary links and handle missing evidence. Disputed and unknown facet values appear as such, and display follows the rights record.",
+    "completion": "Results provide locators, context and reviewed commentary links and handle missing evidence. Disputed and unknown facet values remain visible.",
     "requires": [
       "C-04"
     ],
