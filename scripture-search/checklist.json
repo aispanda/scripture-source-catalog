@@ -124,7 +124,7 @@
     "inputs": "Reviewed priority-source handoff from SCR-01 and verified Vijñāna Bhairava pilot Markdown assets.",
     "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md",
     "comments": "Passage parsing may start locally before upload. Cite a cloud object only after readback confirms the same file version. Search the selected primary edition; preserve source part boundaries and cite the correct original locators. Exclude unresolved held cases from the MVP index.",
-    "evidence": "2026-11-27: prepared and indexed the first 10 numbered M00271 passages as a temporary JSONL fixture. Exact section-style lookups for 3 and 8 returned source text and provenance. A preliminary marker scan found repeated numbers elsewhere, so the remaining text and passage IDs need further inspection. See https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-importer-pilot-test.md"
+    "evidence": "2026-11-27: prepared and indexed the first 10 numbered M00271 passages as a temporary JSONL fixture. Exact section-style lookups for 3 and 8 returned source text and provenance. A preliminary marker scan found repeated numbers elsewhere, so the remaining text and passage IDs need further inspection. See https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-importer-pilot-test.md Follow-up: 155 exact source paragraphs indexed with unique sequential IDs, including text after source numbering restarts. This is a temporary pilot; native-to-canonical verse mapping and robust passage review remain open."
   },
   {
     "stepId": "C-02",
