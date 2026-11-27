@@ -61,7 +61,7 @@
     "model": "GPT-6.2 Sol",
     "inputs": "Reviewed SCR-01 source slice, Muktabodha HTML archive, Markdown drafts, manifests and local batch report.",
     "evidence": "The local Muktabodha batch report records 560 automatic Markdown drafts and nine failures from 569 input records.",
-    "comments": "Source fidelity and independent verification remain pending for the selected pilot slice."
+    "comments": "Optionally use a local model to suggest metadata before upload. Compare source evidence and record suggestions, disagreements and unknowns; do not mark suggestions verified automatically."
   },
   {
     "stepId": "C-12",
