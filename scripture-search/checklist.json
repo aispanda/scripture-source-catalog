@@ -66,7 +66,7 @@
   {
     "stepId": "C-12",
     "task": "Upload Markdown to the private corpus",
-    "status": "Blocked",
+    "status": "Open",
     "ownerType": "AI",
     "outputs": "Authorized Markdown objects in the private corpus prefix",
     "completion": "Transfer Markdown to stable edition paths without overwriting. Record source and attribution; keep originals, manifests and indexes outside the corpus.",
@@ -79,8 +79,8 @@
     ],
     "model": "GPT-6.2 Sol",
     "docs": "https://docs.cloud.google.com/storage/docs/uploading-objects",
-    "comments": "Record source and file checksum before upload. Passage parsing and indexing may run later or in parallel; verify cloud readback.",
-    "evidence": "M00271 draft uploaded as Markdown with catalogue ID, checksum and fidelity-pending metadata. Other files remain outstanding."
+    "comments": "Record source and file checksum before upload. Passage parsing and indexing may run later or in parallel; verify cloud readback. Hold ambiguous edition or multipart records until confirmed; eligible independent items continue. Include known catalogue metadata and verify readback.",
+    "evidence": "M00271 draft uploaded as Markdown with catalogue ID, checksum and fidelity-pending metadata. Other files remain outstanding. Further Markdown uploads have verified readbacks in the local automation log; batch reconciliation remains open."
   },
   {
     "stepId": "C-13",
@@ -99,7 +99,8 @@
     "model": "GPT-6.2 Sol",
     "docs": "https://docs.cloud.google.com/storage/docs/data-validation https://docs.cloud.google.com/storage/docs/metadata",
     "guardrails": "Leave cloud URIs unset until readback confirms the exact uploaded object and generation.",
-    "evidence": "M00271 cloud generation 1795791085155146 was downloaded and SHA-256 matched the local Markdown; the review catalogue records its cloud URI."
+    "evidence": "M00271 cloud generation 1795791085155146 was downloaded and SHA-256 matched the local Markdown; the review catalogue records its cloud URI.",
+    "comments": "Additional verified uploads are recorded in the local automation log and review catalogue; reconcile the full batch before marking complete."
   },
   {
     "stepId": "C-01",
@@ -119,7 +120,7 @@
     ],
     "inputs": "Reviewed priority-source handoff from SCR-01 and verified Vijñāna Bhairava pilot Markdown assets.",
     "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md",
-    "comments": "Passage parsing may start locally before upload. Cite a cloud object only after readback confirms the same file version."
+    "comments": "Passage parsing may start locally before upload. Cite a cloud object only after readback confirms the same file version. Search the selected primary edition; preserve source part boundaries and cite the correct original locators. Exclude unresolved held cases from the MVP index."
   },
   {
     "stepId": "C-02",
@@ -253,5 +254,19 @@
     "requires": [
       "C-07"
     ]
+  },
+  {
+    "stepId": "C-15",
+    "task": "Prepare reconciled editions for search",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "Preferred edition selection, assembled Markdown and part-aware passage provenance",
+    "completion": "Use confirmed primary editions and assembled multipart Markdown for MVP indexing. Keep part source links, boundaries and locators traceable; exclude ambiguous held cases and preserve supplementary witnesses in the catalogue.",
+    "supports": [
+      "A-01",
+      "A-04"
+    ],
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md",
+    "comments": "Clear cases may be reconciled by evidence-backed rules; ambiguous cases await owner confirmation. This task does not imply that the reconciliation pipeline or search index is already built."
   }
 ]
