@@ -269,5 +269,19 @@
     ],
     "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md",
     "comments": "Clear cases may be reconciled by evidence-backed rules; ambiguous cases await owner confirmation. This task does not imply that the reconciliation pipeline or search index is already built."
+  },
+  {
+    "stepId": "C-16",
+    "task": "Complete and reconcile full catalogue uploads",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "Per-item catalogue upload status and reconciled inventory of available, missing and held texts",
+    "completion": "Account for every catalogue item and selected edition: record verified local Markdown and cloud URI, object generation and checksum where uploaded; track missing sources, downloads and conversions, multipart gaps, supplementary witnesses and items held for owner confirmation. Upload and verify eligible selected editions as they become available. Mark complete only when the full agreed corpus scope is uploaded and reconciled, with any owner-approved exclusions explicitly recorded.",
+    "supports": [
+      "A-01",
+      "A-04"
+    ],
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md",
+    "comments": "This tracks the full corpus independently of the MVP pilot. Continue eligible uploads while unresolved items await confirmation; maintain one combined Markdown per confirmed multipart edition and preserve original source and part provenance."
   }
 ]
