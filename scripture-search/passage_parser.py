@@ -44,15 +44,49 @@ def lookup_marker(rows, edition_id, marker):
     return {'status': 'not_found' if not matches else 'unique' if len(matches) == 1 else 'ambiguous',
             'matches': matches}
 
+def parse_muktabodha(raw, edition_id, title, source_url):
+    """Experimental header-aware paragraphs; this is not a verse classifier."""
+    raw.decode('utf-8')
+    fences = list(FENCE.finditer(raw))
+    if len(fences) != 1:
+        raise ValueError('Expected one text fence')
+    fence = fences[0]
+    delimiters = list(re.finditer(rb'^#{20,}[ \t]*\r?$', raw[fence.start(1):fence.end(1)], re.M))
+    if len(delimiters) != 2:
+        raise ValueError('Missing or ambiguous publisher header delimiters')
+    start = fence.start(1) + delimiters[0].start()
+    end = fence.start(1) + delimiters[1].end()
+    header = raw[start:end]
+    catalog = re.search(rb'(?im)^Catalog number[ \t]*:[ \t]*([A-Z][0-9]+[a-z]?)\s*$', header)
+    if b'MUKTABODHA INDOLOGICAL RESEARCH INSTITUTE' not in header or not catalog:
+        raise ValueError('Unrecognized publisher header')
+    if edition_id.rsplit('-', 1)[-1].lower() != catalog.group(1).decode('ascii').lower():
+        raise ValueError('Publisher and requested catalogue IDs differ')
+    rows = [row for row in parse(raw, edition_id, title, source_url) if row['byte_start'] >= end]
+    if not rows:
+        raise ValueError('No text after publisher header')
+    parser_id, version = 'muktabodha-header-paragraph', '0.1.0'
+    counts = collections.Counter(r['source_marker'] for r in rows if r['source_marker'])
+    for seq, row in enumerate(rows, 1):
+        marker = row['source_marker']
+        row['chunk_id'] = f'{edition_id}:seq{seq:04d}'
+        row['locator'] = f'source paragraph {seq}' + (f'; source marker {marker}' if marker else '')
+        row['flags'] = ([] if marker else ['unnumbered_or_irregular']) + (['repeated_marker'] if marker and counts[marker] > 1 else [])
+        row['parser_id'], row['parser_version'] = parser_id, version
+        row['passage_set_version'] = hashlib.sha256(f"{row['source_version'][7:]}:{parser_id}:{version}".encode()).hexdigest()
+    return rows
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('markdown', type=Path); p.add_argument('--edition-id', required=True)
     p.add_argument('--title', required=True); p.add_argument('--source-url', required=True)
     p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--profile', choices=['fenced-paragraph', 'muktabodha-header-paragraph'], default='fenced-paragraph')
     args = p.parse_args()
-    rows = parse(args.markdown.read_bytes(), args.edition_id, args.title, args.source_url)
+    parser = parse if args.profile == 'fenced-paragraph' else parse_muktabodha
+    rows = parser(args.markdown.read_bytes(), args.edition_id, args.title, args.source_url)
     if args.output.exists(): raise FileExistsError('Refusing to overwrite output')
     args.output.write_text(''.join(json.dumps(row, ensure_ascii=False) + '\n' for row in rows), encoding='utf-8')
-    print(json.dumps({'passages': len(rows), 'parser_id': PARSER_ID, 'parser_version': PARSER_VERSION}))
+    print(json.dumps({'passages': len(rows), 'parser_id': rows[0]['parser_id'] if rows else args.profile, 'parser_version': rows[0]['parser_version'] if rows else None}))
 
 if __name__ == '__main__': main()

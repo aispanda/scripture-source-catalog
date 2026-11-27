@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "parsers": [
     {
       "id": "fenced-paragraph",
@@ -8,7 +8,78 @@
       "supported_input": "UTF-8 Markdown with a single text code fence",
       "output": "Source-identical paragraph spans with UTF-8 byte offsets and optional printed markers",
       "limitations": "Does not distinguish source metadata from scripture text or map canonical verses; other formats require another parser.",
-      "validation": "Synthetic tests passed; one Muktabodha text tried. Not production approved."
+      "validation": "Synthetic tests passed; one Muktabodha text tried. Not production approved.",
+      "selection": "fallback_experimental",
+      "evidence": [
+        "docs/scripture-importer-pilot-test.md"
+      ],
+      "fail_behavior": "reject unsupported fences; output is unclassified and may contain publisher header"
+    },
+    {
+      "id": "muktabodha-header-paragraph",
+      "version": "0.1.0",
+      "status": "experimental",
+      "supported_input": "One UTF-8 Markdown text fence with exactly two Muktabodha publisher header separators",
+      "output": "Versioned source-linked candidate passage records",
+      "validation": "155 M00271 source paragraphs and byte offsets match the existing local review fixture; not verse validated",
+      "fail_behavior": "reject and flag unsupported or ambiguous source; no automatic indexing",
+      "references": [
+        "https://gemini.google.com/app/2baa5613e260571d",
+        "docs/parser-profile-implementation-plan.md"
+      ]
+    },
+    {
+      "id": "muktabodha-numbered-verse",
+      "version": "0.0.0",
+      "status": "proposed",
+      "supported_input": "Muktabodha original metrical text with native verse markers",
+      "output": "not implemented",
+      "validation": "No implementation or boundary validation",
+      "fail_behavior": "reject and flag unsupported or ambiguous source; no automatic indexing",
+      "references": [
+        "https://gemini.google.com/app/2baa5613e260571d",
+        "docs/parser-profile-implementation-plan.md"
+      ]
+    },
+    {
+      "id": "muktabodha-root-commentary",
+      "version": "0.0.0",
+      "status": "proposed",
+      "supported_input": "Muktabodha interleaved root text and commentary",
+      "output": "not implemented",
+      "validation": "No implementation or alignment validation",
+      "fail_behavior": "reject and flag unsupported or ambiguous source; no automatic indexing",
+      "references": [
+        "https://gemini.google.com/app/2baa5613e260571d",
+        "docs/parser-profile-implementation-plan.md"
+      ]
+    },
+    {
+      "id": "gretil-structured",
+      "version": "0.0.0",
+      "status": "proposed",
+      "supported_input": "GRETIL texts with source-specific composite references",
+      "output": "not implemented",
+      "validation": "No implementation; varies by edition",
+      "fail_behavior": "reject and flag unsupported or ambiguous source; no automatic indexing",
+      "references": [
+        "https://gemini.google.com/app/2baa5613e260571d",
+        "docs/parser-profile-implementation-plan.md"
+      ]
+    },
+    {
+      "id": "project-madurai-lines",
+      "version": "0.0.0",
+      "status": "proposed",
+      "supported_input": "Project Madurai Tamil sources with original line counters",
+      "output": "not implemented",
+      "validation": "No implementation; counters alone do not prove stanza boundaries",
+      "fail_behavior": "reject and flag unsupported or ambiguous source; no automatic indexing",
+      "references": [
+        "https://gemini.google.com/app/2baa5613e260571d",
+        "docs/parser-profile-implementation-plan.md"
+      ]
     }
-  ]
+  ],
+  "selection_policy": "Profiles are candidates until validated on a specific input; source byte fidelity does not validate scripture boundaries. Do not silently fall back to indexing."
 }
