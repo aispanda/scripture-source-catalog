@@ -14,6 +14,12 @@ Commands, schemas, file names and field names marked **illustrative** are propos
 
 Every statement carries one of four labels. **Actual** means evidenced by a committed file, a recorded result or a verified resource. **Draft** means it exists locally or as an unreviewed candidate. **Proposed** means designed but not built. **Candidate** means an option that needs scripture specific evidence before it is selected. Scenario IDs are story specific: SCR-01 A-01 and A-02 are not SCR-02 A-01 and A-02.
 
+## MVP simplification — 27 November 2026
+
+For the local search MVP, prioritize acquiring usable Markdown, checking text quality, identifying passages and citations, building the search index, and verifying any cloud copy. Retain the source URL, attribution, edition and a simple rights-review status such as `pending` or `reviewed` where known. Detailed use-by-use rights assessments, automated rights-based blocking and extensive legal metadata are deferred. An unknown or pending rights status is not, by itself, an automatic MVP processing gate. Known source restrictions should remain recorded for later review; this decision does not assert that rights have been cleared.
+
+This MVP direction supersedes any mandatory rights-specific gates, prerequisites and release sequencing elsewhere in this document, including sections 3, 9.5, 10, 11, 12, 13 and 16. Their detailed rights workflow remains a later-phase design, not a requirement to build or evaluate the MVP. The existing public/private access configuration is unchanged by this decision.
+
 ## 1. Purpose and scope
 
 The goal is a private, source grounded search and retrieval system for Hindu, Sanatana and Buddhist scriptures, commentaries, translations and collected teachings. A scripture researcher can find a passage by citation, wording or meaning and see the original wording, the edition, an exact locator, the surrounding context and any attributed commentary whose alignment has been reviewed. The system reports insufficient evidence instead of guessing.
@@ -32,17 +38,14 @@ Three layers stay separate:
 flowchart LR
   src["Provider sources<br/>GRETIL, Muktabodha, others"]:::actual
   cat["Catalogue register<br/>source-plan.json"]:::actual
-  rights{"Rights recorded<br/>for this use?"}:::proposed
-  hold["Held: no processing<br/>for that use"]:::proposed
+  prov["Source, edition<br/>and attribution"]:::proposed
   md["Local Markdown corpus<br/>drafts, fidelity pending"]:::draft
   fid["Fidelity review"]:::proposed
   cloud["Private bucket<br/>object state requires verification"]:::actual
   psg["Passages and reviewed<br/>commentary alignments"]:::proposed
   la["Legal-AI importer and<br/>Tantivy baseline, reuse unverified"]:::proposed
   res["Cited result or<br/>insufficient evidence"]:::focal
-  src --> cat --> rights
-  rights -->|permitted| md
-  rights -.->|unknown or prohibited| hold
+  src --> cat --> prov --> md
   md --> fid
   fid -->|readback verified| cloud
   fid --> psg --> la --> res
@@ -52,7 +55,7 @@ flowchart LR
   classDef focal fill:#ffffff,stroke:#bf4520,stroke-width:2px,color:#2d3142
 ```
 
-Rights are checked per use before any processing, so a held item never reaches conversion, upload or indexing. Fidelity review sits before both the bucket and passage building, so neither copies an unreviewed text.
+For the MVP, record source and attribution and prioritize usable text and search. Detailed rights workflows are deferred as described above. Fidelity review supports both the bucket and passage building.
 
 ### 1.2 Diagram conventions
 
@@ -80,7 +83,7 @@ Each decision considered the Grok and Gemini reviews and the catalogue itself. S
 
 1. **Deterministic metadata first, and human review for the pilot.** The pilot slice is small, so deterministic parsing plus review is cheaper than tuning a model on it, and it builds the gold labels the project lacks.
 2. **Models suggest and people verify.** No model output ever sets `review_status` to `verified`. Rights, edition identity, work identity, agent roles and `commentary_on` links are never accepted from a model, whatever its confidence.
-3. **Rights gate before any external processing.** Each item has a use specific rights record. An `unknown` value blocks hosted model calls, hosted embeddings and redistribution. Local processing remains possible where storage and private use are permitted.
+3. **Rights workflow deferred for the MVP.** Keep source attribution and a simple review status; defer detailed per-use assessments and automated rights blocking as described in the MVP simplification above.
 4. **Jev is a candidate for triage, not for extraction.** Jev returns typed answers with probabilities. It does not return evidence spans, so evidence comes from deterministic rules or from a generative model with document citations, checked against the source bytes.
 5. **Every facet value is an assertion with evidence.** Normalized display fields are generated from those assertions, so the existing JSON Views keep working.
 6. **Stable identifiers are never reissued.** IDs that already exist are kept exactly. New IDs are minted once and never derived from mutable titles.
@@ -493,6 +496,8 @@ A model assertion is accepted for review only if it points to evidence that a de
 Rights, edition and witness identity, equivalence between editions, dates and extent, authorship and every other agent role, `commentary_on` targets, sampradāya, school or śākhā, darśana and the preferred source. Each requires explicit evidence and human review.
 
 ### 9.5 Per item stage tracking (proposed)
+
+**MVP priority.** Use the existing stage keys to track source and local Markdown availability, text quality, passage structure, search-index membership and verified cloud location. Edition reconciliation, multipart completeness, commentary alignment and semantic indexing apply when needed for the selected text or search design. Keep the eight status values below and record the file hash and index-build identity when available. `rights_review` may remain `unknown` or `not_started`; it is not an automated MVP processing gate. The detailed gates and requirements in the table are the longer-term design and do not add mandatory rights work to the MVP.
 
 Current local review tracking is draft. The record format below, its storage in manifests outside the corpus and bucket, and automated invalidation are proposed.
 
