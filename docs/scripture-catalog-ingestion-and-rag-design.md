@@ -72,7 +72,7 @@ Diagrams are Mermaid source in this file, so GitHub renders them and pull reques
 | Review tracking | Draft: the local review catalogue has per-item stage records and definitions; these have not been independently verified or published. | Validate and migrate stage records; automatic invalidation is proposed (section 9.5). |
 | Passage search | Not implemented. Passage segmentation, alignment, indexing and the query flow are proposed. Retrieval components beyond the Legal-AI baseline are candidates. | Sections 12.3 and 12.4. |
 | Local storage | Markdown drafts are in `scripture-ingestion/pilot/corpus/muktabodha`. Sidecar manifests are outside that folder. The report and manifests are local working evidence with no shared restricted access recorded. | Masked path references and a committed manifest index (section 5). |
-| Cloud Storage | The private bucket `gs://aispanda-scripture-corpus-2026` exists in project `aispanda`, location `us-east1`, Standard storage class, with uniform bucket level access and public access prevention. Upload status is unverified, and no object readback has been recorded. | Preflight, upload, readback and reconciliation (section 11). |
+| Cloud Storage | The private bucket `gs://aispanda-scripture-corpus-2026` exists in project `aispanda`, location `us-east1`, Standard storage class, with uniform bucket level access and public access prevention. Upload state is live. SCR-02 C-13 records verified readback of M00271 at generation `1795791085155146`, and the automation log verifies further uploads, including M00248. The [edition reconciliation design](scripture-edition-reconciliation-design.md) section 9 governs witnesses uploaded before a reconciliation decision. | Preflight, upload, readback and reconciliation (section 11). |
 | Legal-AI | A documented hybrid design: a Tantivy route for keyword and exact citation search, and a Qdrant route described as semantic plus BM25. A JSONL import contract with required `document_id`, `title`, `text` and `locator`. | A scripture export through that contract (section 12). |
 | Model trials | A six file Jev test on the first 4,000 characters found useful genre signals, but also conflicts between genre and tradition, weak identification of author and publisher roles, and no independently reviewed gold labels. | Optional small Jev triage during MVP; suggestions remain unverified and do not block search (sections 10 and 13). |
 | Acceptance | SCR-01 A-01 and A-02 and SCR-02 A-01 to A-06 are NOT RUN. | Gates map to story scenarios and tasks in section 13.4. |
@@ -93,6 +93,8 @@ Each decision considered the Grok and Gemini reviews and the catalogue itself. S
 10. **Every stage has its own status.** Each subject records a separate status for each stage in section 9.5, and no stage is inferred from another.
 11. **Parts are assembled only within one edition.** Multivolume assembly needs evidence of edition compatibility and keeps every part and gap (section 7.6).
 12. **The Legal-AI baseline is the foundation, and everything beyond it is a candidate.** Script normalization, sandhi and lemma processing, embeddings, hybrid fusion, reranking and a knowledge graph are selected only on scripture specific evidence (section 12.4).
+
+13. **Edition and part reconciliation has its own design.** Grouping, multipart assembly, the primary edition for MVP search and the hold on ambiguous groups follow the [edition reconciliation design](scripture-edition-reconciliation-design.md). One primary edition per work is indexed for the MVP, and other witnesses stay as supplementary. Clear cases may be reconciled automatically by a recorded rule; ambiguous cases wait for the owner.
 
 ## 4. Invariants
 
@@ -166,7 +168,7 @@ The rules are:
 | Edition | `gretil-faliero`, `muktabodha-m00271` | Keep existing IDs. New ones use `<provider>-<item id or edition slug>`. |
 | Markdown asset | `vijnana-bhairava-bhu-c4245-m00271` | Keep existing IDs. New corpus files use the edition ID. |
 | Corpus object | none yet | `obj-<edition_id>-<first 12 hex of markdown sha256>` |
-| Passage | none yet | `<edition_id>:<scheme><native locator>`, for example `muktabodha-m00271:seq0024` |
+| Passage | none yet | `<edition_id>:<scheme><native locator>`, for example `muktabodha-m00271:seq0024`; in an assembled multipart edition, `<edition_id>:p<part sequence>:<scheme><native locator>` |
 | Agent | none yet | `agent-<ascii slug>`, for example `agent-anandabhatta` |
 | Assertion | Draft: `fa-` plus the first 20 hex of sha256 over `root:item id:field:position`, from `scripts/migrate-v3.py` | Keep for migrated assertions. Later assertions hash subject, facet, method and evidence pointer (proposed). Readable IDs in section 7.3 are illustrative. |
 | Relation | `rel-vijnanakaumudi-vijnanabhairava` | Keep. New ones use `rel-<subject>-<predicate>-<object>`. |
@@ -445,9 +447,9 @@ erDiagram
 1. Parts join one edition only with evidence of compatibility: the same publisher or series, editor, edition statement and numbering scheme. Provider grouping alone is not enough.
 2. Each part records its sequence and the locator range it covers.
 3. Missing parts are recorded as gaps at their expected position. `multipart_completeness_review` records known gaps and evidence; a review may be complete while the edition remains incomplete.
-4. Each part keeps its own source artifact, checksums and Markdown file. A combined view, if built, is derived and records the hashes of its parts.
+4. Each part keeps its own source artifact, checksums and Markdown draft as evidence. A confirmed multipart edition has one assembled Markdown file in the corpus, which copies each part body unchanged and records part hashes, byte ranges and gaps ([edition reconciliation design](scripture-edition-reconciliation-design.md) section 7).
 5. Volumes from different editions are never assembled into one edition. They stay separate editions linked by `same_work_as`.
-6. Assembly decisions are Class A and human reviewed.
+6. Assembly decisions are Class A. A recorded rule may confirm clear cases under the [edition reconciliation design](scripture-edition-reconciliation-design.md) section 6.3; ambiguous cases need the owner.
 
 ## 8. Migration from 2.0 to 3.0
 
@@ -521,7 +523,7 @@ Current local review tracking is draft. The record format below, its storage in 
 | `rights_review` | edition or collection | optional during MVP | known status recorded without implying clearance | source terms if known | `checked_on`, licence URL |
 | `markdown_conversion` | part | acquired parts | `UTF-8` Markdown written and hashed | conversion report | `conversion_version`, `markdown_sha256` |
 | `text_fidelity_review` | part | converted parts | human sample comparison passed | reviewer note with offsets | `markdown_sha256` |
-| `edition_reconciliation` | edition | every edition used | work and edition identity reviewed | relation and reviewer | `catalog_release` |
+| `edition_reconciliation` | edition | every edition used | work and edition identity reviewed (reconciliation design section 4.2) | relation, decision record and reviewer or rule | `catalog_release`, `recipe_version` |
 | `multipart_completeness_review` | edition | editions with several parts | ordered coverage with gaps recorded (section 7.6) | part and gap lists | part hashes |
 | `passage_structure` | part | indexed parts | passages with native locators and byte offsets | passage manifest | `passage_set_version`, `markdown_sha256` |
 | `commentary_alignment` | passage pair | commentary editions | alignment reviewed | alignment record | both `passage_set_version` values |
@@ -667,7 +669,7 @@ The commands below are illustrative. Confirm the flags against the current `gclo
    ```
 
    Pass only if the location is `us-east1`, uniform bucket level access is enabled, public access prevention is enforced and no public principal is bound. Record the soft delete and versioning settings.
-2. **Local allowlist check.** Every file under the corpus folder must end in `.md`, decode as valid `UTF-8`, hash to the `markdown_sha256` in its manifest, and not belong to the nine open exceptions.
+2. **Local allowlist check.** Every file under the corpus folder must end in `.md`, decode as valid `UTF-8`, hash to the `markdown_sha256` in its manifest, and not belong to the nine open exceptions. Items with search role `hold` or `assembled_part` in the [edition reconciliation design](scripture-edition-reconciliation-design.md) are excluded from new uploads.
 3. **Source record.** Record the source URL, edition, attribution and any known review status for each upload.
 4. **Upload without overwriting.**
 
@@ -684,7 +686,7 @@ The commands below are illustrative. Confirm the flags against the current `gclo
    gcloud storage objects describe "gs://aispanda-scripture-corpus-2026/corpus/muktabodha/${EDITION_ID}.md" --format=json
    ```
 6. **Record the result.** Write the `corpus_objects[].gcs` fields in the manifest index outside the bucket.
-7. **Reconcile.** Compare three lists: the local corpus files, the manifest entries and the bucket listing. Report every difference, and stop if any object appears that is not Markdown.
+7. **Reconcile.** Compare three lists: the local corpus files, the manifest entries and the bucket listing. Report every difference, list excluded `hold` and `assembled_part` files separately, and stop if any object appears that is not Markdown.
 
 ## 12. Retrieval through Legal-AI (future)
 
@@ -761,7 +763,7 @@ None of these is selected or implemented.
 * **Size and strata.** 240 catalogue items, frozen before any model is tuned. Strata by provider value: GRETIL (100 of 1,125 rows), Muktabodha (100 of 569 rows) and all other providers, including GRETIL e-library (40 of 49 rows). Hard cases count toward those quotas and are always included: all 7 multiwork rows (GRETIL), all 12 rows with more than one tradition (Muktabodha), at least 20 rows from the GRETIL Sanskrit Buddhist section, at least 20 commentary rows across GRETIL and Muktabodha, and the 20 master rows (other providers). The remaining places in each stratum are filled by random sampling with a recorded seed.
 * **Labelling.** Two independent reviewers label each item using only the evidence windows and provider data. Agreement is measured with Cohen's kappa for each field, and disagreements are adjudicated and logged.
 * **Metrics for each field.** Exact accuracy for fields with one value; set precision, recall and F1 for fields with several values; the abstention rate; precision on the items accepted at the routing threshold; and calibration error.
-* **Failure cost classes.** Class A (rights, edition identity, work identity, agent roles, `commentary_on`) is human only, and any error blocks release. Class B (tradition, genre, language, script, sampradāya, school, darśana) produces wrong filter results. Class C (topics) affects discovery only.
+* **Failure cost classes.** Class A (rights, edition identity, work identity, agent roles, `commentary_on`) is never accepted from a model alone, and any error blocks release. Edition and part relationships may also be confirmed by a recorded rule in clear cases ([edition reconciliation design](scripture-edition-reconciliation-design.md) section 6.3). Class B (tradition, genre, language, script, sampradāya, school, darśana) produces wrong filter results. Class C (topics) affects discovery only.
 
 ### 13.2 Retrieval evaluation (pilot)
 
@@ -852,7 +854,7 @@ Human review can dominate cost. Review queue order and the size of the evaluatio
 ## 15. Risks and open decisions
 
 1. **Rights by use.** These decisions are owner decisions and block gates G2 and G4. Muktabodha etexts state a noncommercial licence, with AI training and use of the resulting models restricted to noncommercial purposes unless authorized in writing. The IFP subset has its own credit requirement, and Gokarna manuscripts are outside the CC licence.
-2. **Work and edition reconciliation** for the 1,743 inventory rows and the 171 work targets is not yet done. Counts of rows are not counts of works.
+2. **Work and edition reconciliation** for the 1,743 inventory rows and the 171 work targets is not yet done. Counts of rows are not counts of works. The [edition reconciliation design](scripture-edition-reconciliation-design.md) owns this work.
 3. **Model behaviour on Sanskrit and Pāli metadata** is unmeasured beyond the six file trial.
 4. **Object contexts availability** in project `aispanda` must be confirmed.
 5. **Importer extension.** Whether the Legal-AI importer tolerates extra keys is unverified.
@@ -897,6 +899,7 @@ Human review can dominate cost. Review queue order and the size of the evaluatio
 
 ## 18. References
 
+* Edition and part reconciliation: [edition reconciliation design](scripture-edition-reconciliation-design.md)
 * Stories and plans: [SCR-01 story](../story.md), [checklist](../checklist.json) and [scenarios](../scenarios.json); [SCR-02 story](../scripture-search/story.md), [checklist](../scripture-search/checklist.json) and [scenarios](../scripture-search/scenarios.json); [MVP plan](../scripture-search/mvp-plan.md); draft scripts [`migrate-v3.py`](../scripts/migrate-v3.py) and [`attach-local-candidates.py`](../scripts/attach-local-candidates.py)
 * Diagrams: [GitHub Mermaid support](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams), [diagram-design](https://github.com/cathrynlavery/diagram-design)
 * Delivery guide: [Reusable Delivery `migrate/DELIVERY.md` at a pinned commit](https://github.com/aispanda/Reusable-Delivery/blob/45a5e6653f202e37f181dce8c14e6bc0d34278b7/migrate/DELIVERY.md)
