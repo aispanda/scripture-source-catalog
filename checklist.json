@@ -55,9 +55,9 @@
     "stepId": "C-04",
     "task": "Review scripture editions and relationships",
     "status": "In design",
-    "ownerType": "Human",
-    "outputs": "Scholarly validation notes and release dispositions for selected scripture witnesses",
-    "completion": "Compare edition attribution, recension, language, locator and commentary alignment with primary evidence. Record the reviewer, evidence, disagreements and unresolved claims. Keep disputed values with their evidence instead of choosing one.",
+    "ownerType": "AI",
+    "outputs": "Source-backed relationship decisions, preferred editions and unresolved review cases",
+    "completion": "Compare work and edition identity, source metadata, part markers and content evidence. Apply recorded rules to clear cases; send ambiguous cases to the owner. Retain witnesses, source links and decision provenance.",
     "supports": [
       "A-01",
       "A-02"
@@ -65,7 +65,8 @@
     "requires": [
       "C-03"
     ],
-    "comments": "Earlier model review addressed classification and coverage. A scholarly reviewer and item-level validation are pending."
+    "comments": "Automation can resolve clear cases. The owner confirms ambiguous matches; scholarly review is not required for the MVP.",
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md"
   },
   {
     "stepId": "C-05",
@@ -145,5 +146,35 @@
     ],
     "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-catalog-ingestion-and-rag-design.md",
     "comments": "Evaluate each field against reviewed examples before automatic adoption."
+  },
+  {
+    "stepId": "C-18",
+    "task": "Reconcile duplicate titles, editions and parts",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "Candidate groups, evidence, relationship decisions, preferred editions and manual-review queue",
+    "completion": "Detect candidate groups from the current catalogue; compare source and edition evidence and content; automatically resolve only clear cases with recorded rules; preserve witnesses and flag ambiguous cases for the owner. Record decisions and source links in the catalogue.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md",
+    "comments": "Use deterministic checks first; Jev, local models and Bhashini are optional aids. Similarity or model confidence alone does not establish an edition match."
+  },
+  {
+    "stepId": "C-19",
+    "task": "Assemble confirmed multipart editions",
+    "status": "Open",
+    "ownerType": "AI",
+    "outputs": "One assembled Markdown per confirmed multipart edition, ordered part manifest and provenance",
+    "completion": "Combine confirmed parts in source order, preserving text and locators; record source IDs, part hashes, boundaries and known gaps. Preserve original part evidence and catalogue relationships; do not silently delete records.",
+    "supports": [
+      "A-01",
+      "A-02"
+    ],
+    "requires": [
+      "C-18"
+    ],
+    "docs": "https://github.com/aispanda/scripture-source-catalog/blob/main/docs/scripture-edition-reconciliation-design.md"
   }
 ]
