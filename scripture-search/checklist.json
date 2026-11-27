@@ -60,7 +60,7 @@
     ],
     "model": "GPT-6.2 Sol",
     "inputs": "Reviewed SCR-01 source slice, Muktabodha HTML archive, Markdown drafts, manifests and local batch report.",
-    "evidence": "M00271: original source hash matches manifest; independent extraction matches all 13,870 non-whitespace characters. Formatting and scholarly review remain pending.",
+    "evidence": "M00271: independent source-text comparison matches ignoring whitespace; preformatted section preserved after line-end trimming; all 24 page markers retained. Scholarly review pending.",
     "comments": "Use provider metadata first. Optionally use local models, then Jev for gaps or disagreements and a reviewed sample; preserve evidence and uncertainty."
   },
   {
