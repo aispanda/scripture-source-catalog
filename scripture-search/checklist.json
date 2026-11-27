@@ -33,7 +33,7 @@
   {
     "stepId": "C-10",
     "task": "Verify Legal-AI importer reuse",
-    "status": "In design",
+    "status": "Done",
     "ownerType": "AI",
     "outputs": "Pinned Legal-AI revision, field mapping and small import fixture result",
     "completion": "Build a separate Tantivy index with the existing importer. Verify exact edition and locator lookup, source trace and unchanged display text. Put facets in a parallel chunk ID file.",
@@ -46,7 +46,9 @@
     ],
     "model": "GPT-6.2 Sol",
     "docs": "https://github.com/aispanda/Legal-AI/blob/main/docs/architecture.md",
-    "githubFile": "https://github.com/aispanda/Legal-AI/blob/main/build_corpus.py"
+    "githubFile": "https://github.com/aispanda/Legal-AI/blob/main/build_corpus.py",
+    "evidence": "2026-11-27: Legal-AI importer at revision f7e3bfaf2c00da146370fd3d9dede67836f24065 built a separate one-record Tantivy index from the M00271 Markdown pilot, using the existing Python 3.14 environment. The source verse 1 was copied unchanged; a keyword query for rudrayāmalasambhavam and exact lookup for Vijñānabhairava section 1 both returned the passage with source URL, locator, chunk ID and Markdown SHA-256. A parallel facet JSONL was keyed to the same chunk ID. Input SHA-256 d3c8eb203c2faf82c5cb41c513c81f81f77a5f447d89bc2d4d7f7346ddee0bcd. This is a one-passage smoke test; the exact query uses Legal-AI's section syntax and does not establish scripture-specific citation parsing or multilingual retrieval.",
+    "comments": "Pilot artifacts are local temporary files; expand the test to real verse references and scripture variants in the search tasks."
   },
   {
     "stepId": "C-11",
