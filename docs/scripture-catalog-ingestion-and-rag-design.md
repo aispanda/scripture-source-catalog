@@ -74,7 +74,7 @@ Diagrams are Mermaid source in this file, so GitHub renders them and pull reques
 | Local storage | Markdown drafts are in `scripture-ingestion/pilot/corpus/muktabodha`. Sidecar manifests are outside that folder. The report and manifests are local working evidence with no shared restricted access recorded. | Masked path references and a committed manifest index (section 5). |
 | Cloud Storage | The private bucket `gs://aispanda-scripture-corpus-2026` exists in project `aispanda`, location `us-east1`, Standard storage class, with uniform bucket level access and public access prevention. Upload status is unverified, and no object readback has been recorded. | Preflight, upload, readback and reconciliation (section 11). |
 | Legal-AI | A documented hybrid design: a Tantivy route for keyword and exact citation search, and a Qdrant route described as semantic plus BM25. A JSONL import contract with required `document_id`, `title`, `text` and `locator`. | A scripture export through that contract (section 12). |
-| Model trials | A six file Jev test on the first 4,000 characters found useful genre signals, but also conflicts between genre and tradition, weak identification of author and publisher roles, and no independently reviewed gold labels. | Model use only for triage, behind a rights gate and an evaluation gate (sections 10 and 13). |
+| Model trials | A six file Jev test on the first 4,000 characters found useful genre signals, but also conflicts between genre and tradition, weak identification of author and publisher roles, and no independently reviewed gold labels. | Optional small Jev triage during MVP; suggestions remain unverified and do not block search (sections 10 and 13). |
 | Acceptance | SCR-01 A-01 and A-02 and SCR-02 A-01 to A-06 are NOT RUN. | Gates map to story scenarios and tasks in section 13.4. |
 
 ## 3. Decisions
@@ -516,10 +516,10 @@ Current local review tracking is draft. The record format below, its storage in 
 |---|---|---|---|---|---|
 | `source_recorded` | catalogue item | every item | provider, URL and snapshot recorded | snapshot | snapshot date and hash |
 | `source_access_verified` | edition or part | selected for ingestion | access route and limits recorded | access probe | probe date |
-| `source_acquired` | part | storage permitted | original stored outside the corpus | file hash | `source_file_sha256` |
+| `source_acquired` | part | selected for ingestion | original stored outside the corpus | file hash | `source_file_sha256` |
 | `metadata_review` | work, edition | every item | facet assertions recorded with evidence | assertion IDs | `mapping_version`, `catalog_release` |
-| `rights_review` | edition or collection, one record per use | each use the pilot needs | owner decision recorded | rights assessment | `checked_on`, licence URL |
-| `markdown_conversion` | part | permitted parts | `UTF-8` Markdown written and hashed | conversion report | `conversion_version`, `markdown_sha256` |
+| `rights_review` | edition or collection | optional during MVP | known status recorded without implying clearance | source terms if known | `checked_on`, licence URL |
+| `markdown_conversion` | part | acquired parts | `UTF-8` Markdown written and hashed | conversion report | `conversion_version`, `markdown_sha256` |
 | `text_fidelity_review` | part | converted parts | human sample comparison passed | reviewer note with offsets | `markdown_sha256` |
 | `edition_reconciliation` | edition | every edition used | work and edition identity reviewed | relation and reviewer | `catalog_release` |
 | `multipart_completeness_review` | edition | editions with several parts | ordered coverage with gaps recorded (section 7.6) | part and gap lists | part hashes |
@@ -566,7 +566,7 @@ stateDiagram-v2
   not_applicable --> unknown: scope changed
 ```
 
-Invalidation (proposed): when an input changes, every downstream `complete` stage becomes `stale`. A change to `edition_reconciliation` also marks `multipart_completeness_review`, `commentary_alignment` and the indexes stale. A narrowed rights decision sets the affected uses to `blocked` until the owner confirms the affected indexes and objects are withdrawn.
+Invalidation (proposed): when an input changes, every downstream `complete` stage becomes `stale`. A change to `edition_reconciliation` also marks `multipart_completeness_review`, `commentary_alignment` and the indexes stale. Record changes to rights review for later consideration; no automatic rights-based blocking is part of the MVP.
 
 ```mermaid
 flowchart LR
@@ -577,7 +577,7 @@ flowchart LR
   md --> cv["cloud_upload_verified"]:::proposed
   psg --> ali["commentary_alignment"]:::proposed
   psg --> idx["lexical_index and<br/>semantic_index"]:::proposed
-  map["mapping_version or<br/>rights decision"]:::focal --> idx
+  map["mapping_version"]:::focal --> idx
   classDef actual fill:#ffffff,stroke:#2d3142,stroke-width:1px,color:#2d3142
   classDef draft fill:#ffffff,stroke:#2d3142,stroke-width:1px,stroke-dasharray:6 3,color:#2d3142
   classDef proposed fill:#ffffff,stroke:#8a8fa3,stroke-width:1px,stroke-dasharray:2 2,color:#2d3142
@@ -595,11 +595,11 @@ Parse provider CSV files, TEI headers, `section_path`, Bilara JSON and file head
 
 Use these windows instead of the first 4,000 characters: the header or title page, the opening (often a maṅgala verse), each chapter ending, and the final window. Sanskrit works often name the work, author or commentator in closing colophons, which an opening window misses. Store every window with its byte offsets and the file hash.
 
-### Stage 2: triage, optional and behind the rights gate
+### Stage 2: optional small Jev triage during the MVP
 
-Run this stage only for items whose `external_ai_processing` is `permitted`, or with a local model. Jev 1.14 (`jev-1.14.0`) is a candidate. Its documented output types are Choice, Score, Noul and Box. The models page does not mention multiple selection, so a facet with several values is asked as one Noul (yes or no) question per candidate label. The probabilities are used only to route items. A low score sends an item to review or leaves it unknown, and never sets a value.
+Use provider metadata first. A small Jev trial may run during the MVP without blocking search. Keep suggestions unverified, with supporting evidence, unknowns and disagreements. Evaluate each field against independently reviewed examples before automatic adoption. Jev 1.14 (`jev-1.14.0`) is a candidate. Its documented output types are Choice, Score, Noul and Box. The models page does not mention multiple selection, so a facet with several values is asked as one Noul (yes or no) question per candidate label. The probabilities are used only to route items. A low score sends an item to review or leaves it unknown, and never sets a value.
 
-### Stage 3: cited extraction for items in the review queue, optional and behind the rights gate
+### Stage 3: cited extraction for items in the review queue (optional, later)
 
 A generative model with document citations, such as the Claude citations feature with plain text documents or search result blocks, proposes values together with cited spans. A deterministic check confirms every span against the stored bytes. Values without a confirmed span are discarded.
 
@@ -668,7 +668,7 @@ The commands below are illustrative. Confirm the flags against the current `gclo
 
    Pass only if the location is `us-east1`, uniform bucket level access is enabled, public access prevention is enforced and no public principal is bound. Record the soft delete and versioning settings.
 2. **Local allowlist check.** Every file under the corpus folder must end in `.md`, decode as valid `UTF-8`, hash to the `markdown_sha256` in its manifest, and not belong to the nine open exceptions.
-3. **Rights gate.** Upload only items whose `store_private` value is `permitted`, as recorded by the owner.
+3. **Source record.** Record the source URL, edition, attribution and any known review status for each upload.
 4. **Upload without overwriting.**
 
    ```bash
@@ -713,7 +713,7 @@ Scripture facets go into a parallel `facets.jsonl` keyed by `chunk_id` (illustra
 * **Semantic and translation assisted routes (candidates).** The Qdrant route described in the Legal-AI architecture document, and search over aligned translations where available. The Legal-AI document does not specify a fusion method, a reranker or abstention behaviour. Under SCR-02 A-06, hybrid qualifies only if it beats the best non hybrid variant by the agreed quality margin within the latency budget, on identical held out inputs, with quality and latency reported by query class. Reciprocal rank fusion is one candidate method, not a default.
 * **Passage first context.** Each hit returns its passage with the surrounding chapter and verse context from the passage manifest, and matches from editions other than the one requested are labelled separately (SCR-02 A-01 and A-04).
 * **Filters** are applied from the catalogue before ranking, using `contains` for facets with several values. Unknown values have their own filter option.
-* **Answers** show the original wording, the edition, the exact pointer, the surrounding context and commentary, but only where an alignment between commentary and root text has been reviewed. If no passage passes the threshold, or if the rights gate blocks display, the system returns insufficient evidence.
+* **Answers** show the original wording, the edition, the exact pointer, the surrounding context and commentary, but only where an alignment between commentary and root text has been reviewed. If no passage passes the threshold, the system returns insufficient evidence.
 
 
 ### 12.3 Query flow (proposed)
@@ -724,7 +724,7 @@ flowchart TB
   t -->|reference| ex["Parse work alias, locator<br/>and requested edition"]:::proposed
   t -->|wording| lex["Lexical search over<br/>original and variant forms"]:::proposed
   t -->|meaning| sem["Meaning route selected<br/>under SCR-02 A-06"]:::proposed
-  ex --> f["Catalogue filters and<br/>rights display check"]:::proposed
+  ex --> f["Catalogue filters and<br/>source attribution"]:::proposed
   lex --> f
   sem --> f
   f --> ev{"Evidence passes<br/>threshold?"}:::proposed
@@ -750,7 +750,7 @@ A requested edition is answered first. When no passage meets the threshold, the 
 | Hybrid fusion, for example reciprocal rank fusion | combining routes | SCR-02 A-06 margin within the latency budget |
 | Reranking and structure based routing | ordering and context | measured separately (SCR-02 C-04) |
 | Knowledge graph of works, editions and commentary | navigation | a defined query class and a measured benefit; no current scenario requires it |
-| Any hosted model or embedding | any | a `permitted` record for `external_ai_processing` |
+| Any hosted model or embedding | any | evaluate usefulness and cost; preserve source and review metadata |
 
 None of these is selected or implemented.
 
@@ -773,7 +773,7 @@ Proposed sizes, not measured: 60 queries, 20 by citation, 20 by wording and 20 b
 |---|---|
 | G0 Inventory integrity | Computed counts match the data: the 569 Muktabodha metadata rows equal 560 drafts plus 9 listed exceptions, and the 1,743 catalogue rows are reported as computed. |
 | G1 Schema migration | Round trip check passes, every JSON View path resolves, and no 2.0 value is lost. |
-| G2 Rights | A recorded owner decision exists for every use the pilot needs. No item with an `unknown` use is processed for that use. |
+| G2 Attribution | Record the source, edition, attribution and known review status for each pilot edition. Detailed rights decisions are deferred. |
 | G3 Fidelity | A human comparison of a sample of each conversion batch with the source passes. Any OCR or witness limitation is documented in the Markdown front matter. |
 | G4 Upload | Preflight passes, every object's readback hashes match, generations are recorded, and reconciliation finds zero unexplained differences. |
 | G5 Facet quality | For each facet a model may touch, and separately for each provider stratum: at least 30 holdout items where that facet applies, and precision on accepted items of at least 0.95 for Class B. A facet that has fewer than 30 applicable items in a stratum stays human only for that stratum. The owner may change thresholds and must record the change. |
@@ -804,7 +804,7 @@ C_total = C_model + C_human + C_storage
 C_model = sum over stages s of
           N_s * (W_s * P_in_s + O_s * P_out_s) / 1,000,000
 
-  N_s    = items reaching stage s whose rights gate permits that processing
+  N_s    = items reaching stage s
   W_s    = input tokens per item (windows plus questions or schema)
   O_s    = output tokens per item (zero cost for Jev)
   P_in_s, P_out_s = USD per million tokens for the model and mode used
@@ -847,7 +847,7 @@ This example assumes external processing were permitted for all 1,743 items, whi
 | Holdout labelling | 240 items × 2 reviewers × 4 minutes | 32 hours |
 | Storage, 1 GiB, 600 uploads | | about $0.02 per month plus $0.003 |
 
-Human review dominates the cost by orders of magnitude. Model spend is a rounding error, so the controls that matter are the rights gate, the review queue order and the size of the holdout.
+Human review can dominate cost. Review queue order and the size of the evaluation set matter.
 
 ## 15. Risks and open decisions
 
@@ -865,10 +865,10 @@ Human review dominates the cost by orders of magnitude. Model spend is a roundin
 
 1. Review the draft candidate from `scripts/migrate-v3.py`, complete the proposed migration steps and pass G1.
 2. Resolve the nine Muktabodha exceptions and pass G0.
-3. Record the rights decisions for the pilot and pass G2.
+3. Record source, edition, attribution and known review status for the pilot and pass G2.
 4. Review the fidelity of the Vijñāna Bhairava slice and pass G3.
 5. Upload and read back the pilot objects, and pass G4.
-6. Label the holdout and run deterministic extraction. Run model trials only for permitted items, and pass G5 for each facet.
+6. Optionally run a small Jev triage without blocking search. Before automatically adopting a facet, evaluate it against independently reviewed examples and pass G5.
 7. Export passages to Legal-AI JSONL with `facets.jsonl`, build the indexes and pass G6.
 8. Complete G7 and synchronize status to the story.
 
