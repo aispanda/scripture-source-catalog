@@ -10,6 +10,9 @@
 
 `source-plan.json` owns titles and source descriptions. `book-index.json` references its IDs rather than duplicating those descriptions. `${SPIRITUALITY_WORKSPACE}` is a placeholder for the local workspace root, not a GitHub path. Never assume a recorded local or cloud path is currently accessible; recheck source hashes and cloud generations. An `unknown` edition status is not a primary selection.
 
+
+Edition exclusions are recorded on the affected book entries in `edition_decision`, including the reason, retained primary, earlier cloud location and evidence. The [edition reconciliation evidence](../scripture-search/evidence/edition-reconciliation-20261127.json) preserves prior candidate groups and findings. These are dated observations; a matching checksum alone does not select an edition. Consult the decision and its evidence before revisiting a group.
+
 ## Parsing and search dependencies
 
 | File | Purpose |

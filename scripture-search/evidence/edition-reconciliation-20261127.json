@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0",
+  "observed_at": "2026-11-27T23:29:34+00:00",
+  "status": "historical_evidence_not_live",
+  "gemini_conversation": "https://gemini.google.com/app/2baa5613e260571d",
+  "prior_recommendations": {
+    "status": "research suggestions",
+    "group_count": 29,
+    "groups": [
+      {
+        "title": "Ahirbudhnya Saṃhitā",
+        "ids": [
+          "muktabodha-m00002a",
+          "muktabodha-m00002b"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Īśānaśivagurudevapaddhati",
+        "ids": [
+          "muktabodha-m00016",
+          "muktabodha-m00017",
+          "muktabodha-m00018",
+          "muktabodha-m00233"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Īśvarapratyabhijñāvivṛtivimarśinī",
+        "ids": [
+          "muktabodha-m00020",
+          "muktabodha-m00021",
+          "muktabodha-m00022"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Puraścaryārṇava",
+        "ids": [
+          "muktabodha-m00045",
+          "muktabodha-m00046",
+          "muktabodha-m00047"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Yogavāsiṣṭha",
+        "ids": [
+          "muktabodha-m00335",
+          "muktabodha-m00336",
+          "muktabodha-m00337",
+          "muktabodha-m00338",
+          "muktabodha-m00339",
+          "muktabodha-m00345"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Sādhanamālā",
+        "ids": [
+          "muktabodha-m00342",
+          "muktabodha-m00343"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Nāṭyaśāstram",
+        "ids": [
+          "muktabodha-m00359",
+          "muktabodha-m00361",
+          "muktabodha-m00362"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Āryamañjuśrīmūlakalpam",
+        "ids": [
+          "muktabodha-m00363",
+          "muktabodha-m00364",
+          "muktabodha-m00365"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Muṇḍamālātantra",
+        "ids": [
+          "muktabodha-m00537",
+          "muktabodha-m00538"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Parātriśikāvivṛti",
+        "ids": [
+          "muktabodha-m00044",
+          "muktabodha-m00215"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Anuttaraprakāśapañcāśikā",
+        "ids": [
+          "muktabodha-m00004",
+          "muktabodha-m00517"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Lakṣmītantra",
+        "ids": [
+          "muktabodha-m00206",
+          "muktabodha-m00332"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Kāmakalāvilāsa",
+        "ids": [
+          "muktabodha-m00025",
+          "muktabodha-m00282"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Candrajñānāgama",
+        "ids": [
+          "muktabodha-m00263",
+          "muktabodha-m00273"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Kriyāsāra",
+        "ids": [
+          "muktabodha-m00050",
+          "muktabodha-m00118"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Bhāvacūḍāmaṇi",
+        "ids": [
+          "muktabodha-m00277",
+          "muktabodha-m00575"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Mahāguhyakālīvidhāna",
+        "ids": [
+          "muktabodha-m00403",
+          "muktabodha-m00516"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Ajaḍapramātṛsiddhi",
+        "ids": [
+          "muktabodha-m00502",
+          "muktabodha-m00658"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Svātantryadīpikā",
+        "ids": [
+          "muktabodha-m00533",
+          "muktabodha-m00668"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Vīrāgama",
+        "ids": [
+          "muktabodha-m00253",
+          "muktabodha-m00608"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Vīraśaivasiddhāntottarakaumudī",
+        "ids": [
+          "muktabodha-m00604",
+          "muktabodha-m00605"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Āgamavacanasaṅgraha",
+        "ids": [
+          "muktabodha-i00020",
+          "muktabodha-i00024"
+        ],
+        "live_catalogue_ids": [
+          "muktabodha-i00020",
+          "muktabodha-i00024"
+        ]
+      },
+      {
+        "title": "Kulasāra",
+        "ids": [
+          "muktabodha-m00285",
+          "muktabodha-m00294"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Vāruṇapaddhati",
+        "ids": [
+          "muktabodha-i00002",
+          "muktabodha-m00223"
+        ],
+        "live_catalogue_ids": [
+          "muktabodha-i00002"
+        ]
+      },
+      {
+        "title": "Yogajāgama",
+        "ids": [
+          "muktabodha-i00015",
+          "muktabodha-m00250"
+        ],
+        "live_catalogue_ids": [
+          "muktabodha-i00015"
+        ]
+      },
+      {
+        "title": "Sakalāgamasārasaṅgraha",
+        "ids": [
+          "muktabodha-i00039",
+          "muktabodha-m00063"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Prāsādaṣaṭślokīvyākhyā",
+        "ids": [
+          "muktabodha-i00053",
+          "muktabodha-m00529"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Dīkṣāvidhi",
+        "ids": [
+          "muktabodha-i00061",
+          "muktabodha-m00543"
+        ],
+        "live_catalogue_ids": []
+      },
+      {
+        "title": "Śiva Purāṇa",
+        "ids": [
+          "gretil-9f727736cc5bf6d922c3"
+        ],
+        "live_catalogue_ids": []
+      }
+    ]
+  },
+  "candidate_findings": [
+    {
+      "group_id": "grp-380ee1805dc31dbb",
+      "members": [
+        "muktabodha-i00020",
+        "muktabodha-i00024"
+      ],
+      "finding": "Different IFP manuscripts (32446 and 20082) and anthology contents. Keep both.",
+      "decision_status": "research_finding_not_owner_approval"
+    },
+    {
+      "group_id": "grp-dc3b1593ac2f47df",
+      "members": [
+        "muktabodha-m00314",
+        "muktabodha-m00318"
+      ],
+      "finding": "Different works by Navamīsiṃha. The Tantracintāmaṇi source names the other work separately.",
+      "decision_status": "research_finding_not_owner_approval"
+    },
+    {
+      "group_id": "grp-1c224340a8d38351",
+      "members": [
+        "muktabodha-e00011",
+        "muktabodha-e00012",
+        "muktabodha-m00248"
+      ],
+      "finding": "Owner approved E00012 as primary. Two supplementary live files removed and reconciled.",
+      "decision_status": "owner_approved"
+    },
+    {
+      "group_id": "grp-79556a96cb81bf23",
+      "members": [
+        "muktabodha-m00003",
+        "muktabodha-m00024",
+        "muktabodha-m00027",
+        "muktabodha-m00121"
+      ],
+      "finding": "Four distinct uniform titles share a printed collection title. The shorter works and M00027 have different boundaries and negligible 5-word shingle overlap.",
+      "decision_status": "research_finding_not_owner_approval"
+    },
+    {
+      "group_id": "grp-1297d724ac31a1a2",
+      "members": [
+        "muktabodha-m00251",
+        "muktabodha-m00280"
+      ],
+      "finding": "Both T0017A bodies match after whitespace collapse. M00251 preserves fuller provenance and does not split the matched numeric verse markers across lines.",
+      "decision_status": "research_finding_not_owner_approval"
+    },
+    {
+      "group_id": "grp-e9ae0fb3af6a8c6d",
+      "members": [
+        "muktabodha-m00055",
+        "muktabodha-m00236"
+      ],
+      "finding": "Different uniform titles, different body boundaries and negligible 5-word shingle overlap.",
+      "decision_status": "research_finding_not_owner_approval"
+    },
+    {
+      "group_id": "grp-6e237baf717b55f3",
+      "members": [
+        "muktabodha-m00102",
+        "muktabodha-m00103",
+        "muktabodha-m00104",
+        "muktabodha-m00105",
+        "muktabodha-m00106",
+        "muktabodha-m00107",
+        "muktabodha-m00108",
+        "muktabodha-m00109",
+        "muktabodha-m00110",
+        "muktabodha-m00111",
+        "muktabodha-m00112",
+        "muktabodha-m00113",
+        "muktabodha-m00114",
+        "muktabodha-m00296",
+        "muktabodha-m00297",
+        "muktabodha-m00298",
+        "muktabodha-m00299",
+        "muktabodha-m00300",
+        "muktabodha-m00301",
+        "muktabodha-m00302"
+      ],
+      "finding": "All 20 source headers give different Upaniṣad uniform and secondary titles under a shared commentary collection title.",
+      "decision_status": "research_finding_not_owner_approval"
+    }
+  ],
+  "nisvasakarika": {
+    "test": "Compare exact and whitespace-collapsed bodies without removing punctuation or locators. Compare numeric verse-marker wrapping and source-header coverage.",
+    "success_criterion": "Identical whitespace-collapsed bodies establish matching content for this pair. Record the later transcript with its observed source extent.",
+    "result": "Equal after whitespace collapse. Different body hashes and line breaks. Both preserve source label 647 out of sequence and end with page label 635. M00251 has fuller provenance and cleaner line wrapping.",
+    "gemini_result": "Gemini could not directly access the supplied source URLs and did not choose a primary.",
+    "proposed_primary": "muktabodha-m00251",
+    "proposed_supplementary": "muktabodha-m00280",
+    "status": "awaiting_confirmation",
+    "coverage": "T0017B is partly represented by M00279, the Dīkṣottara, whose source header says folio 795 to end. The interval after the last documented T0017A label 635 and before 795 remains unverified. The labels are not assumed to be consecutive folio numbers.",
+    "next_action": "Confirm the primary and supplementary roles with the owner. Verify the source interval and part scope before making an assembled file."
+  },
+  "owner_approved_decisions": [
+    {
+      "work": "Kālottara",
+      "primary_id": "muktabodha-e00012",
+      "supplementary_removed_ids": [
+        "muktabodha-e00011",
+        "muktabodha-m00248"
+      ],
+      "reason": "Owner chose E00012 as primary; supplementary cloud copies were removed.",
+      "source": "https://share.gemini.google/Og1gMfc3IVbW",
+      "observed_at": "2026-11-27T23:23:17+00:00"
+    }
+  ],
+  "notes": [
+    "Prior recommendations are research suggestions unless explicitly recorded as owner approved.",
+    "Candidate findings describe source comparisons; they are not blanket authorization to delete files.",
+    "Identical content, supplementary witnesses, distinct works, and multipart editions are different relationships.",
+    "The owner authorized using Gemini decisions as working selections on 2026-11-28; prior group-list entries without explicit individual decisions remain unresolved."
+  ],
+  "source_report_sha256": {
+    "corpus-gemini-edition-recovery-20261127.json": "53e9cc43e356672a0732445a9ae21cbf0c17bd61f3675e7a88a92c5ff65122fa",
+    "corpus-kalottara-cloud-cleanup-20261127.json": "54ee930e1f379201b6db07783aa716ba732a06bc782e959be0911fa607f23cdd",
+    "corpus-recovery-live-comparison-20261127.json": "f6d571c862841a4bc39ace0a02fa978c592a2001532345258317bd1d237736d7"
+  },
+  "gemini_decisions": [
+    {
+      "work": "Niśvāsakārikā T0017A",
+      "primary_id": "muktabodha-m00251",
+      "excluded_id": "muktabodha-m00280",
+      "relationship": "same_text_copy",
+      "reason": "Locally compared bodies match after whitespace normalization; M00251 has fuller provenance and cleaner wrapping.",
+      "coverage": "Part 1; part 2 not established.",
+      "model_access": "Gemini did not directly read either publisher page or the local body files; decision relies on supplied comparison and header evidence.",
+      "decision_source": "https://gemini.google.com/app/2baa5613e260571d",
+      "action": "M00280 removed from live bucket by generation match; M00251 verified present",
+      "observed_at": "2026-11-28T15:16:39.592423+00:00"
+    }
+  ]
+}
