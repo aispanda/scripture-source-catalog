@@ -79,6 +79,24 @@
         "https://gemini.google.com/app/2baa5613e260571d",
         "docs/parser-profile-implementation-plan.md"
       ]
+    },
+    {
+      "id": "numbered-sutra",
+      "version": "0.1.0",
+      "status": "experimental",
+      "supported_input": "GRETIL sutra anchors with book-specific siglum",
+      "implementation": "scripture-search/experiments/gretil_profile.py",
+      "validation": "Synthetic tests and limited source comparisons; not corpus-wide boundary validation.",
+      "fail_behavior": "Preserve source and flag unclear boundaries."
+    },
+    {
+      "id": "numbered-multiline-verse",
+      "version": "0.1.0",
+      "status": "experimental",
+      "supported_input": "GRETIL multiline verse anchors with book-specific siglum",
+      "implementation": "scripture-search/experiments/gretil_verse_profile.py",
+      "validation": "Synthetic tests and limited source comparisons; not corpus-wide boundary validation.",
+      "fail_behavior": "Preserve source and flag unclear boundaries."
     }
   ],
   "selection_policy": "Profiles are candidates until validated on a specific input; source byte fidelity does not validate scripture boundaries. Do not silently fall back to indexing."

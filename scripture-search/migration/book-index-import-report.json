@@ -1,0 +1,25 @@
+{
+  "status": "historical_import_experimental",
+  "source_plan_sha256": "d442ac5d208f39c898ae96274e9cee0fac70b101a79a23be90ef64b8becb6bf3",
+  "processing_snapshot_sha256": "8b131ebbf923420a52920ab8959e3ccbd5287badf3c2b4839ef69e2b2593f233",
+  "book_index_sha256": "955a6a04d72f6b7a5463afba3f9f893d1bebb1e4b0f04402b1f99b2459fcaec5",
+  "metadata_spans_sha256": "34242016716d802b50074f3674c3e7a7edb1bc46cf962099fe19ef8b6ec08328",
+  "counts": {
+    "catalogue_rows": 1743,
+    "rows_without_review_snapshot": 1,
+    "local_paths_recorded": 1561,
+    "cloud_uris_recorded": 1386,
+    "historic_readback_sha256": 1386,
+    "experimental_parser_assignments": 2,
+    "metadata_file_rows": 1565,
+    "explicit_metadata_headers": 1316
+  },
+  "missing_snapshot_ids": [
+    "gretil-71b9958879b229b93cbc"
+  ],
+  "notes": [
+    "Snapshot observations do not establish current cloud presence.",
+    "Processing catalogue retains other fields in its original local snapshot.",
+    "No owner decision or hold was inferred for unknown entries."
+  ]
+}
