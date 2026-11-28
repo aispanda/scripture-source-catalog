@@ -23,7 +23,7 @@
 
 To regenerate metadata spans without altering the Markdown, run `python3 scripture-search/tools/metadata_regions.py --corpus <markdown-directory> --output <new-output.jsonl>`. The output path must not already exist. Before using a recorded span, verify the Markdown SHA-256. `no_recognized_header` means the format was not recognized, not that the file contains no metadata. The 1,316 classified files are an experimental count, not a corpus-wide accuracy measurement.
 
-The source plan refers to external source URLs. The book index points to local Markdown and cloud objects, which are not included by these JSON files. Parser registry evidence links point to the design and tests. Full passage data, metadata classifications, exact reference lookup and a reproducible search index require their corresponding inputs and versions. A local index is generated from selected passages; it is not a replacement for the source or the catalogue. The existing Legal-AI importer must be versioned with each future index build.
+The source plan refers to external source URLs. The book index points to local Markdown, cloud objects and, where recorded, commit-pinned GitHub Markdown under [corpus](../corpus/). The initial GitHub corpus contains nine selected entries; other rows have no GitHub link until published. Parser registry evidence links point to the design and tests. Full passage data, metadata classifications, exact reference lookup and a reproducible search index require their corresponding inputs and versions. A local index is generated from selected passages; it is not a replacement for the source or the catalogue. The existing Legal-AI importer must be versioned with each future index build.
 
 ## Missing or unfinished
 
