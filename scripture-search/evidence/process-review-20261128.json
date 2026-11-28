@@ -1,0 +1,32 @@
+{
+  "status": "review_recommendations",
+  "reviewer": "Claude Opus 5.5 Medium",
+  "conversation": "https://claude.ai/chat/cb98fca8-994a-4b0c-9d0a-5c578102d057",
+  "scope": "Corpus reconciliation, multipart parsing and RAG search",
+  "recommendations": [
+    "Refresh dated local, bucket and GitHub observations; compare hashes.",
+    "Compare edition choices against source headers and content; resolve contradictions from evidence.",
+    "Assemble ordered parts with manifests, hashes and explicit gaps.",
+    "Publish selected editions and verify cloud and GitHub copies.",
+    "Check source-byte coverage, source locations and passage labels.",
+    "Evaluate lexical retrieval and grounded answers with frozen queries; compare semantic search before adoption."
+  ],
+  "critical_limits": [
+    "Model recommendations can conflict with source evidence.",
+    "The local SQLite keyword pilot is exploratory and differs from the planned Legal-AI Tantivy importer.",
+    "Paragraph locations are not validated verse citations."
+  ],
+  "pilot": {
+    "books": 2,
+    "paragraphs": 23268,
+    "engine": "SQLite FTS5",
+    "status": "local_exploratory",
+    "not_evaluated": [
+      "semantic search",
+      "grounded answers",
+      "verse boundaries",
+      "full corpus"
+    ]
+  },
+  "note": "M00233 header contradiction was resolved from the local source header, without requiring the owner to inspect it."
+}
