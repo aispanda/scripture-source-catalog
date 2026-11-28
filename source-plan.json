@@ -58548,5 +58548,271 @@
       "publisher": 0,
       "digital_publisher": 0
     }
+  },
+  "research_resources": [
+    {
+      "id": "vedabase",
+      "name": "VedaBase",
+      "url": "https://vedabase.io/",
+      "categories": [
+        "text_library"
+      ],
+      "scope": "Verse, translation and commentary reference.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "bhagavad-gita-api",
+      "name": "Bhagavad Gita API",
+      "url": "https://github.com/vedicscriptures/bhagavad-gita-api",
+      "categories": [
+        "text_library",
+        "dataset",
+        "tool"
+      ],
+      "scope": "Structured Gita chapter and verse reference.",
+      "status": "candidate_not_validated_for_project",
+      "notes": "Chapter and verse data are a candidate reference; source edition not established."
+    },
+    {
+      "id": "ud-sanskrit-vedic",
+      "name": "Universal Dependencies Sanskrit Vedic",
+      "url": "https://github.com/UniversalDependencies/UD_Sanskrit-Vedic",
+      "categories": [
+        "dataset"
+      ],
+      "scope": "Annotated Vedic sentences, some with source citations.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "kiss-sanskrit",
+      "name": "KISS Sanskrit Parsing Data",
+      "url": "https://github.com/krishnamrith12/KISS_Sanskrit_Parsing_Data",
+      "categories": [
+        "dataset"
+      ],
+      "scope": "Sanskrit dependency parsing evaluation data.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "oliver-hellwig-sanskrit",
+      "name": "Oliver Hellwig Sanskrit data",
+      "url": "https://github.com/OliverHellwig/sanskrit",
+      "categories": [
+        "dataset"
+      ],
+      "scope": "Sanskrit corpus and linguistic research data.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "sanskritshala",
+      "name": "SanskritShala",
+      "url": "https://github.com/Jivnesh/SanskritShala",
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "scope": "Sanskrit word segmentation and linguistic analysis.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "sanskrit-nlp-learning",
+      "name": "Sanskrit NLP Learning",
+      "url": "https://github.com/prithvi-diwanji/Sanskrit-NLP-Learning",
+      "categories": [
+        "research"
+      ],
+      "scope": "Educational Sanskrit NLP examples.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "sanskrit-parser",
+      "name": "sanskrit_parser",
+      "url": "https://github.com/kmadathil/sanskrit_parser",
+      "categories": [
+        "tool"
+      ],
+      "scope": "Sandhi, morphology and syntactic analysis.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "spacy-stanza",
+      "name": "spaCy-Stanza",
+      "url": "https://spacy.io/universe/project/spacy-stanza",
+      "categories": [
+        "tool"
+      ],
+      "scope": "Connect Stanza NLP models to spaCy.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "spacy-udpipe",
+      "name": "spaCy-UDPipe",
+      "url": "https://spacy.io/universe/project/spacy-udpipe",
+      "categories": [
+        "tool"
+      ],
+      "scope": "Connect UDPipe NLP models to spaCy.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "byt5-sanskrit",
+      "name": "ByT5 Sanskrit analyzers",
+      "url": "https://github.com/dharmamitra/byt5-sanskrit-analyzers",
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "scope": "Sanskrit linguistic analysis models.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "sanskrit-word-segmentation-2017",
+      "name": "Sanskrit word segmentation dataset paper",
+      "url": "https://aclanthology.org/W17-2214/",
+      "categories": [
+        "research",
+        "dataset"
+      ],
+      "scope": "Published dataset and method for Sanskrit word segmentation.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "vedic-dependency-survey",
+      "name": "Vedic Sanskrit dependency parsing topic",
+      "url": "https://www.emergentmind.com/topics/vedic-sanskrit-dependency-parsing",
+      "categories": [
+        "research"
+      ],
+      "scope": "Secondary survey of linguistic parsing research.",
+      "status": "candidate_not_validated_for_project",
+      "notes": "Secondary summary; use primary research when citing evidence."
+    },
+    {
+      "id": "docling",
+      "name": "Docling",
+      "url": "https://github.com/docling-project/docling",
+      "categories": [
+        "tool"
+      ],
+      "scope": "Document conversion and layout extraction.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "lark",
+      "name": "Lark",
+      "url": "https://github.com/lark-parser/lark",
+      "categories": [
+        "tool"
+      ],
+      "scope": "Grammar toolkit for configurable parsing.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "chanda",
+      "name": "Chanda",
+      "url": "https://github.com/hrishikeshrt/chanda",
+      "categories": [
+        "tool"
+      ],
+      "scope": "Proposed Sanskrit metre analysis; applicability untested.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "skrutable",
+      "name": "Skrutable",
+      "url": "https://github.com/tylergneill/skrutable",
+      "categories": [
+        "tool"
+      ],
+      "scope": "Proposed Sanskrit transliteration and metre research candidate.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "tree-sitter-markdown",
+      "name": "Tree-sitter Markdown",
+      "url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown",
+      "categories": [
+        "tool"
+      ],
+      "scope": "Markdown syntax parser; scripture boundary performance untested.",
+      "status": "candidate_not_validated_for_project"
+    },
+    {
+      "id": "sanskrit-travelogue",
+      "name": "Sanskrit Travelogue research",
+      "url": "https://aclanthology.org/2026.lrec-1.535/",
+      "categories": [
+        "research"
+      ],
+      "scope": "Research corpus candidate; suitability requires examination.",
+      "status": "candidate_not_validated_for_project"
+    }
+  ],
+  "source_inventory_categories": {
+    "description": "Broad purposes may overlap; this mapping classifies existing source_inventories without changing their records.",
+    "text_library": [
+      "gretil",
+      "muktabodha",
+      "sarit",
+      "internet-archive",
+      "vedic-heritage",
+      "suttacentral",
+      "gretil-textgrid",
+      "sanskrit-documents",
+      "dcs",
+      "ambuda",
+      "project-madurai",
+      "vedic-text-samhita",
+      "vedaweb",
+      "holy-teachings-vedanta"
+    ],
+    "dataset": [
+      "sarit",
+      "suttacentral",
+      "gretil-textgrid",
+      "dcs",
+      "ambuda",
+      "vedaweb"
+    ],
+    "discovery_index": [
+      "seti"
+    ],
+    "definitions": {
+      "text_library": "Find and read or acquire source texts.",
+      "dataset": "Machine-readable text or annotations usable for experiments and evaluation.",
+      "tool": "Software for processing or analysis.",
+      "research": "Papers and explanatory references.",
+      "discovery_index": "Find collections or texts; not necessarily a text repository."
+    }
+  },
+  "resource_prioritization": {
+    "status": "provisional",
+    "method": "Priorities are project-specific starting points based on applicability and availability, not measured accuracy or a ranking of source authority. Confirm edition and text alignment before comparison. SARIT and GRETIL markup must be checked per text; conversion or source references can contain errors.",
+    "goals": [
+      {
+        "goal": "structural_boundary_and_commentary_evaluation",
+        "priority_order": [
+          "sarit",
+          "gretil",
+          "bhagavad-gita-api",
+          "muktabodha",
+          "project-madurai",
+          "ud-sanskrit-vedic"
+        ],
+        "rationale": "Prioritize structured references and existing corpus formats, then linguistic citation metadata as a partial cross-check."
+      },
+      {
+        "goal": "sanskrit_search_and_word_analysis",
+        "priority_order": [
+          "dcs",
+          "byt5-sanskrit",
+          "sanskritshala",
+          "sanskrit-parser",
+          "sanskrit-word-segmentation-2017",
+          "ud-sanskrit-vedic"
+        ],
+        "rationale": "Compare Sanskrit analysis against a simple search baseline before choosing a tool."
+      }
+    ]
   }
 }
