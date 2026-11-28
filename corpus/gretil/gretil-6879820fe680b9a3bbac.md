@@ -1,0 +1,7790 @@
+# Ilankovatikal (c. 350/450): Cilappatikaram, pt. 1 (input by Badrinarayanan Seshadri)
+
+Source: https://gretil.sub.uni-goettingen.de/gretil/4_drav/tamil/pm/pm046__u.htm
+
+Draft HTML extraction. Source attribution, text and printed locators are retained. Source anchors are recorded in the manifest.
+
+```text
+Project Madurai 
+
+Copyright (c) 1999 All Rights Reserved 
+
+
+
+
+
+cilappathikaaram - pukaark kaaNtam
+
+
+
+of ilankO aTikaL 
+
+
+
+
+
+
+
+
+
+
+
+
+
+THIS GRETIL TEXT FILE IS FOR REFERENCE PURPOSES ONLY!
+
+COPYRIGHT AND TERMS OF USAGE AS FOR SOURCE FILE.
+
+
+
+Text converted to Unicode (UTF-8).
+
+(This file is to be used with a UTF-8 font and your browser's VIEW configuration
+
+set to UTF-8.)
+
+
+
+
+
+
+
+description:
+
+multibyte sequence:
+
+
+
+
+long a
+
+  ā   
+
+
+
+
+long A
+
+  Ā   
+
+
+
+
+long i
+
+  ī   
+
+
+
+
+long I
+
+  Ī   
+
+
+
+
+long u
+
+  ū   
+
+
+
+
+long U
+
+  Ū   
+
+
+
+
+vocalic r
+
+  ṛ  
+
+
+
+
+vocalic R
+
+  Ṛ  
+
+
+
+
+long vocalic r
+
+  ṝ  
+
+
+
+
+vocalic l
+
+  ḷ  
+
+
+
+
+vocalic L
+
+  Ḷ  
+
+
+
+
+long vocalic l
+
+  ḹ  
+
+
+
+
+velar n
+
+  ṅ  
+
+
+
+
+velar N
+
+  Ṅ  
+
+
+
+
+palatal n
+
+  ñ   
+
+
+
+
+palatal N
+
+  Ñ   
+
+
+
+
+retroflex t
+
+  ṭ  
+
+
+
+
+retroflex T
+
+  Ṭ  
+
+
+
+
+retroflex d
+
+  ḍ  
+
+
+
+
+retroflex D
+
+  Ḍ  
+
+
+
+
+retroflex n
+
+  ṇ  
+
+
+
+
+retroflex N
+
+  Ṇ  
+
+
+
+
+palatal s
+
+  ś   
+
+
+
+
+palatal S
+
+  Ś   
+
+
+
+
+retroflex s
+
+  ṣ  
+
+
+
+
+retroflex S
+
+  Ṣ  
+
+
+
+
+anusvara
+
+  ṃ  
+
+
+
+
+visarga
+
+  ḥ  
+
+
+
+
+long e
+
+  ē   
+
+
+
+
+long o
+
+  ō   
+
+
+
+
+l underbar
+
+  ḻ  
+
+
+
+
+r underbar
+
+  ṟ  
+
+
+
+
+n underbar
+
+  ṉ  
+
+
+
+
+k underbar
+
+  ḵ  
+
+
+
+
+t underbar
+
+  ṯ  
+
+
+
+
+
+
+
+Unless indicated otherwise, accents have been dropped in order 
+
+to facilitate word search.
+
+
+
+For a comprehensive list of GRETIL encodings and formats see:
+
+http://gretil.sub.uni-goettingen.de/gretil/gretdiac.pdf
+
+and
+
+http://gretil.sub.uni-goettingen.de/gretil/gretdias.pdf
+
+
+
+For further information see:
+
+http://gretil.sub.uni-goettingen.de/gretil.htm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cilappatikāram - pukārk kāṇṭamiḷaṅkō aṭikaḷ iyaṟṟiyatu
+
+
+
+
+
+
+
+Etext input: Dr Badrinarayanan Seshadri, Chennai, India
+
+
+
+Proof-reading : Dr. V. Venkataramanan, Tokyo, Japan;  
+
+Mr. Anbu Jaya, Sydney, Australia
+
+
+
+HTML encoding: Dr. V. Venkataramanan, Tokyo, Japan.
+
+
+
+
+
+(c) Project Madurai 2000
+
+
+
+Project Madurai is an open, voluntary, worldwide initiative devoted
+
+to preparation of electronic texts of tamil literary works and to
+
+distribute them free on the internet. Details of Project Madurai are
+
+available at the website http://www.tamil.net/projectmadurai
+
+You are welcome to freely distribute this file, provided this
+
+header page is kept intact.
+
+
+
+
+
+
+
+cilappatikāram - pukārk kāṇṭam
+
+
+
+miṉṉuraiyākkam: muṉaivar patrinārāyaṇaṉ cēṣātri, ceṉṉai, intiyā 
+
+
+
+piḻaitiruttam : muṉaivar. veṅkaṭaramaṇaṉ,
+
+
+
+tōkkiyō, jappāṉ
+
+
+
+tiru. aṉpu jeyā, ciṭṉi, āstirēliyā
+
+
+
+uyaruraik kuṟimoḻiyākkam : muṉaivar. veṅkaṭaramaṇaṉ,
+
+
+
+tōkkiyō, jappāṉ
+
+
+
+immiṉṉurai takutara tamiḻeḻuttukkaḷilākkap peṟṟatu. eṉavē, itaṉaip paṭikka
+
+taṅkaḷukku takutara
+
+
+
+tamiḻ
+
+
+
+eḻutturu tēvai. palvēṟu kaṇaṉi iyakkutaḷaṅkaḷukku takutara eḻuttukkaḷ ilavacamākak
+
+kiṭaikkiṉṟaṉa.
+
+
+
+ivaṟṟaip piṉvarum valaiyakaṅkaḷil ētāvatoṉṟiliruntu taṅkaḷāl taruvikkaviyalum.
+
+
+
+http://www.tamil.net/tscii/
+
+
+
+http://www.geocities.com/athens/5180/tsctools.html
+
+
+
+mēlatika utavikkut toṭarpukoḷḷa vēṇṭiya mukavari kalyan@geocities.com
+
+
+
+ maturait tiṭṭam 2000
+
+
+
+maturait tiṭṭam tamiḻc cevvilakkiyaṅkaḷai miṉṉuraivaṭivil, taḷaiyiṉṟi ūṭuvalaiyiṉ
+
+mūlam
+
+
+
+parappum oru tiṟanta, taṉṉārva, ulakaḷāviya muṉaippākum. ittiṭṭam kuṟitta mēlatika
+
+
+
+viparaṅkaḷaip piṉvarum valaiyakattiṟ kāṇalām.
+
+
+
+http://www.tamil.net/projectmadurai
+
+
+
+immiṉṉuraiyai, immukappup pakkattiṟku māṟṟamiṉṟi, tāṅkaḷ evvaḻiyilum
+
+piratiyākkamō,
+
+
+
+maṟuveḷiyīṭō ceyyalām.
+
+
+
+
+
+
+
+
+
+
+
+iḷaṅkō aṭikaḷ iyaṟṟiya  cilappatikāram
+
+
+
+ 1. pukārk kāṇṭam  
+
+
+
+
+
+
+
+patikam
+
+
+
+(iṇaikkuṟaḷ āciriyappā)
+
+
+
+ 
+
+
+
+kuṇavāyil kōṭṭattu aracutuṟantu irunta
+
+
+
+kuṭakkōc cēral iḷaṅkō vaṭikaṭkuk
+
+
+
+kuṉṟak kuṟavar oruṅkuṭaṉ kūṭip
+
+
+
+polampū vēṅkai nalaṅkiḷar koḻuniḻal
+
+
+
+orumulai iḻantāḷōr tirumā pattiṉikku   (5)
+
+
+
+amararkku aracaṉ tamarvantu īṇṭiavaḷ
+
+
+
+kātal koḻunaṉaik kāṭṭi avaḷoṭuem
+
+
+
+kaṭpulam kāṇa viṇpulam pōyatu
+
+
+
+iṟumpūtu pōlumaḵtu aṟintaruḷ nīyeṉa,
+
+
+
+avaṉuḻai irunta taṇtamiḻc cāttaṉ   (10)
+
+
+
+yāṉaṟi kuvaṉatu paṭṭatueṉ ṟuraippōṉ:
+
+
+
+āraṅ kaṇṇic cōḻaṉ mūtūrp
+
+
+
+pērāc ciṟappiṉ pukārnaka rattuk
+
+
+
+kōvalaṉ eṉpāṉōr vāṇikaṉ avvūr
+
+
+
+nāṭakam ēttum nāṭakak kaṇikaiyoṭu  (15) 
+
+
+
+āṭiya koḷkaiyiṉ arumporuḷ kēṭuṟak
+
+
+
+kaṇṇaki eṉpāḷ maṉaivi avaḷkāl
+
+
+
+paṇṇamai cilampu pakartal vēṇṭip
+
+
+
+pāṭalcāl ciṟappiṟ pāṇṭiyaṉ peruñcīr
+
+
+
+māṭa maturai pukuntaṉaṉ, atukoṇṭu   (20)
+
+
+
+maṉperum pīṭikai maṟukiṟ celvōṉ
+
+
+
+poṉcey kollaṉ taṉkaik kāṭṭak
+
+
+
+kōpperun tēvikku allatai iccilampu
+
+
+
+yāppuṟavu illaiīṅku irukkayeṉṟu ēkip
+
+
+
+paṇṭutāṉ koṇṭa cillaric cilampiṉaik  (25)
+
+
+
+kaṇṭaṉaṉ piṟaṉōr kaḷvaṉ kaiyeṉa,
+
+
+
+viṉaiviḷai kālam ātaliṉ yāvatum
+
+
+
+ciṉaiyalar vēmpaṉ tērā ṉākik
+
+
+
+kaṉṟiya kāvalark kūuyak kaḷvaṉaik
+
+
+
+koṉṟuac cilampu koṇarka īṅkeṉak  (30) 
+
+
+
+kolaikkaḷap paṭṭa kōvalaṉ maṉaivi
+
+
+
+nilaikkaḷam kāṇāḷ neṭuṅkaṇ nīrukuttup
+
+
+
+pattiṉi yākaliṉ pāṇṭiyaṉ kēṭuṟa
+
+
+
+muttāra mārpiṉ mulaimukan tiruki
+
+
+
+nilaikeḻu kūṭal nīḷeri ūṭṭiya (35) 
+
+
+
+palarpukaḻ pattiṉi yākum ivaḷeṉa,
+
+
+
+viṉaiviḷai kālam eṉṟīr yātuavar
+
+
+
+viṉaiviḷaivu eṉṉa, viṟalōy kēṭṭi
+
+
+
+atirāc ciṟappiṉ maturai mūtūrk
+
+
+
+koṉṟaiyañ caṭaimuṭi maṉṟap potiyilil  (40)
+
+
+
+veḷḷiyam palattu naḷḷiruṭ kiṭantēṉ
+
+
+
+ārañar uṟṟa vīrapat tiṉimuṉ
+
+
+
+maturaimā teyvam vantu tōṉṟik
+
+
+
+kotiyaḻal cīṟṟam koṅkaiyiṉ viḷaittōy
+
+
+
+mutirviṉai nuṅkaṭku muṭintatu ākaliṉ  (45) 
+
+
+
+muntaip piṟappil paintoṭi kaṇavaṉoṭu
+
+
+
+ciṅkā vaṇpukaḻc ciṅka purattuc
+
+
+
+caṅkamaṉ eṉṉum vāṇikaṉ maṉaivi
+
+
+
+iṭṭa cāpam kaṭṭiyatu ākaliṉ
+
+
+
+vāroli kūntalniṉ maṇamakaṉ taṉṉai   (50) 
+
+
+
+īrēḻ nāḷakattu ellai nīṅki
+
+
+
+vāṉōr taṅkaḷ vaṭiviṉ allatai
+
+
+
+īṉōr vaṭivil kāṇṭal ileṉak
+
+
+
+kōṭṭamil kaṭṭurai kēṭṭaṉaṉ yāṉeṉa,
+
+
+
+araiciyal piḻaittōrkku aṟamkūṟṟu āvatūum (55)
+
+
+
+uraicāl pattiṉikku uyarntōr ēttalum
+
+
+
+ūḻviṉai uruttuvantu ūṭṭum eṉpatūum
+
+
+
+cūḻviṉaic cilampu kāraṇa mākac
+
+
+
+cilappati kāram eṉṉum peyarāl
+
+
+
+nāṭṭutum yāmōr pāṭṭuṭaic ceyyuḷeṉa,  (60)
+
+
+
+muṭikeḻu vēntar mūvarkkum uriyatu
+
+
+
+aṭikaḷ nīrē aruḷukaeṉ ṟārkkuavar,
+
+
+
+maṅkala vāḻttup pāṭalum, kuravar
+
+
+
+maṉaiyaṟam paṭutta kātaiyum, naṭamnavil
+
+
+
+maṅkai mātavi araṅkēṟṟu kātaiyum, (65) 
+
+
+
+anti mālaic ciṟappucey kātaiyum,
+
+
+
+intira viḻavūr eṭutta kātaiyum,
+
+
+
+kaṭalāṭu kātaiyum,
+
+
+
+maṭalaviḻ kāṉalvariyum, vēṉilvan tiṟutteṉa
+
+
+
+mātavi iraṅkiya kātaiyum, tītuṭaik (70)
+
+
+
+kaṉāttiṟam uraitta kātaiyum, viṉāttiṟattu
+
+
+
+nāṭukāṇ kātaiyum, kāṭukāṇ kātaiyum,
+
+
+
+vēṭṭuvar variyum, tōṭṭalar kōtaiyoṭu
+
+
+
+puṟañcēri iṟutta kātaiyum, kaṟaṅkuicai
+
+
+
+ūrkkāṇ kātaiyum, cīrcāl naṅkai (75)
+
+
+
+aṭaikkalak kātaiyum, kolaikkaḷak kātaiyum,
+
+
+
+āycciyar kuravaiyum, tīttiṟam kēṭṭa
+
+
+
+tuṉpa mālaiyum, naṇpakal naṭuṅkiya
+
+
+
+ūrcūḻ variyum, cīrcāl vēntaṉoṭu
+
+
+
+vaḻakkurai kātaiyum, vañciṉa mālaiyum, (80)
+
+
+
+aḻalpaṭu kātaiyum, arunteyvam tōṉṟik
+
+
+
+kaṭṭurai kātaiyum, maṭṭalar kōtaiyar
+
+
+
+kuṉṟak kuravaiyum, eṉṟuivai aṉaittuṭaṉ
+
+
+
+kāṭci, kālkōḷ, nīrppaṭai, naṭukal,
+
+
+
+vāḻttu, varantaru kātaiyoṭu  (85)
+
+
+
+ivvā ṟaintum
+
+
+
+uraiyiṭai iṭṭa pāṭṭuṭaic ceyyuḷ
+
+
+
+uraicāl aṭikaḷ aruḷa maturaik
+
+
+
+kūla vāṇikaṉ cāttaṉ kēṭṭaṉaṉ,
+
+
+
+itu, pālvakai terinta patikattiṉ marapeṉ.  (90)
+
+
+
+
+
+
+
+ 
+
+
+
+1. pukārk kāṇṭam  
+
+
+
+
+
+
+
+ 1. maṅkala vāḻttup pāṭal  
+
+
+
+(cintiyal veṇpākkaḷ)
+
+
+
+
+
+
+
+tiṅkaḷaip pōṟṟutum tiṅkaḷaip pōṟṟutum
+
+
+
+koṅkalarttārc ceṉṉi kuḷirveṇ kuṭaipōṉṟiv
+
+
+
+vaṅkaṇ ulakuaḷitta lāṉ.
+
+
+
+ñāyiṟu pōṟṟutum ñāyiṟu pōṟṟutum
+
+
+
+kāviri nāṭaṉ tikiripōl poṟkōṭṭu    5
+
+
+
+mēru valamtiri talāṉ.
+
+
+
+māmaḻai pōṟṟutum māmaḻai pōṟṟutum
+
+
+
+nāmanīr vēli ulakiṟku avaṉaḷipōl
+
+
+
+mēniṉṟu tāñcuratta lāṉ. 
+
+
+
+pūmpukār pōṟṟutum pūmpukār pōṟṟutum  10
+
+
+
+vīṅkunīr vēli ulakiṟku avaṉkulattoṭu
+
+
+
+ōṅkip parantuoḻuka lāṉ.
+
+
+
+(mayaṅkicaik koccakak kalippā)
+
+
+
+āṅku,
+
+
+
+potiyil āyiṉum imayam āyiṉum
+
+
+
+patieḻu aṟiyāp paḻaṅkuṭi keḻīiya    15
+
+
+
+potuaṟu ciṟappiṉ pukārē āyiṉum
+
+
+
+naṭukkiṉṟi nilaiiya eṉpatu allatai
+
+
+
+oṭukkam kūṟār uyarntōr uṇmaiyiṉ
+
+
+
+muṭitta kēḷvi muḻutuṇarn tōrē.
+
+
+
+ataṉāl,    20
+
+
+
+nākanīḷ nakaroṭu nākanāṭu ataṉoṭu
+
+
+
+pōkamnīḷ pukaḻmaṉṉum pukārnakar atutaṉṉil
+
+
+
+mākavāṉ nikarvaṇkai mānāykaṉ kulakkompar
+
+
+
+īkaivāṉ koṭiyaṉṉāḷ īrāṟuāṇṭu akavaiyāḷ,
+
+
+
+avaḷuntāṉ,   25
+
+
+
+pōtilār tiruviṉāḷ pukaḻuṭai vaṭiveṉṟum
+
+
+
+tītilā vaṭamīṉiṉ tiṟamivaḷ tiṟameṉṟum
+
+
+
+mātarār toḻutuētta vayaṅkiya peruṅkuṇattuk
+
+
+
+kātalāḷ peyarmaṉṉum kaṇṇakieṉ pāḷmaṉṉō,
+
+
+
+āṅku,    30
+
+
+
+perunilam muḻutāḷum perumakaṉ talaivaitta
+
+
+
+orutaṉik kuṭikaḷoṭu uyarntōṅku celvattāṉ
+
+
+
+varuniti piṟarkkuārttum mācāttu vāṉeṉpāṉ
+
+
+
+irunitik kiḻavaṉmakaṉ īreṭṭuāṇṭu akavaiyāṉ,
+
+
+
+avaṉuntāṉ,    35
+
+
+
+maṇtēytta pukaḻiṉāṉ matimuka maṭavārtam
+
+
+
+paṇtēytta moḻiyiṉār āyattup pārāṭṭik
+
+
+
+kaṇṭuēttum cevvēḷeṉṟu icaipōkkik kātalāl
+
+
+
+koṇṭuēttum kiḻamaiyāṉ kōvalaṉeṉ pāṉmaṉṉō.
+
+
+
+avarai,    40
+
+
+
+iruperuṅ kuravarum oruperu nāḷāl
+
+
+
+maṇaaṇi kāṇa makiḻntaṉar, makiḻntuḻi
+
+
+
+yāṉai eruttattu aṇiiḻaiyār mēlirīi
+
+
+
+mānakarkku īntār maṇam.
+
+
+
+avvaḻi,     45
+
+
+
+muracuiyampiṉa, murukuatirntaṉa,
+
+
+
+muṟaieḻuntaṉa paṇilam,veṇkuṭai
+
+
+
+aracueḻuntator paṭieḻuntaṉa,
+
+
+
+akaluḷmaṅkala aṇieḻuntatu.
+
+
+
+mālaitāḻ ceṉṉi vayiramaṇit tūṇakattu
+
+
+
+nīla vitāṉattu nittilappūm pantarkkīḻ
+
+
+
+vāṉūr matiyam cakaṭuaṇaiya vāṉattuc     50
+
+
+
+cāli orumīṉ takaiyāḷaik kōvalaṉ
+
+
+
+māmutu pārppāṉ maṟaivaḻi kāṭṭiṭat
+
+
+
+tīvalam ceyvatu kāṇpārkkaṇ nōṉpueṉṉai.
+
+
+
+viraiyiṉar malariṉar viḷaṅku mēṉiyar
+
+
+
+uraiyiṉar pāṭṭiṉar ocinta nōkkiṉar     55
+
+
+
+cāntiṉar pukaiyiṉar tayaṅku kōtaiyar
+
+
+
+ēntuiḷa mulaiyiṉar iṭitta cuṇṇattar
+
+
+
+viḷakkiṉar kalattiṉar viritta pālikai
+
+
+
+muḷaikkuṭa niraiyiṉar mukiḻtta mūralar
+
+
+
+pōtoṭu virikūntal polaṉnaṟuṅ koṭiaṉṉār     60
+
+
+
+kātalaṟ piriyāmal kavavukkai ñekiḻāmal
+
+
+
+tītuaṟuka eṉaēttic ciṉmalar koṭutūvi
+
+
+
+aṅkaṇ ulakiṉ aruntati aṉṉāḷai
+
+
+
+maṅkala nalamaḷi ēṟṟiṉār, taṅkiya
+
+
+
+ippāl imayattu iruttiya vāḷvēṅkai     65
+
+
+
+uppālaip poṉkōṭṭu uḻaiyatā eppālum
+
+
+
+cerumiku ciṉavēl cempiyaṉ
+
+
+
+orutaṉi āḻi uruṭṭuvōṉ eṉavē.
+
+
+
+
+
+
+
+
+
+
+
+2. maṉaiyaṟampaṭutta kātai
+
+
+
+(nilaimaṇṭila āciriyappā)
+
+
+
+
+
+
+
+uraicāl ciṟappiṉ araicuviḻai tiruviṉ
+
+
+
+paratar malinta payamkeḻu mānakar
+
+
+
+muḻaṅkukaṭal ñālam muḻuvatum variṉum
+
+
+
+vaḻaṅkat tavāa vaḷattatu āki
+
+
+
+arumporuḷ taruum viruntiṉ tēem   5
+
+
+
+oruṅkutok kaṉṉa uṭaipperum paṇṭam
+
+
+
+kalattiṉum kāliṉum taruvaṉar īṭṭak
+
+
+
+kulattiṟ kuṉṟāk koḻuṅkuṭic celvar
+
+
+
+attaku tiruviṉ aruntavam muṭittōr
+
+
+
+uttara kuruviṉ oppat tōṉṟiya 10
+
+
+
+kayamalark kaṇṇiyum kātal koḻunaṉum
+
+
+
+mayaṉvitit taṉṉa maṇikkāl amaḷimicai
+
+
+
+neṭunilai māṭattu iṭainilattu iruntuḻik
+
+
+
+kaḻunīr āmpal muḻuneṟik kuvaḷai
+
+
+
+arumpupoti aviḻnta curumpuimir tāmarai   15 
+
+
+
+vayaṟpū vācam aḷaii ayaṟpū
+
+
+
+mētaku tāḻai viriyalveṇ tōṭṭuk
+
+
+
+kōtai mātavi caṇpakap potumpart
+
+
+
+tātutērntu uṇṭu mātarvāḷ mukattup
+
+
+
+purikuḻal aḷakattup pukalēk kaṟṟut 20 
+
+
+
+tiritaru curumpoṭu cevvi pārttu
+
+
+
+mālait tāmattu maṇiniraittu vakutta
+
+
+
+kōlac cāḷarak kuṟuṅkaṇ nuḻaintu
+
+
+
+vaṇṭoṭu pukka maṇavāyt teṉṟal
+
+
+
+kaṇṭu makiḻvueytik kātalil ciṟantu,   25 
+
+
+
+viraimalar vāḷiyoṭu vēṉilvīṟ ṟirukkum
+
+
+
+nirainilai māṭattu aramiyam ēṟi,
+
+
+
+curumpuuṇak kiṭanta naṟumpūñ cēkkaik
+
+
+
+karumpum valliyum peruntōḷ eḻuti
+
+
+
+mutirkkaṭal ñālam muḻuvatum viḷakkum 30 
+
+
+
+katiroruṅ kirunta kāṭci pōla,
+
+
+
+vaṇṭuvāy tiṟappa neṭunilā virinta
+
+
+
+veṇtōṭṭu mallikai viriyal mālaiyoṭu
+
+
+
+kaḻunīrp piṇaiyal muḻuneṟi piṟaḻat
+
+
+
+tārum mālaiyum mayaṅkik kaiyaṟṟut 35 
+
+
+
+tīrāk kātaliṉ tirumukam nōkkik
+
+
+
+kōvalaṉ kūṟumōr kuṟiyāk kaṭṭurai
+
+
+
+kuḻavit tiṅkaḷ imaiyavar ētta
+
+
+
+aḻakoṭu muṭitta arumaittu āyiṉum
+
+
+
+uritiṉ niṉṉōṭu uṭaṉpiṟappu uṇmaiyiṉ  40  
+
+
+
+periyōṉ taruka tirunutal ākaeṉa,
+
+
+
+aṭaiyār muṉaiyakattu amarmēm paṭunarkkup
+
+
+
+paṭaivaḻaṅ kuvatuōr paṇpuṇṭu ākaliṉ
+
+
+
+uruvi lāḷaṉ oruperuṅ karuppuvil
+
+
+
+irukarum puruva māka īkka,  45 
+
+
+
+mūvā maruntiṉ muṉṉart tōṉṟaliṉ
+
+
+
+tēvar kōmāṉ teyvak kāval
+
+
+
+paṭainiṉakku aḷikkaataṉ iṭainiṉakku iṭaiyeṉa,
+
+
+
+aṟumuka oruvaṉōr peṟumuṟai iṉṟiyum
+
+
+
+iṟumuṟai kāṇum iyalpiṉiṉ aṉṟē  50 
+
+
+
+amcuṭar neṭuvēl oṉṟuniṉ mukattuc
+
+
+
+ceṅkaṭai maḻaikkaṇ iraṇṭā īttatu?
+
+
+
+māirum pīli maṇiniṟa maññainiṉ
+
+
+
+cāyaṟku iṭaintu taṇkāṉ aṭaiyavum,
+
+
+
+aṉṉam nalnutal melnaṭaikku aḻintu 55 
+
+
+
+nalnīrp paṇṇai naṉimalarc ceṟiyavum,
+
+
+
+aḷiya tāmē ciṟupacuṅ kiḷiyē.
+
+
+
+kuḻalum yāḻum amiḻtum kuḻaittaniṉ
+
+
+
+maḻalaik kiḷavikku varuntiṉa vākiyum
+
+
+
+maṭanaṭai mātuniṉ malarkkaiyiṉ nīṅkātu 60 
+
+
+
+uṭaṉuṟaivu marīi oruvā āyiṉa,
+
+
+
+naṟumalark kōtai.niṉ nalampā rāṭṭunar
+
+
+
+maṟuil maṅkala aṇiyē aṉṟiyum
+
+
+
+piṟituaṇi aṇiyap peṟṟatai evaṉkol?
+
+
+
+paliruṅ kūntal ciṉmalar aṉṟiyum   65  
+
+
+
+elaviḻ mālaiyoṭu eṉuṟ ṟaṉarkol?
+
+
+
+nāṉam nalakil naṟumpukai aṉṟiyum
+
+
+
+māṉmatac cāntoṭu vantatai evaṉkol?
+
+
+
+tirumulait taṭattiṭait toyyil aṉṟiyum
+
+
+
+orukāḻ muttamoṭu uṟṟatai evaṉkol?   70 
+
+
+
+tiṅkaḷmuttu arumpavum ciṟukuiṭai varuntavum
+
+
+
+iṅkuivai aṇintaṉar eṉuṟ ṟaṉarkkol?
+
+
+
+mācaṟu poṉṉē. valampuri muttē.
+
+
+
+kācaṟu viraiyē. karumpē. tēṉē.
+
+
+
+arumpeṟal pāvāy. āruyir maruntē.   75  
+
+
+
+peruṅkuṭi vāṇikaṉ perumaṭa makaḷē.
+
+
+
+malaiyiṭaip piṟavā maṇiyē eṉkō?
+
+
+
+alaiyiṭaip piṟavā amiḻtē eṉkō?
+
+
+
+yāḻiṭaip piṟavā icaiyē eṉkō?
+
+
+
+tāḻiruṅ kūntal taiyāl niṉṉaieṉṟu   80 
+
+
+
+ulavāk kaṭṭurai palapā rāṭṭit
+
+
+
+tayaṅkuiṇark kōtai taṉṉoṭu tarukki
+
+
+
+mayaṅkuiṇart tārōṉ makiḻntucel vuḻināḷ,
+
+
+
+vāroli kūntalaip pēriyal kiḻatti
+
+
+
+maṟuppuaruṅ kēṇmaiyoṭu aṟappari cāramum 85 
+
+
+
+viruntu puṟantaruum peruntaṇ vāḻkkaiyum
+
+
+
+vēṟupaṭu tiruviṉ vīṟupeṟak kāṇa
+
+
+
+urimaic cuṟṟamoṭu orutaṉi puṇarkka
+
+
+
+yāṇṭucila kaḻintaṉa iṟperuṅ kiḻamaiyiṉ
+
+
+
+kāṇtaku ciṟappiṉ kaṇṇaki taṉakkueṉ.  90 
+
+
+
+(veṇpā)
+
+
+
+tūmap paṇikaḷoṉṟit tōyntāl eṉaoruvār
+
+
+
+kāmar maṉaiviyeṉak kaikalantu - nāmam
+
+
+
+tolaiyāta iṉpamelām tuṉṉiṉār maṇmēl
+
+
+
+nilaiyāmai kaṇṭavarppōl niṉṟu.
+
+
+
+
+
+
+
+
+
+
+
+ 3. araṅkēṟṟu kātai  
+
+
+
+(nilaimaṇṭila āciriyappā)
+
+
+
+ 
+
+
+
+
+
+
+
+teyva mālvarait tirumuṉi aruḷa
+
+
+
+eytiya cāpattu intira ciṟuvaṉoṭu
+
+
+
+talaikkōl tāṉattuc cāpam nīṅkiya
+
+
+
+malaippuaruñ ciṟappiṉ vāṉavar makaḷir
+
+
+
+ciṟappiṟ kuṉṟāc ceykaiyoṭu poruntiya  5 
+
+
+
+piṟappiṟ kuṉṟāp peruntōḷ maṭantai
+
+
+
+tātuaviḻ purikuḻal mātavi taṉṉai
+
+
+
+āṭalum pāṭalum aḻakum eṉṟuik
+
+
+
+kūṟiya mūṉṟiṉ oṉṟukuṟai paṭāmal
+
+
+
+ēḻāṇṭu iyaṟṟiōr īrāṟu āṇṭil 10 
+
+
+
+cūḻkaṭal maṉṉaṟkuk kāṭṭal vēṇṭi,
+
+
+
+iruvakaik kūttiṉ ilakkaṇam aṟintu
+
+
+
+palavakaik kūttum vilakkiṉiṟ puṇarttup
+
+
+
+patiṉōr āṭalum pāṭṭum koṭṭum
+
+
+
+vitimāṇ koḷkaiyiṉ viḷaṅka aṟintuāṅku 15  
+
+
+
+āṭalum pāṭalum pāṇiyum tūkkum
+
+
+
+kūṭiya neṟiyiṉa koḷuttuṅ kālaip
+
+
+
+piṇṭiyum piṇaiyalum eḻiṟkaiyum toḻiṟkaiyum
+
+
+
+koṇṭa vakaiaṟintu kūttuvaru kālaik
+
+
+
+kūṭai ceytakai vārattuk kaḷaitalum 20 
+
+
+
+vāram ceytakai kūṭaiyiṟ kaḷaitalum
+
+
+
+piṇṭi ceytakai āṭaliṟ kaḷaitalum
+
+
+
+āṭal ceytakai piṇṭiyiṟ kaḷaitalum
+
+
+
+kuravaiyum variyum viravala celutti
+
+
+
+āṭaṟku amainta ācāṉ taṉṉoṭum, 25  
+
+
+
+yāḻum kuḻalum cīrum miṭaṟum
+
+
+
+tāḻkural taṇṇumai āṭaloṭu ivaṟṟiṉ
+
+
+
+icainta pāṭal icaiyuṭaṉ paṭuttu
+
+
+
+varikkum āṭaṟkum uripporuḷ iyakkit
+
+
+
+tēcikat tiruviṉ ōcai kaṭaippiṭittut   30 
+
+
+
+tēcikat tiruviṉ ōcai ellām
+
+
+
+ācuiṉṟu uṇarnta aṟiviṉaṉ ākik
+
+
+
+kaviyatu kuṟippum āṭal tokutiyum
+
+
+
+pakutip pāṭalum koḷuttuṅ kālai
+
+
+
+vacaiaṟu kēḷvi vakuttaṉaṉ virikkum   35  
+
+
+
+acaiyā marapiṉ icaiyōṉ tāṉum,
+
+
+
+imiḻkaṭal varaippil tamiḻakam aṟiyat
+
+
+
+tamiḻmuḻutu aṟinta taṉmaiyaṉ āki
+
+
+
+vēttiyal potuviyal eṉṟuiru tiṟattiṉ
+
+
+
+nāṭṭiya naṉṉūl naṉku kaṭaippiṭittu    40  
+
+
+
+icaiyōṉ vakkirit tiṭṭattai uṇarntuāṅku
+
+
+
+acaiyā marapiṉ atupaṭa vaittu
+
+
+
+māṟṟār ceyta vacaimoḻi aṟintu
+
+
+
+nāttolaivu illā naṉṉūl pulavaṉum,
+
+
+
+āṭal pāṭal icaiyē tamiḻē   45  
+
+
+
+paṇṇē pāṇi tūkkē muṭamē
+
+
+
+tēcikam eṉṟuivai āciṉ uṇarntu
+
+
+
+kūṭai nilattaik kuṟaivuiṉṟu mikuttuāṅku
+
+
+
+vāra nilattai vāṅkupu vāṅki
+
+
+
+vāṅkiya vārattu yāḻum kuḻalum   50  
+
+
+
+ēṅkiya miṭaṟum icaivaṉa kēṭpak
+
+
+
+kūrukirk karaṇam kuṟiaṟintu cērtti
+
+
+
+ākkalum aṭakkalum mīttiṟam paṭāmaic
+
+
+
+cittirak karaṇam citaivuiṉṟi celuttum
+
+
+
+attaku taṇṇumai aruntoḻil mutalvaṉum,   55  
+
+
+
+colliya iyalpiṉiṟ cittira vañcaṉai
+
+
+
+pulliya aṟintu puṇarppōṉ paṇpiṉ
+
+
+
+varttaṉai nāṉkum mayalaṟap peytuāṅku
+
+
+
+ēṟṟiya kuraliḷi eṉṟuiru narampiṉ
+
+
+
+oppak kēṭkum uṇarviṉaṉ ākip   60  
+
+
+
+paṇamai muḻaviṉ kaṇṇeṟi aṟintu
+
+
+
+taṇṇumai mutalvaṉ taṉṉoṭu porunti
+
+
+
+vaṇṇap paṭṭaṭai yāḻmēl vaittuāṅku
+
+
+
+icaiyōṉ pāṭiya icaiyiṉ iyaṟkai
+
+
+
+vantatu vaḷarttu varuvatu oṟṟi    65  
+
+
+
+iṉpuṟa iyakki icaipaṭa vaittu
+
+
+
+vāra nilattaik kēṭuiṉṟu vaḷarttuāṅku
+
+
+
+īra nilattiṉ eḻuttueḻuttu āka
+
+
+
+vaḻuviṉṟu icaikkum kuḻalōṉ tāṉum,
+
+
+
+īrēḻ toṭutta cemmuṟaik kēḷviyiṉ   70  
+
+
+
+ōrēḻ pālai niṟuttal vēṇṭi
+
+
+
+vaṉmaiyiṟ kiṭanta tāra pākamum
+
+
+
+meṉmaiyiṟ kiṭanta kuraliṉ pākamum
+
+
+
+meykkiḷai narampiṟ kaikkiḷai koḷḷak
+
+
+
+kaikkiḷai oḻitta pākamum poṟpuṭait    75  
+
+
+
+taḷarāt tāram viḷarikku īttuk
+
+
+
+kiḷaivaḻip paṭṭaṉaḷ, āṅkē kiḷaiyum
+
+
+
+taṉkiḷai aḻivukaṇṭu avaḷvayiṟ cēra
+
+
+
+ēṉai makaḷirum kiḷaivaḻic cēra 
+
+
+
+mēlatu uḻaiyiḷi kīḻatu kaikkiḷai    80  
+
+
+
+vampuuṟu marapiṉ cempālai āyatu
+
+
+
+iṟuti āti āka āṅkuavai
+
+
+
+peṟumuṟai vanta peṟṟiyiṉ nīṅkātu
+
+
+
+paṭumalai cevvaḻi pakararum pālaieṉak 
+
+
+
+kuralkural ākat taṟkiḻamai tirintapiṉ    85  
+
+
+
+muṉṉataṉ vakaiyē muṟaimaiyiṉ tirintuāṅku
+
+
+
+iḷimuta lākiya ērpaṭu kiḻamaiyum
+
+
+
+kōṭi viḷari mēṟcem pālaieṉa
+
+
+
+nīṭik kiṭanta kēḷvik kiṭakkaiyiṉ
+
+
+
+iṇainarampu uṭaiyaṉa aṇaivuṟak koṇṭuāṅku   90  
+
+
+
+yāḻmēṟ pālai iṭamuṟai meliyak
+
+
+
+kuḻalmēṟ kōṭi valamuṟai meliya
+
+
+
+valivum melivum camaṉum ellām
+
+
+
+poliyak kōtta pulamai yōṉuṭaṉ,
+
+
+
+eṇṇiya nūlōr iyalpiṉiṉ vaḻāatu   95  
+
+
+
+maṇṇakam oruvaḻi vakuttaṉar koṇṭu
+
+
+
+puṇṇiya neṭuvaraip pōkiya neṭuṅkaḻaik
+
+
+
+kaṇṇiṭai orucāṇ vaḷarntatu koṇṭu
+
+
+
+nūlneṟi marapiṉ araṅkam aḷakkum
+
+
+
+kōlaḷavu irupattu nālviral āka   100  
+
+
+
+eḻukōl akalattu eṇkōl nīḷattu
+
+
+
+orukōl uyarattu uṟuppiṉatu āki
+
+
+
+uttarap palakaiyoṭu araṅkiṉ palakai
+
+
+
+vaitta iṭainilam nāṟkōl āka
+
+
+
+ēṟṟa vāyil iraṇṭuṭaṉ poliyat    105  
+
+
+
+tōṟṟiya araṅkil toḻutaṉar ēttap
+
+
+
+pūtarai eḻuti mēlnilai vaittut
+
+
+
+tūṇniḻal puṟappaṭa māṇviḷakku eṭuttuāṅku
+
+
+
+orumuka eḻiṉiyum porumuka eḻiṉiyum
+
+
+
+karantuvaral eḻiṉiyum purintuṭaṉ vakuttuāṅku    110  
+
+
+
+ōviya vitāṉattu uraipeṟu nittilattu
+
+
+
+mālait tāmam vaḷaiyuṭaṉ nāṟṟi
+
+
+
+viruntupaṭak kiṭanta aruntoḻil araṅkattup
+
+
+
+pēricai maṉṉar peyarppuṟattu eṭutta
+
+
+
+cīriyal veṇkuṭaik kāmpunaṉi koṇṭu    115  
+
+
+
+kaṇiṭai navamaṇi oḻukki maṇṇiya
+
+
+
+nāvalam polamtakaṭṭu iṭainilam pōkkik
+
+
+
+kāval veṇkuṭai maṉṉavaṉ kōyil
+
+
+
+intira ciṟuvaṉ cayantaṉ ākeṉa
+
+
+
+vantaṉai ceytu vaḻipaṭu talaikkōl    120  
+
+
+
+puṇṇiya naṉṉīr poṟkuṭattu ēnti
+
+
+
+maṇṇiya piṉṉar mālai aṇintu
+
+
+
+nalamtaru nāḷāl polampūṇ ōṭai
+
+
+
+aracuuvāt taṭakkaiyil paraciṉar koṇṭu
+
+
+
+muracueḻuntu iyampap paliyam ārppa    125  
+
+
+
+araicoṭu paṭṭa aimperuṅ kuḻuvum
+
+
+
+tērvalam ceytu kavikaik koṭuppa
+
+
+
+ūrvalam ceytu pukuntumuṉ vaittuāṅku,
+
+
+
+iyalpiṉiṉ vaḻāa irukkai muṟaimaiyiṉ
+
+
+
+kuyiluva mākkaḷ neṟippaṭa niṟpa,    130  
+
+
+
+valakkāl muṉmitittu ēṟi araṅkattu
+
+
+
+valattūṇ cērtal vaḻakkueṉap porunti
+
+
+
+inneṟi vakaiyāl iṭattūṇ cērnta
+
+
+
+tolneṟi iyaṟkait tōriya makaḷirum
+
+
+
+cīriyal poliya nīrala nīṅka    135  
+
+
+
+vāram iraṇṭum varicaiyil pāṭap
+
+
+
+pāṭiya vārattu īṟṟilniṉṟu icaikkum
+
+
+
+kūṭiya kuyiluvak karuvikaḷ ellām
+
+
+
+kuḻalvaḻi niṉṟatu yāḻē, yāḻvaḻit
+
+
+
+taṇṇumai niṉṟatu takavē, taṇṇumaip    140  
+
+
+
+piṉvaḻi niṉṟatu muḻavē, muḻavoṭu
+
+
+
+kūṭiniṉṟu icaittatu āman tirikai
+
+
+
+āman tirikaiyoṭu antaram iṉṟik
+
+
+
+koṭṭuiraṇṭu uṭaiyatuōr maṇṭilam ākak
+
+
+
+kaṭṭiya maṇṭilam patiṉoṉṟu pōkki    145  
+
+
+
+vanta muṟaiyiṉ vaḻimuṟai vaḻāmal 
+
+
+
+antarak koṭṭuṭaṉ aṭaṅkiya piṉṉar,
+
+
+
+mīttiṟam paṭāmai vakkāṇam vakuttup
+
+
+
+pāṟpaṭa niṉṟa pālaip paṇmēl
+
+
+
+nāṉkiṉ orīiya naṉkaṉam aṟintu    150  
+
+
+
+mūṉṟuaḷantu oṉṟu koṭṭi ataṉai
+
+
+
+aintumaṇ ṭilattāl kūṭai pōkki
+
+
+
+vantavā ramvaḻi mayaṅkiya piṉṟai,
+
+
+
+āṟum nālum ammuṟai pōkkik
+
+
+
+kūṟiya aintiṉ koḷkai pōlap    155  
+
+
+
+piṉṉaiyum ammuṟai pēriya piṉṟai,
+
+
+
+poṉiyal pūṅkoṭi purintuṭaṉ vakutteṉa
+
+
+
+nāṭṭiya naṉṉūl naṉkukaṭaip piṭittuk
+
+
+
+kāṭṭiṉaḷ ātaliṉ, kāval vēntaṉ
+
+
+
+ilaippūṅ kōtai iyalpiṉil vaḻāmait    160  
+
+
+
+talaikkōl eytit talaiaraṅku ēṟi
+
+
+
+vitimuṟaik koḷkaiyiṉ āyirattu eṇkaḻañcu
+
+
+
+orumuṟai yākap peṟṟaṉaḷ atuvē
+
+
+
+nūṟupattu aṭukki eṭṭukkaṭai niṟutta
+
+
+
+vīṟuuyar pacumpoṉ peṟuvatuim mālai,    165  
+
+
+
+mālai vāṅkunar cālumnam koṭikkueṉa
+
+
+
+māṉamar nōkkiōr kūṉikaik koṭuttu
+
+
+
+nakara nampiyar tiritaru maṟukil
+
+
+
+pakarvaṉar pōlvatōr pāṉmaiyiṉ niṟutta,
+
+
+
+māmalar neṭuṅkaṇ mātavi mālai    170  
+
+
+
+kōvalaṉ vāṅkik kūṉi taṉṉoṭu
+
+
+
+maṇamaṉai pukku mātavi taṉṉoṭu
+
+
+
+aṇaivuṟu vaikaliṉ ayarntaṉaṉ mayaṅki
+
+
+
+viṭutal aṟiyā viruppiṉaṉ āyiṉaṉ.
+
+
+
+vaṭunīṅku ciṟappiṉtaṉ maṉaiyakam maṟantueṉ.    175  
+
+
+
+(veṇpā)
+
+
+
+eṇṇum eḻuttum iyalaintum paṇnāṉkum
+
+
+
+paṇṇiṉṟa kūttup patiṉoṉṟum - maṇṇiṉmēl
+
+
+
+pōkkiṉāḷ pūmpukārp poṟṟoṭi mātavitaṉ
+
+
+
+vākkiṉāl āṭaraṅkil vantu.
+
+
+
+
+
+
+
+
+
+
+
+ 4. antimālaic ciṟappucey kātai
+
+
+
+ 
+
+
+
+ (nilaimaṇṭila āciriyappā)
+
+
+
+
+
+
+
+
+
+
+
+virikatir parappi ulakammuḻutu āṇṭa
+
+
+
+orutaṉit tikiri uravōṉ kāṇēṉ
+
+
+
+aṅkaṇ vāṉattu aṇinilā virikkum
+
+
+
+tiṅkaḷam celvaṉ yāṇṭuuḷaṉ koleṉat
+
+
+
+ticaimukam pacantu cemmalark kaṇkaḷ  5  
+
+
+
+muḻunīr vāra muḻumeyum paṉittut
+
+
+
+tirainīr āṭai irunila maṭantai
+
+
+
+araicukeṭuttu alamvarum allaṟ kālai,
+
+
+
+kaṟaikeḻu kuṭikaḷ kaitalai vaippa
+
+
+
+aṟaipōku kuṭikaḷoṭu orutiṟam paṟṟi 10  
+
+
+
+valampaṭu tāṉai maṉṉar ilvaḻip
+
+
+
+pulampaṭa iṟutta viruntiṉ maṉṉariṉ
+
+
+
+tāḻtuṇai tuṟantōr taṉittuyar eytak
+
+
+
+kātalarp puṇarntōr kaḷimakiḻvu eytak
+
+
+
+kuḻalvaḷar mullaiyil kōvalar tammoṭu 15  
+
+
+
+maḻalait tumpi vāyvaittu ūta
+
+
+
+aṟukāl kuṟumpueṟintu arumpupoti vācam
+
+
+
+ciṟukāl celvaṉ maṟukil tūṟṟa
+
+
+
+elvaḷai makaḷir maṇiviḷakku eṭuppa
+
+
+
+mallal mūtūr mālaivantu irutteṉa 20  
+
+
+
+iḷaiyar āyiṉum pakaiaracu kaṭiyum
+
+
+
+cerumāṇ teṉṉar kulamutal ākaliṉ
+
+
+
+antivā ṉattu veṇpiṟai tōṉṟip
+
+
+
+puṉkaṇ mālaik kuṟumpueṟintu ōṭṭip
+
+
+
+pāṉmaiyil tiriyātu pālkatir parappi   25  
+
+
+
+mīṉaracu āṇṭa veḷḷi viḷakkattu,
+
+
+
+ilvaḷar mullaiyoṭu mallikai aviḻnta
+
+
+
+palpūñ cēkkaip paḷḷiyuḷ polintu
+
+
+
+centukirk kōvai ceṉṟuēntu alkul
+
+
+
+amtukil mēkalai acaintaṉa varunta 30   
+
+
+
+nilavuppayaṉ koḷḷum neṭunilā muṟṟattuk
+
+
+
+kalaviyum pulaviyum kātalaṟku aḷittuāṅku
+
+
+
+ārva neñcamoṭu kōvalaṟku etirik
+
+
+
+kōlam koṇṭa mātavi aṉṟiyum,
+
+
+
+kuṭaticai maruṅkiṉ veḷayir taṉṉoṭu   35   
+
+
+
+kuṇaticai maruṅkiṉ kārakil tuṟantu
+
+
+
+vaṭamalaip piṟanta vāṉkēḻ vaṭṭattut
+
+
+
+teṉmalaip piṟanta cantaṉam maṟukat
+
+
+
+tāmaraik koḻumuṟit tātupaṭu ceḻumalark
+
+
+
+kāmaru kuvaḷaik kaḻunīr māmalarp  40   
+
+
+
+paintaḷirp paṭalai paruukkāḻ āram
+
+
+
+cuntarac cuṇṇat tukaḷoṭu aḷaiic
+
+
+
+cintupu parinta ceḻumpūñ cēkkai
+
+
+
+mantamā rutattu mayaṅkiṉar malintuāṅku
+
+
+
+āviyaṅ koḻunar akalattu oṭuṅkik  45  
+
+
+
+kāviam kaṇṇār kaḷittuyil eyta
+
+
+
+amceñ cīṟaṭi aṇicilampu oḻiya
+
+
+
+meṉtukil alkul mēkalai nīṅkak
+
+
+
+koṅkai muṉṟil kuṅkumam eḻutāḷ
+
+
+
+maṅkala aṇiyiṉ piṟituaṇi makiḻāḷ   50   
+
+
+
+koṭuṅkuḻai tuṟantu vaṭintuvīḻ kātiṉaḷ
+
+
+
+tiṅkaḷ vāḷmukam ciṟuviyarppu iriyac
+
+
+
+ceṅkayal neṭuṅkaṇ añcaṉam maṟappap
+
+
+
+pavaḷa vāḷnutal tilakam iḻappat
+
+
+
+tavaḷa vāḷnakai kōvalaṉ iḻappa  55   
+
+
+
+maiiruṅ kūntal neyaṇi maṟappak
+
+
+
+kaiyaṟu neñcattuk kaṇṇaki aṉṟiyum,
+
+
+
+kātalarp pirinta mātar nōtaka
+
+
+
+ūtuulaik kurukiṉ uyirttaṉar oṭuṅki
+
+
+
+vēṉil paḷḷi mēvātu kaḻintu  60  
+
+
+
+kūtirp paḷḷik kuṟuṅkaṇ aṭaittu
+
+
+
+malayattu āramum maṇimuttu āramum
+
+
+
+alarmulai ākattu aṭaiyātu varuntat
+
+
+
+tāḻik kuvaḷaiyoṭu taṇceṅ kaḻunīr
+
+
+
+vīḻpūñ cēkkai mēvātu kaḻiyat   65  
+
+
+
+tuṇaipuṇar aṉṉat tūviyiṟ ceṟitta
+
+
+
+iṇaiaṇai mēmpaṭat tiruntutuyil peṟāatu
+
+
+
+uṭaipperuṅ koḻunarōṭu ūṭal kālattu
+
+
+
+iṭaikkumiḻ eṟintu kaṭaikkuḻai ōṭṭik
+
+
+
+kalaṅkā uḷḷam kalaṅkak kaṭaicivantu 70   
+
+
+
+vilaṅkinimir neṭuṅkaṇ pulampumuttu uṟaippa,
+
+
+
+aṉṉam melnaṭai naṉṉīrp poykai
+
+
+
+āmpal nāṟum tēmpoti naṟuvirait
+
+
+
+tāmaraic cevvāyt taṇaṟal kūntal
+
+
+
+pāṇvāy vaṇṭu nōtiṟam pāṭak   75   
+
+
+
+kāṇvaru kuvaḷaik kaṇmalar viḻippap
+
+
+
+puḷvāy muracamoṭu poṟimayir vāraṇattu
+
+
+
+muḷvāyc caṅkam muṟaimuṟai ārppa
+
+
+
+uravunīrp parappiṉ ūrttuyil eṭuppi
+
+
+
+iravut talaippeyarum vaikaṟai kāṟum   80   
+
+
+
+araiiruḷ yāmattum pakalum tuñcāṉ
+
+
+
+viraimalar vāḷiyoṭu karuppuvil ēnti
+
+
+
+makara velkoṭi maintaṉ tiritara
+
+
+
+nakaram kāval naṉiciṟan tatueṉ.
+
+
+
+(veṇpā)
+
+
+
+kūṭiṉār pālniḻalāyk kūṭārppāl veytāyk
+
+
+
+kāvalaṉ veṇkuṭaipōl kāṭṭiṟṟē - kūṭiya
+
+
+
+mātavikkum kaṇṇakikkum vāṉūr mativirintu
+
+
+
+pōtuaviḻkkum kaṅkul poḻutu.
+
+
+
+
+
+
+
+
+
+
+
+5. intira viḻavu ūr eṭutta kātai
+
+
+
+
+
+
+
+(nilaimaṇṭila āciriyappā)
+
+
+
+
+
+
+
+alainīr āṭai malaimulai ākattu
+
+
+
+ārap pēriyāṟṟu mārik kūntal
+
+
+
+kaṇakaṉ parappiṉ maṇṇaka maṭantai
+
+
+
+putaiiruḷ paṭāam pōka nīkki
+
+
+
+uṭaiya mālvarai uccit tōṉṟi     5  
+
+
+
+ulakuviḷaṅku aviroḷi malarkatir parappi,
+
+
+
+vēyā māṭamum, viyaṉkala irukkaiyum,
+
+
+
+māṉkaṇ kātalar māḷikai iṭaṅkaḷum,
+
+
+
+kayavāy maruṅkil kāṇpōrt taṭukkum
+
+
+
+payaṉaṟivu aṟiyā yavaṉar irukkaiyum, 10 
+
+
+
+kalamtaru tiruviṉ pulampeyar mākkaḷ
+
+
+
+kalantuiruntu uṟaiyum ilaṅkunīr varaippum,
+
+
+
+vaṇṇamum cuṇṇamum taṇnaṟuñ cāntamum
+
+
+
+pūvum pukaiyum mēviya viraiyum
+
+
+
+pakarvaṉar tiritaru nakara vītiyum,   15  
+
+
+
+paṭṭiṉum mayiriṉum parutti nūliṉum
+
+
+
+kaṭṭum nuṇviṉaik kārukar irukkaiyum,
+
+
+
+tūcum tukirum āramum akilum
+
+
+
+mācuaṟu muttum maṇiyum poṉṉum
+
+
+
+aruṅkala veṟukkaiyōṭu aḷantukaṭai aṟiyā   20 
+
+
+
+vaḷamtalai mayaṅkiya naṉantalai maṟukum,
+
+
+
+pālvakai terinta pakutip paṇṭamoṭu
+
+
+
+kūlam kuvitta kūla vītiyum,
+
+kāḻiyar kūviyar kaḷnoṭai yāṭṭiyar
+
+
+
+mīṉvilaip paratavar veḷuppup pakarunar    25 
+
+
+
+pācavar vācavar palniṇa vilaiñaroṭu
+
+
+
+ōcunar ceṟinta ūṉmali irukkaiyum,
+
+
+
+kañca kārarum cempucey kunarum
+
+
+
+maraṅkol taccarum karuṅkaik kollarum
+
+
+
+kaṇṇuḷ viṉaiñarum maṇīṭ ṭāḷarum   30 
+
+
+
+poṉcey kollarum naṉkalam tarunarum
+
+
+
+tuṉṉa kārarum tōliṉ tuṉṉarum
+
+
+
+kiḻiyiṉum kiṭaiyiṉum toḻilpala perukkip
+
+
+
+paḻutuil ceyviṉaip pālkeḻu mākkaḷum
+
+
+
+kuḻaliṉum yāḻiṉum kuralmutal ēḻum     35 
+
+
+
+vaḻuiṉṟi icaittu vaḻittiṟam kāṭṭum
+
+
+
+arumpeṟal marapiṉ perumpāṇ irukkaiyum,
+
+
+
+ciṟukuṟuṅ kaiviṉaip piṟarviṉai yāḷaroṭu
+
+
+
+maṟuiṉṟi viḷaṅkum maruvūrp pākkamum,
+
+
+
+kōviyaṉ vītiyum, koṭittēr vītiyum,   40 
+
+
+
+pīṭikait teruvum, peruṅkuṭi vāṇikar
+
+
+
+māṭa maṟukum, maṟaiyōr irukkaiyum,
+
+
+
+vīḻkuṭi uḻavaroṭu viḷaṅkiya koḷkai
+
+
+
+āyuḷ vētarum kālak kaṇitarum
+
+
+
+pālvakai terinta paṉmuṟai irukkaiyum,     45 
+
+
+
+tirumaṇi kuyiṟṟunar ciṟanta koḷkaiyōṭu
+
+
+
+aṇivaḷai pōḻunar akaṉperu vītiyum,
+
+
+
+cūtar mākatar vētā ḷikaroṭu
+
+
+
+nāḻikaik kaṇakkar nalampeṟu kaṇṇuḷar
+
+
+
+kāval kaṇikaiyar āṭal kūttiyar    50 
+
+
+
+pūvilai maṭantaiyar ēval cilatiyar
+
+
+
+payiltoḻil kuyiluvar paṉmuṟaik karuviyar
+
+
+
+nakaivē ḻamparoṭu vakaiteri irukkaiyum,
+
+
+
+kaṭumpari kaṭavunar kaḷiṟṟiṉ pākar
+
+
+
+neṭuntēr ūrunar kaṭuṅkaṇ maṟavar     55 
+
+
+
+iruntupuṟam cuṟṟiya perumpāy irukkaiyum,
+
+
+
+pīṭukeḻu ciṟappiṉ periyōr malkiya
+
+
+
+pāṭalcāl ciṟappiṉ paṭṭiṉap pākkamum,
+
+
+
+iruperu vēntar muṉaiyiṭam pōla
+
+
+
+irupāl pakutiyiṉ iṭainilam ākiya    60 
+
+
+
+kaṭaikāl yātta miṭaimarac cōlaik
+
+
+
+koṭuppōr ōtaiyum koḷvōr ōtaiyum
+
+
+
+naṭukkuiṉṟi nilaiiya nāḷaṅ kāṭiyil
+
+
+
+cittiraic cittirat tiṅkaḷ cērnteṉa
+
+
+
+veṟṟivēl maṉṉaṟku uṟṟatai oḻikka eṉat   65 
+
+
+
+tēvar kōmāṉ ēvaliṉ pōnta
+
+
+
+kāval pūtattuk kaṭaikeḻu pīṭikaip
+
+
+
+puḻukkalum nōlaiyum viḻukkuuṭai maṭaiyum
+
+
+
+pūvum pukaiyum poṅkalum corintu
+
+
+
+tuṇaṅkaiyar kuravaiyar aṇaṅkueḻuntu āṭip     70 
+
+
+
+perunila maṉṉaṉ irunilam aṭaṅkalum
+
+
+
+paciyum piṇiyum pakaiyum nīṅki
+
+
+
+vaciyum vaḷaṉum curakka eṉa vāḻtti
+
+
+
+mātark kōlattu valavaiyiṉ uraikkum
+
+
+
+mūtiṟ peṇṭir ōtaiyiṉ peyara,   75 
+
+
+
+maruvūr maruṅkiṉ maṟamkoḷ vīrarum
+
+
+
+paṭṭiṉa maruṅkiṉ paṭaikeḻu mākkaḷum
+
+
+
+muntac ceṉṟu muḻuppali pīṭikai
+
+
+
+ventiṟal maṉṉaṟku uṟṟatai oḻikkaveṉap
+
+
+
+palikkoṭai purintōr valikkuvarampu ākaveṉak     80 
+
+
+
+kalumiḻ kavaṇiṉar kaḻippiṇik kaṟaittōl
+
+
+
+palvēl parappiṉar meyuṟat tīṇṭi
+
+
+
+ārttuk kaḷamkoṇṭōr āramar aḻuvattuc
+
+
+
+cūrttuk kaṭaicivanta cuṭuṉōkkuk karuntalai
+
+
+
+veṟṟi vēntaṉ koṟṟam koḷkaveṉa    85 
+
+
+
+naṟpali pīṭikai nalamkoḷa vaittuāṅku
+
+
+
+uyirppali uṇṇum urumukkural muḻakkattu
+
+
+
+mayirkkaṇ muracoṭu vāṉpali ūṭṭi,
+
+
+
+irunila maruṅkiṉ porunaraip peṟāac
+
+
+
+ceruveṅ kātaliṉ tirumā vaḷavaṉ     90 
+
+vāḷum kuṭaiyum mayirkkaṇ muracum
+
+
+
+nāḷoṭu peyarttu naṇṇārp peṟukaim
+
+
+
+maṇṇaka maruṅkiṉeṉ valikeḻu tōḷeṉap
+
+
+
+puṇṇiyat ticaimukam pōkiya annāḷ
+
+
+
+acaivuil ūkkattu nacaipiṟakku oḻiyap   95 
+
+
+
+pakaivilak kiyatuip payamkeḻu malaieṉa
+
+
+
+imaiyavar uṟaiyum cimaiyap piṭarttalaik
+
+
+
+koṭuvari oṟṟik koḷkaiyiṉ peyarvōṟku,
+
+
+
+mānīr vēli vaccira naṉṉāṭṭuk
+
+
+
+kōṉiṟai koṭutta koṟṟap pantarum     100 
+
+
+
+makatanaṉ nāṭṭu vāḷvāy vēntaṉ
+
+
+
+pakaipuṟattuk koṭutta paṭṭimaṇ ṭapamum,
+
+
+
+avanti vēntaṉ uvantaṉaṉ koṭutta
+
+
+
+nivantuōṅku marapiṉ tōraṇa vāyilum
+
+
+
+poṉṉiṉum maṇiyiṉum puṉaintaṉa āyiṉum    105 
+
+
+
+nuṇviṉaik kammiyar kāṇā marapiṉa,
+
+
+
+tuyarnīṅku ciṟappiṉavar tollōr utavikku
+
+
+
+mayaṉvitittuk koṭutta marapiṉa, ivaitām
+
+
+
+oruṅkuṭaṉ puṇarntuāṅku uyarntōr ēttum
+
+
+
+arumpeṟal marapiṉ maṇṭapam aṉṟiyum,     110 
+
+
+
+vampa mākkaḷ tampeyar poṟitta
+
+
+
+kaṇṇeḻuttup paṭutta eṇṇup palpotik
+
+
+
+kaṭaimuka vāyilum karuntāḻk kāvalum
+
+
+
+uṭaiyōr kāvalum orīiya ākik
+
+
+
+kaṭpōr uḷareṉiṉ kaṭuppat talaiēṟṟik   115 
+
+
+
+koṭpiṉ allatu koṭuttal īyātu
+
+
+
+uḷḷunarp paṉikkum veḷḷiṭai maṉṟamum,
+
+
+
+kūṉum kuṟaḷum ūmum ceviṭum
+
+
+
+aḻukumey yāḷarum muḻukiṉar āṭip
+
+
+
+paḻutuil kāṭci naṉṉiṟam peṟṟu   120 
+
+
+
+valamceyāk kaḻiyum ilañci maṉṟamum,
+
+
+
+vañcam uṇṭu mayalpakai uṟṟōr
+
+
+
+nañcam uṇṭu naṭuṅkutuyar uṟṟōr
+
+
+
+aḻalvāy nākattu āreyiṟu aḻuntiṉar
+
+
+
+kaḻalkaṇ kūḷik kaṭunavaip paṭṭōr    125 
+
+
+
+cuḻala vantu toḻattuyar nīṅkum
+
+
+
+niḻalkāl neṭuṅkal niṉṟa maṉṟamum,
+
+
+
+tavammaṟaintu oḻukum taṉmai ilāḷar
+
+
+
+avammaṟaintu oḻukum alaval peṇṭir
+
+
+
+aṟaipōku amaiccar piṟarmaṉai nayappōr   130 
+
+
+
+poykkari yāḷar puṟaṅkūṟ ṟāḷareṉ
+
+
+
+kaikkoḷ pācattuk kaippaṭu vōreṉak
+
+
+
+kātam nāṉkum kaṭuṅkural eṭuppip
+
+
+
+pūtam puṭaittuuṇum pūta catukkamum,
+
+
+
+araicukōl kōṭiṉum aṟamkūṟu avaiyattu   135 
+
+
+
+urainūl kōṭi orutiṟam paṟṟiṉum
+
+
+
+nāvoṭu navilātu navainīr ukuttup
+
+
+
+pāvainiṉṟu aḻuum pāvai maṉṟamum,
+
+
+
+meyvakai uṇarnta viḻumiyōr ēttum
+
+
+
+aivakai maṉṟattum arumpali uṟīi,   140 
+
+
+
+vaccirak kōṭṭattu maṇamkeḻu muracam
+
+
+
+kaccai yāṉaip piṭarttalai ēṟṟi,
+
+
+
+vālveṇ kaḷiṟṟuaracu vayaṅkiya kōṭṭattuk
+
+
+
+kālkōḷ viḻaviṉ kaṭainilai cāṟṟit
+
+
+
+taṅkiya koḷkait tarunilaik kōṭṭattu   145 
+
+
+
+maṅkala neṭuṅkoṭi vāṉuṟa eṭuttu,
+
+
+
+marakata maṇiyoṭu vayiram kuyiṟṟip
+
+
+
+pavaḷat tiraḷkāl paimpoṉ vētikai
+
+
+
+neṭunilai māḷikaik kaṭaimukattu yāṅkaṇum
+
+
+
+kimpurip pakuvāyk kiḷarmuttu oḻukkattu   150 
+
+
+
+maṅkalam poṟitta makara vācikait
+
+
+
+tōraṇam nilaiiya tōmaṟu pacumpoṉ
+
+
+
+pūraṇa kumpattup polinta pālikai
+
+
+
+pāvai viḷakkup pacumpoṉ paṭākai
+
+
+
+tūmayirk kavari cuntarac cuṇṇattu   155 
+
+
+
+mēviya koḷkai vītiyil ceṟintuāṅku,
+
+
+
+aimperuṅ kuḻuvum eṇpēr āyamum
+
+
+
+araca kumararum parata kumararum
+
+
+
+kavarpparip puraviyar kaḷiṟṟiṉ tokutiyar
+
+
+
+ivarpparit tēriṉar iyaintuoruṅku īṇṭi   160 
+
+
+
+araicumēm paṭīiya akaṉilai maruṅkil
+
+
+
+uraicāl maṉṉaṉ koṟṟam koḷkeṉa
+
+
+
+māiru ñālattu maṉuyir kākkum
+
+
+
+āyirattu ōreṭṭu aracutalaik koṇṭa
+
+
+
+taṇnaṟuṅ kāvirit tātumali peruntuṟaip   165 
+
+
+
+puṇṇiya nalnīr poṉkuṭattu ēnti
+
+
+
+maṇṇakam maruḷa vāṉakam viyappa
+
+
+
+viṇṇavar talaivaṉai viḻunīr āṭṭi,
+
+
+
+piṟavā yākkaip periyōṉ kōyilum
+
+
+
+aṟumukac cevvēḷ aṇitikaḻ kōyilum   170 
+
+
+
+vālvaḷai mēṉi vāliyōṉ kōyilum
+
+
+
+nīla mēṉi neṭiyōṉ kōyilum
+
+
+
+mālai veṇkuṭai maṉṉavaṉ kōyilum
+
+
+
+māmutu mutalvaṉ vāymaiyiṉ vaḻāa
+
+
+
+nāṉmaṟai marapiṉ tīmuṟai orupāl,   175 
+
+
+
+nālvakait tēvarum mūvaṟu kaṇaṅkaḷum
+
+
+
+pālvakai terinta pakutit tōṟṟattu
+
+
+
+vēṟuvēṟu kaṭavuḷar cāṟuciṟantu orupāl,
+
+
+
+aṟavōr paḷḷiyum aṟaṉōm paṭaiyum
+
+
+
+puṟanilaik kōṭṭattup puṇṇiyat tāṉamum   180 
+
+
+
+tiṟavōr uraikkum ceyalciṟantu orupāl,
+
+
+
+koṭittēr vēntaṉoṭu kūṭā maṉṉar
+
+
+
+aṭittaḷai nīkka aruḷciṟantu orupāl,
+
+
+
+kaṇṇu ḷāḷar karuvik kuyiluvar
+
+
+
+paṇyāḻp pulavar pāṭal pāṇaroṭu   185 
+
+
+
+eṇaruñ ciṟappiṉ icaiciṟantu orupāl,
+
+
+
+muḻavukkaṇ tuyilātu muṭukkarum vītiyum
+
+
+
+viḻavukkaḷi ciṟanta viyaluḷ āṅkaṇ
+
+
+
+kātal koḻunaṉaip pirintualar eytā
+
+
+
+mātark koṭuṅkuḻai mātavi taṉṉoṭu   190 
+
+
+
+ilvaḷar mullai mallikai mayilai
+
+
+
+tāḻik kuvaḷai cūḻceṅ kaḻunīr
+
+
+
+payilpūṅ kōtaip piṇaiyaliṟ polintu
+
+
+
+kāmak kaḷimakiḻvu eytik kāmar
+
+
+
+pūmpoti naṟuviraip poḻilāṭṭu amarntu   195 
+
+
+
+nāḷmakiḻ irukkai nāḷaṅ kāṭiyil
+
+
+
+pūmali kāṉattup putumaṇam pukkup
+
+
+
+pukaiyum cāntum pularātu ciṟantu
+
+
+
+nakaiyāṭu āyattu naṉmoḻi tiḷaittuk
+
+
+
+kuralvāyp pāṇaroṭu nakarap parattaroṭu   200 
+
+
+
+tiritaru marapiṉ kōvalaṉ pōla
+
+
+
+iḷivāy vaṇṭiṉoṭu iṉiḷa vēṉiloṭu
+
+
+
+malaya mārutam tiritaru maṟukil,
+
+
+
+karumukil cumantu kuṟumuyal oḻittuāṅku
+
+
+
+irukaruṅ kayaloṭu iṭaikkumiḻ eḻuti   205 
+
+
+
+aṅkaṇ vāṉattu aravuppakai añcit
+
+
+
+tiṅkaḷum īṇṭut tiritalum uṇṭukol.
+
+
+
+nīrvāy tiṅkaḷ nīḷnilattu amutiṉ
+
+
+
+cīrvāy tuvalait tirunīr mānti
+
+
+
+mīṉēṟṟuk koṭiyōṉ meypeṟa vaḷartta   210 
+
+
+
+vāṉa valli varutalum uṇṭukol.
+
+
+
+irunila maṉṉaṟkup peruvaḷam kāṭṭat
+
+
+
+tirumakaḷ pukuntatuic ceḻumpati āmeṉa
+
+
+
+eriniṟattu ilavamum mullaiyum aṉṟiyum
+
+
+
+karuneṭuṅ kuvaḷaiyum kumiḻum pūttuāṅku   215 
+
+
+
+uḷvari kōlattu uṟutuṇai tēṭik
+
+
+
+kaḷḷak kamalam tiritalum uṇṭukol.
+
+
+
+maṉṉavaṉ ceṅkōl maṟuttal añcip
+
+
+
+paluyir parukum pakuvāyk kūṟṟam
+
+
+
+āṇmaiyil tirintutaṉ aruntoḻil tiriyātu   220 
+
+
+
+nāṇuṭaik kōlattu nakaimukam kōṭṭip
+
+
+
+paṇmoḻi narampiṉ tivavuyāḻ miḻaṟṟip
+
+
+
+peṇmaiyil tiriyum peṟṟiyum uṇṭueṉa,
+
+
+
+uruvi lāḷaṉ oruperuñ cēṉai
+
+
+
+ikalamar āṭṭi etirniṉṟu vilakkiavar   225 
+
+
+
+eḻutuvari kōlam muḻumeyum uṟīi
+
+
+
+viruntoṭu pukka peruntōḷ kaṇavaroṭu
+
+
+
+uṭaṉuṟaivu marīi oḻukkoṭu puṇarnta
+
+
+
+vaṭamīṉ kaṟpiṉ maṉaiyuṟai makaḷir
+
+
+
+mātarvāḷ mukattu maṇittōṭṭuk kuvaḷaip   230 
+
+
+
+pōtu puṟaṅkoṭuttup pōkiya ceṅkaṭai
+
+
+
+viruntiṉ tīrntilatu āyiṉ yāvatum
+
+
+
+maruntum tarumkolim mānila varaippueṉak
+
+
+
+kaiyaṟṟu naṭuṅkum nalviṉai naṭunāḷ:
+
+
+
+uḷakam naṟuntātu uṟaippamītu aḻintu   235 
+
+
+
+kaḷuka naṭuṅkum kaḻunīr pōlak
+
+
+
+kaṇṇaki karuṅkaṇum mātavi ceṅkaṇum
+
+
+
+uḷniṟai karantuakattu oḷittunīr ukuttaṉa
+
+
+
+eṇṇumuṟai iṭattiṉum valattiṉum tuṭittaṉa
+
+
+
+viṇṇavar kōmāṉ viḻavunāḷ akattueṉ.   240  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. kaṭalāṭu kātai
+
+
+
+(nilaimaṇṭila āciriyappā)
+
+
+
+ 
+
+
+
+veḷḷi mālvarai viyaṉperuñ cēṭik
+
+
+
+kaḷaviḻ pūmpoḻil kāmak kaṭavuṭkuk
+
+
+
+karuṅkayal neṭuṅkaṇ kātali taṉṉoṭu
+
+
+
+viruntāṭṭu ayarumōr viñcai vīraṉ
+
+
+
+teṉticai maruṅkiṉōr ceḻumpati taṉṉuḷ       5 
+
+
+
+intira viḻavukoṇṭu eṭukkumnāḷ itueṉak
+
+
+
+kaṭuvicai avuṇar kaṇamkoṇṭu īṇṭik
+
+
+
+koṭuvari ūkkattuk kōnakar kātta
+
+
+
+toṭukaḻal maṉṉaṟkut tolaintaṉar āki
+
+
+
+neñcuiruḷ kūra nikarttumēl viṭṭa     10 
+
+
+
+vañcam peyartta māperum pūtam
+
+
+
+tiruntuvēl aṇṇaṟkut tēvarkōṉ ēva
+
+
+
+iruntupali uṇṇum iṭaṉum kāṇkutum,
+
+
+
+amarā patikāttu amaraṉiṟ peṟṟut
+
+
+
+tamaril tantu takaicāl ciṟappiṉ       15 
+
+
+
+poyvakai iṉṟip pūmiyil puṇartta
+
+
+
+aivakai maṉṟattu amaitiyum kāṇkutum,
+
+
+
+nārataṉ vīṇai nayamteri pāṭalum
+
+
+
+tōriya maṭantai vāram pāṭalum
+
+
+
+āyiram kaṇṇōṉ ceviyakam niṟaiya      20 
+
+
+
+nāṭakam uruppaci nalkāḷ āki
+
+
+
+maṅkalam iḻappa vīṇai maṇmicait
+
+
+
+taṅkuka ivaḷeṉac cāpam peṟṟa
+
+
+
+maṅkai mātavi vaḻimutal tōṉṟiya
+
+
+
+aṅkuaravu alkul āṭalum kāṇkutum,     25 
+
+
+
+tuvaritaḻc cevvāyt tuṭiiṭai yōyē.
+
+
+
+amarar talaivaṉai vaṇaṅkutum yāmeṉac
+
+
+
+cimaiyattu imaiyamum ceḻunīrk kaṅkaiyum
+
+
+
+uñcaiyam patiyum viñcattu aṭaviyum
+
+
+
+vēṅkaṭa malaiyum tāṅkā viḷaiyuḷ     30 
+
+
+
+kāviri nāṭum kāṭṭip piṉṉarp
+
+
+
+pūviri paṭappaip pukārmaruṅku eytic
+
+
+
+colliya muṟaimaiyil toḻutaṉaṉ kāṭṭi
+
+
+
+mallal mūtūr makiḻviḻāk kāṇpōṉ
+
+
+
+māyōṉ pāṇiyum varuṇap pūtar     35 
+
+
+
+nālvakaip pāṇiyum nalampeṟu koḷkai
+
+
+
+vāṉūr matiyamum pāṭip piṉṉarc
+
+
+
+cīriyal poliya nīrala nīṅkap
+
+
+
+pārati āṭiya pārati araṅkattut
+
+
+
+tiripuram eriyat tēvar vēṇṭa     40 
+
+
+
+erimukap pērampu ēval kēṭpa
+
+
+
+umaiyavaḷ orutiṟaṉ āka ōṅkiya
+
+
+
+imaiyavaṉ āṭiya koṭukoṭṭi āṭalum,
+
+
+
+tērmuṉ niṉṟa ticaimukaṉ kāṇap
+
+
+
+pārati āṭiya viyaṉpāṇṭa raṅkamum,     45 
+
+
+
+kañcaṉ vañcam kaṭattaṟ kāka
+
+
+
+añcaṉa vaṇṇaṉ āṭiya āṭaluḷ
+
+
+
+alliyat tokutiyum, avuṇaṉ kaṭanta
+
+
+
+malliṉ āṭalum, mākkaṭal naṭuvaṇ
+
+
+
+nīrttirai araṅkattu nikarttumuṉ niṉṟa     50 
+
+
+
+cūrttiṟam kaṭantōṉ āṭiya tuṭiyum,
+
+
+
+paṭaivīḻttu avuṇar paiyuḷ eytak
+
+
+
+kuṭaivīḻttu avarmuṉ āṭiya kuṭaiyum,
+
+
+
+vāṇaṉ pērūr maṟukiṭai naṭantu
+
+
+
+nīḷnilam aḷantōṉ āṭiya kuṭamum,     55 
+
+
+
+āṇmai tirinta peṇmaik kōlattuk
+
+
+
+kāmaṉ āṭiya pēṭi āṭalum,
+
+
+
+kāyciṉa avuṇar kaṭuntoḻil poṟāaḷ
+
+
+
+māyavaḷ āṭiya marakkāl āṭalum,
+
+
+
+ceruvem kōlam avuṇar nīṅkat     60 
+
+
+
+tiruviṉ ceyyōḷ āṭiya pāvaiyum,
+
+
+
+vayaluḻai niṉṟu vaṭakku vāyiluḷ
+
+
+
+ayirāṇi maṭantai āṭiya kaṭaiyamum,
+
+
+
+avaravar aṇiyuṭaṉ avaravar koḷkaiyiṉ
+
+
+
+nilaiyum paṭitamum nīṅkā marapiṉ     65 
+
+
+
+patiṉōr āṭalum pāṭṭiṉ pakutiyum
+
+
+
+vitimāṇ koḷkaiyiṉ viḷaṅkak kāṇāy.
+
+
+
+tātuaviḻ pūmpoḻil iruntuyāṉ kūṟiya
+
+
+
+mātavi marapiṉ mātavi ivaḷeṉak
+
+
+
+kātalikku uraittuk kaṇṭumakiḻvu eytiya      70 
+
+
+
+mētaku ciṟappiṉ viñcaiyaṉ aṉṟiyum,
+
+
+
+antarattu uḷḷōr aṟiyā marapiṉ
+
+
+
+vantukāṇ kuṟūum vāṉavaṉ viḻavum
+
+
+
+āṭalum kōlamum aṇiyum kaṭaikkoḷa
+
+
+
+ūṭal kōlamōṭu iruntōṉ uvappap      75 
+
+
+
+pattut tuvariṉum aintu viraiyiṉum
+
+
+
+muppattu iruvakai ōmā likaiyiṉum
+
+
+
+ūṟiṉa nalnīr uraittaney vācam
+
+
+
+nāṟuiruṅ kūntal nalampeṟa āṭṭi,
+
+
+
+pukaiyil pularttiya pūmeṉ kūntalai     80 
+
+
+
+vakaitoṟum māṉmatak koḻuñcēṟu ūṭṭi,
+
+
+
+alattakam ūṭṭiya amceñ cīṟaṭi
+
+
+
+nalattaku melviral nalaṇi ceṟīip,
+
+
+
+pariyakam nūpuram pāṭakam cataṅkai
+
+
+
+ariyakam kālukku amaivuṟa aṇintu,       85 
+
+
+
+kuṟaṅku ceṟitiraḷ kuṟaṅkiṉil ceṟittu,
+
+
+
+piṟaṅkiya muttarai muppattu irukāḻ
+
+
+
+niṟamkiḷar pūntukil nīrmaiyiṉ uṭīi,
+
+
+
+kāmar kaṇṭikai taṉṉoṭu piṉṉiya
+
+
+
+tūmaṇit tōḷvaḷai tōḷukku aṇintu,     90 
+
+
+
+mattaka maṇiyoṭu vayiram kaṭṭiya
+
+
+
+cittirac cūṭakam cempoṉ kaivaḷai
+
+
+
+pariyakam vālvaḷai pavaḻap palvaḷai
+
+
+
+arimayir muṉkaikku amaivuṟa aṇintu,
+
+
+
+vāḷaip pakuvāy vaṇakkuuṟu mōtiram      95 
+
+
+
+kēḻkiḷar ceṅkēḻ kiḷarmaṇi mōtiram
+
+
+
+vāṅkuvil vayirattu marakatat tāḷceṟi
+
+
+
+kāntaḷ melviral karappa aṇintu,
+
+
+
+caṅkili nuṇtoṭar pūṇñāṉ puṉaiviṉai
+
+
+
+amkaḻuttu akavayiṉ āramōṭu aṇintu,     100 
+
+
+
+kayiṟkaṭai oḻukiya kāmar tūmaṇi
+
+
+
+ceyattaku kōvaiyiṉ ciṟupuṟam maṟaittuāṅku
+
+
+
+intira nīlattu iṭaiiṭai tiraṇṭa
+
+
+
+cantira pāṇi takaipeṟu kaṭippiṇai
+
+
+
+aṅkātu akavayiṉ aḻakuṟa aṇintu,     105 
+
+
+
+teyva uttiyoṭu ceḻunīr valampuri
+
+
+
+toyyakam pullakam toṭarnta talaikkuaṇi
+
+
+
+maiīr ōtikku māṇpuṟa aṇintu,
+
+
+
+kūṭalum ūṭalum kōvalaṟku aḷittup
+
+
+
+pāṭuamai cēkkaip paḷḷiyuḷ iruntōḷ,     110 
+
+
+
+urukeḻu mūtūr uvavuttalai vanteṉap
+
+
+
+perunīr pōkum iriyal mākkaḷoṭu
+
+
+
+maṭalaviḻ kāṉal kaṭalviḷai yāṭṭuk
+
+
+
+kāṇṭal viruppoṭu vēṇṭiṉaḷ āki,
+
+
+
+poykait tāmaraip puḷvāy pulampa     115 
+
+
+
+vaikaṟai yāmam vāraṇam kāṭṭa
+
+
+
+veḷḷi viḷakkam naḷiruḷ kaṭiyat
+
+
+
+tāraṇi mārpaṉoṭu pēraṇi aṇintu
+
+
+
+vāṉa vaṇkaiyaṉ attiri ēṟa
+
+
+
+māṉamar nōkkiyum vaiyam ēṟik     120 
+
+
+
+kōṭipala aṭukkiya koḻunitik kuppai
+
+
+
+māṭamali maṟukiṉ pīṭikait teruviṉ
+
+
+
+malaraṇi viḷakkattu maṇiviḷakku eṭuttuāṅku
+
+
+
+alarkkoṭi aṟukum nellum vīci
+
+
+
+maṅkalat tāciyar tamkalaṉ olippa     125 
+
+
+
+irupuṭai maruṅkiṉum tirivaṉar peyarum
+
+
+
+tirumakaḷ irukkai cevvaṉam kaḻintu
+
+
+
+makara vāri vaḷamtantu ōṅkiya
+
+
+
+nakara vīti naṭuvaṇ pōkik
+
+
+
+kalamtaru tiruviṉ pulampeyar mākkaḷ     130 
+
+
+
+vēlai vālukattu viritiraip parappil
+
+
+
+kūla maṟukil koṭieṭuttu nuvalum
+
+
+
+mālaic cēri maruṅkuceṉṟu eyti,
+
+
+
+vaṇṇamum cāntum malarum cuṇṇamum
+
+
+
+paṇṇiyap pakutiyum pakarvōr viḷakkamum,     135 
+
+
+
+ceyviṉaik kammiyar kaiviṉai viḷakkamum,
+
+
+
+kāḻiyar mōtakattu ūḻuṟu viḷakkamum,
+
+
+
+kūviyar kārakal kuṭakkāl viḷakkamum,
+
+
+
+noṭainavil makaṭūuk kaṭaikeḻu viḷakkamum,
+
+
+
+iṭaiiṭai mīṉvilai pakarvōr viḷakkamum,     140 
+
+
+
+ilaṅkunīr varaippiṉ kalaṅkarai viḷakkamum,
+
+
+
+vilaṅkuvalaip paratavar mīṉtimil viḷakkamum,
+
+
+
+poḻipeyar tēettar oḻiyā viḷakkamum,
+
+
+
+kaḻiperum paṇṭam kāvalar viḷakkamum
+
+
+
+eṇṇuvarampu aṟiyā iyaintuoruṅku īṇṭi     145 
+
+
+
+iṭikkalappu aṉṉa īrayil maruṅkil
+
+
+
+kaṭippakai kāṇum kāṭciyatu ākiya
+
+
+
+viraimalart tāmarai vīṅkunīrp parappiṉ
+
+
+
+maruta vēliyiṉ māṇpuṟat tōṉṟum
+
+
+
+kaitai vēli neytalam kāṉal     150 
+
+
+
+poytal āyamoṭu pūṅkoṭi porunti
+
+
+
+nirainirai eṭutta puraitīr kāṭciya
+
+
+
+malaippal tāramum kaṭalpal tāramum
+
+
+
+vaḷamtalai mayaṅkiya tuḷaṅkukala irukkai
+
+
+
+aracuiḷaṅ kumararum urimaic cuṟṟamum     155 
+
+
+
+parata kumararum palvēṟu āyamum
+
+
+
+āṭukaḷa makaḷirum pāṭukaḷa makaḷirum
+
+
+
+tōṭukoḷ maruṅkiṉ cūḻtaral eḻiṉiyum
+
+
+
+viṇporu perumpukaḻk karikāl vaḷavaṉ
+
+
+
+taṇpatam koḷḷum talaināḷ pōla     160 
+
+
+
+vēṟuvēṟu kōlattu vēṟuvēṟu kampalai
+
+
+
+cāṟuayar kaḷattu vīṟupeṟat tōṉṟik
+
+
+
+kaṭaṟkarai melikkum kāvirip pēriyāṟṟu
+
+
+
+iṭamkeṭa īṇṭiya nālvakai varuṇattu
+
+
+
+aṭaṅkāk kampalai uṭaṅkuiyaintu olippa,     165 
+
+
+
+kaṭalpulavu kaṭinta maṭalpūn tāḻaic
+
+
+
+ciṟaicey vēli akavayiṉ āṅkuōr
+
+
+
+puṉṉai nīḻal putumaṇal parappil
+
+
+
+ōviya eḻiṉi cūḻauṭaṉ pōkki
+
+
+
+vitāṉittup paṭutta veṇkāl amaḷimicai     170 
+
+
+
+varuntupu niṉṟa vacanta mālaikait
+
+
+
+tiruntukōl nalliyāḻ cevvaṉam vāṅkik
+
+
+
+kōvalaṉ taṉṉoṭum koḷkaiyiṉ iruntaṉaḷ
+
+
+
+māmalar neṭuṅkaṇ mātavi tāṉeṉa.
+
+
+
+(veṇpā)
+
+
+
+vēlai maṭaltāḻai uṭpotinta veṇtōṭṭu
+
+
+
+mālait tuyiṉṟa maṇivaṇṭu - kālaik
+
+
+
+kaḷinaṟavam tātuūtat tōṉṟiṟṟē kāmar
+
+
+
+teḷiniṟa veṅkatirōṉ tēr.
+
+
+
+
+
+
+
+ 
+
+
+
+7. kāṉal vari
+
+
+
+
+
+
+
+(kaṭṭurai)
+
+
+
+
+
+
+
+cittirap paṭattuḷpukkuc ceḻuṅkōṭṭiṉ malarpuṉaintu
+
+
+
+maittaṭaṅkaṇ maṇamakaḷir kōlampōl vaṉappueytip
+
+
+
+pattarum kōṭum āṇiyum narampumeṉṟu
+
+
+
+ittiṟattuk kuṟṟamnīṅkiya yāḻkaiyil toḻutuvāṅki
+
+
+
+paṇṇal parivaṭṭaṇai ārāytal taivaral
+
+
+
+kaṇṇiya celavu viḷaiyāṭṭuk kaiyūḻ
+
+
+
+naṇṇiya kuṟumpōkku eṉṟu nāṭṭiya
+
+
+
+eṇvakaiyāl icaieḻīip
+
+
+
+paṇvakaiyāl parivutīrntu
+
+
+
+marakatamaṇit tāḷceṟinta maṇikkāntaḷ melviralkaḷ
+
+
+
+payirvaṇṭiṉ kiḷaipōlap palnarampiṉ micaippaṭara
+
+
+
+vārtal vaṭittal untal uṟaḻtal
+
+
+
+cīruṭaṉ uruṭṭal teruṭṭal aḷḷal
+
+
+
+ēruṭaip paṭṭaṭaieṉa icaiyōr vakutta
+
+
+
+eṭṭu vakaiyiṉ icaikkara ṇattup
+
+
+
+paṭṭavakaitaṉ ceviyiṉōrt(tu)
+
+
+
+ēvalaṉ, piṉ pāṇi yātueṉak
+
+
+
+kōvalaṉ kaiyāḻ nīṭṭa, avaṉum
+
+
+
+kāviriyai nōkkiṉavum kaṭalkāṉal varippāṇiyum
+
+
+
+mātavitaṉ maṉammakiḻa vācittal toṭaṅkumaṉ.  1
+
+
+
+vēṟu (āṟṟu vari)
+
+
+
+tiṅkaḷ mālai veṇkuṭaiyāṉ
+
+
+
+ceṉṉi ceṅkōl atuoccik
+
+
+
+kaṅkai taṉṉaip puṇarntālum
+
+
+
+pulavāy vāḻi kāvēri.
+
+
+
+kaṅkai taṉṉaip puṇarntālum
+
+
+
+pulavātu oḻital kayalkaṇṇāy.
+
+
+
+maṅkai mātar peruṅkaṟpueṉṟu
+
+
+
+aṟintēṉ vāḻi kāvēri.  2
+
+
+
+maṉṉum mālai veṇkuṭaiyāṉ
+
+
+
+vaḷaiyāc ceṅkōl atuōccik
+
+
+
+kaṉṉi taṉṉaip puṇarntālum
+
+
+
+pulavāy vāḻi kāvēri.
+
+
+
+kaṉṉi taṉṉaip puṇarntālum
+
+
+
+pulavātu oḻital kayalkaṇṇāy.
+
+
+
+maṉṉum mātar peruṅkaṟpueṉṟu
+
+
+
+aṟintēṉ vāḻi kāvēri.  3
+
+
+
+uḻavar ōtai matakuōtai
+
+
+
+uṭainīr ōtai taṇpataṅkoḷ
+
+
+
+viḻavar ōtai ciṟantuārppa
+
+
+
+naṭantāy vāḻi kāvēri.
+
+
+
+viḻavar ōtai ciṟantuārppa
+
+
+
+naṭanta ellām vāykāvā
+
+
+
+maḻavar ōtai vaḷavaṉtaṉ
+
+
+
+vaḷaṉē vāḻi kāvēri. 4
+
+
+
+vēṟu (cārttu vari - mukaccārttu)
+
+
+
+kariyamalar neṭuṅkaṇ kārikaimuṉ
+
+
+
+kaṭalteyvam kāṭṭik kāṭṭi
+
+
+
+ariyacūḷ poyttār aṟaṉilareṉṟu
+
+
+
+ēḻaiyamyāṅku aṟikōm aiya
+
+
+
+virikatir veṇmatiyum mīṉkaṇamum
+
+
+
+āmeṉṟē viḷaṅkum veḷḷaip
+
+
+
+purivaḷaiyum muttumkaṇṭu āmpal
+
+
+
+potiaviḻkkum pukārē emmūr. 5
+
+
+
+kātalar ākik kaḻikkāṉal
+
+
+
+kaiyuṟaikoṇṭu empiṉ vantār
+
+
+
+ētilar tāmāki yāmirappa
+
+
+
+niṟpataiyāṅku aṟikōm aiya
+
+
+
+mātarār kaṇṇum matiniḻalnīr
+
+
+
+iṇaikoṇṭu malarnta nīlap
+
+
+
+pōtum aṟiyātu vaṇṭuūca
+
+
+
+lāṭum pukārē emmūr. 6
+
+
+
+mōtu mututiraiyāl mottuṇṭu
+
+
+
+pōntuacainta muralvāyc caṅkam
+
+
+
+mātar varimaṇalmēl vaṇṭal
+
+
+
+uḻutuaḻippa māḻki aiya
+
+
+
+kōtai parintuacaiya melviralāl
+
+
+
+koṇṭuōccum kuvaḷai mālaip
+
+
+
+pōtu ciṟaṅkaṇippap pōvārkaṇ
+
+
+
+pōkāp pukārē emmūr. 7
+
+
+
+vēṟu (mukam il vari)
+
+
+
+tuṟaimēy valampuri tōyntu maṇaluḻuta
+
+
+
+tōṟṟam māyvāṉ
+
+
+
+poṟaimali pūmpuṉṉaip pūutirntu nuṇtātu
+
+
+
+pōrkkum kāṉal
+
+
+
+niṟaimati vāḷmukattu nērkkayalkaṇ ceyta
+
+
+
+uṟaimali uyyānōy ūrcuṇaṅku meṉmulaiyē
+
+
+
+tīrkkum pōlum. 8
+
+
+
+(kāṉal vari)
+
+
+
+niṇamkoḷ pulāluṇaṅkal niṉṟupuḷ ōpputal
+
+
+
+talaikkīṭu ākak
+
+
+
+kaṇamkoḷ vaṇṭuārttu ulāmkaṉṉi naṟuñāḻal
+
+
+
+kaiyil ēnti
+
+
+
+maṇamkamaḻ pūṅkāṉal maṉṉimaṟṟu āṇṭuōr
+
+
+
+aṇaṅkuuṟaiyum eṉpatu aṟiyēṉ aṟivēṉēl
+
+
+
+aṭaiyēṉ maṉṉō. 9
+
+
+
+valaivāḻnar cēri valaiuṇaṅkum muṉṟil
+
+
+
+malarkai ēnti
+
+
+
+vilaimīṉ uṇaṅkal poruṭṭāka vēṇṭuuruvam
+
+
+
+koṇṭu vēṟuōr
+
+
+
+kolaivēl neṭuṅkaṇ koṭuṅkūṟṟam vāḻvatu
+
+
+
+alainīrttaṇ kāṉal aṟiyēṉ aṟivēṉēl
+
+
+
+aṭaiyēṉ maṉṉō. 10
+
+
+
+vēṟu (nilaivari)
+
+
+
+kayaleḻuti vileḻutik kāreḻutik kāmaṉ
+
+
+
+ceyaleḻutit tīrntamukam tiṅkaḷō kāṇīr.
+
+
+
+tiṅkaḷō kāṇīr timilvāḻnar cīṟūrkkē
+
+
+
+amkaṇēr vāṉattu aravuañci vāḻvatuvē. 11
+
+
+
+eṟivaḷaikaḷ ārppa irumaruṅkum ōṭum
+
+
+
+kaṟaikeḻuvēl kaṇṇō kaṭuṅkūṟṟam kāṇīr.
+
+
+
+kaṭuṅkūṟṟam kāṇīr kaṭalvāḻnar cīṟūrkkē
+
+
+
+maṭamkeḻumeṉ cāyal makaḷā yatuvē. 12
+
+
+
+pulavumīṉ veḷuṇaṅkal puḷōppik kaṇṭārkku
+
+
+
+alavanōy ceyyum aṇaṅkuituvō kāṇīr.
+
+
+
+aṇaṅkuituvō kāṇīr aṭumpuamarttaṇ kāṉal
+
+
+
+piṇaṅkunēr aimpālōr peṇkoṇ ṭatuvē. 13
+
+
+
+vēṟu (murivari)
+
+
+
+poḻiltaru naṟumalarē putumaṇam virimaṇalē
+
+
+
+paḻutuaṟu tirumoḻiyē paṇaiiḷa vaṉamulaiyē
+
+
+
+muḻumati puraimukamē muripuru viliṇaiyē
+
+
+
+eḻutuaru miṉiṭaiyē eṉaiiṭar ceytavaiyē. 14
+
+
+
+tiraiviri tarutuṟaiyē tirumaṇal viriiṭamē
+
+
+
+viraiviri naṟumalarē miṭaitaru poḻiliṭamē
+
+
+
+maruviri purikuḻalē matipurai tirumukamē
+
+
+
+irukayal iṇaiviḻiyē eṉaiiṭar ceytavaiyē. 15
+
+
+
+vaḷaivaḷar tarutuṟaiyē maṇamviri tarupoḻilē
+
+
+
+taḷaiaviḻ naṟumalarē taṉiavaḷ tiriiṭamē
+
+
+
+muḷaivaḷar iḷanakaiyē muḻumati puraimukamē 
+
+
+
+iḷaiyavaḷ iṇaimulaiyē eṉaiiṭar ceytavaiyē. 16
+
+
+
+vēṟu (tiṇai nilaivari)
+
+
+
+kaṭalpukku uyirkkoṉṟu vāḻvarniṉ aiyar
+
+
+
+uṭalpukku uyirkkoṉṟu vāḻvaimaṉ nīyum
+
+
+
+miṭalpukku aṭaṅkāta vemmulaiyō pāram
+
+
+
+iṭarpukku iṭukum iṭaiiḻaval kaṇṭāy. 17
+
+
+
+koṭuṅkaṇ valaiyāl uyirkkolvāṉ nuntai
+
+
+
+neṭuṅkaṇ valaiyāl uyirkkolvai maṉnīyum
+
+
+
+vaṭamkoḷ mulaiyāl maḻaimiṉṉup pōla
+
+
+
+nuṭaṅki ukumeṉ nucuppuiḻaval kāṇṭāy. 18
+
+
+
+ōṭum timilkoṇṭu uyirkkoḷvar niṉaiyar
+
+
+
+kōṭum puruvattu uyirkkolvai maṉnīyum
+
+
+
+pīṭum piṟarevvam pārāy mulaicumantu
+
+
+
+vāṭum ciṟumeṉ maruṅkuiḻaval kaṇṭāy. 19
+
+
+
+vēṟu
+
+
+
+pavaḷa ulakkai kaiyāl paṟṟit
+
+
+
+tavaḷa muttam kuṟuvāḷ ceṅkaṇ
+
+
+
+tavaḷa muttam kuṟuvāḷ ceṅkaṇ
+
+
+
+kuvaḷai alla koṭiya koṭiya 20
+
+
+
+puṉṉai nīḻal pulavut tiraivāy
+
+
+
+aṉṉam naṭappa naṭappāḷ ceṅkaṇ
+
+
+
+aṉṉam naṭappa naṭappāḷ ceṅkaṇ
+
+
+
+koṉṉē veyya. kūṟṟam kūṟṟam.  21
+
+
+
+kaḷvāy nīlam kaiyiṉ ēntip
+
+
+
+puḷvāy uṇaṅkal kaṭivāḷ ceṅkaṇ
+
+
+
+puḷvāy uṇaṅkal kaṭivāḷ ceṅkaṇ
+
+
+
+veḷvēl alla. veyya veyya. 22
+
+
+
+vēṟu
+
+
+
+cēral maṭaaṉṉam cēral naṭaiovvāy
+
+
+
+cēral maṭaaṉṉam cēral naṭaiovvāy
+
+
+
+ūrtirai nīrvēli uḻakkit tirivāḷpiṉ
+
+
+
+cēral maṭaaṉṉam cēral naṭaiovvāy. 23
+
+
+
+(kaṭṭurai)
+
+
+
+āṅku, kāṉalvarip pāṭalkēṭṭa
+
+
+
+māṉneṭuṅkaṇ mātaviyum
+
+
+
+maṉṉumōr kuṟippuuṇṭuivaṉ
+
+
+
+taṉnilai mayaṅkiṉāṉeṉak
+
+
+
+kalaviyāl makiḻntāḷpōl
+
+
+
+pulaviyāl yāḻvāṅkit
+
+
+
+tāṉumōr kuṟippiṉaḷpōl
+
+
+
+kāṉalvarip pāṭalpāṇi
+
+
+
+nilatteyvam viyappueyta
+
+
+
+nīḷnilattōr maṉammakiḻak
+
+
+
+kalattoṭu puṇarntuamainta
+
+
+
+kaṇṭattāl pāṭattoṭaṅkummaṉ. 24
+
+
+
+vēṟu (āṟṟu vari)
+
+
+
+maruṅku vaṇṭu ciṟantuārppa
+
+
+
+maṇippū āṭai atupōrttuk
+
+
+
+karuṅka yalkaṇ viḻittuolki
+
+
+
+naṭantāy vāḻi kāvēri.
+
+
+
+karuṅka yalkaṇ viḻittuolki
+
+
+
+naṭanta ellām niṉkaṇavaṉ
+
+
+
+tiruntu ceṅkōl vaḷaiyāmai
+
+
+
+aṟintēṉ vāḻi kāvēri. 25
+
+
+
+pūvar cōlai mayilālap
+
+
+
+purintu kuyilkaḷ icaipāṭak
+
+
+
+kāmar mālai arukuacaiya
+
+
+
+naṭantāy vāḻi kāvēri.
+
+
+
+kāmar mālai arukuacaiya
+
+
+
+naṭanta ellām niṉkaṇavaṉ
+
+
+
+nāma vēliṉ tiṟamkaṇṭē
+
+
+
+aṟintēṉ vāḻi kāvēri. 26
+
+
+
+vāḻi avaṉtaṉ vaḷanāṭu
+
+
+
+makavāy vaḷarkkum tāyāki
+
+
+
+ūḻi uykkum pērutavi
+
+
+
+oḻiyāy vāḻi kāvēri.
+
+
+
+ūḻi uykkum pērutavi
+
+
+
+oḻiyātu oḻukal uyirōmpum
+
+
+
+āḻi āḷvāṉ pakalveyyōṉ
+
+
+
+aruḷē vāḻi kāvēri. 27
+
+
+
+vēṟu (cārttu vari)
+
+
+
+tīṅkatir vāḷmukattāḷ cevvāy maṇimuṟuval  ovvā vēṉum
+
+
+
+vāṅkumnīr muttueṉṟu vaikalum mālmakaṉpōl  varutir aiya
+
+
+
+vīṅkuōtam tantu viḷaṅkuoḷiya veṇmuttam  viraicūḻ kāṉal
+
+
+
+pūṅkōtai koṇṭu vilaiñarpōl mīḷum pukārē emmūr. 28
+
+
+
+maṟaiyiṉ maṇantārai vaṉparatar pākkattu  maṭavār ceṅkai
+
+
+
+iṟaivaḷaikaḷ tūṟṟuvatai ēḻaiyam eṅṅaṉamyāṅku  aṟikōm aiya
+
+
+
+niṟaimatiyum mīṉum eṉaaṉṉam nīḷpuṉṉai  arumpip pūtta
+
+
+
+poṟaimalipūṅ kompuēṟa vaṇṭuāmpal ūtum  pukārē emmūr. 29
+
+
+
+uṇṭārai velnaṟā ūṇōḻiyāp pākkattuḷ  uṟaioṉṟu iṉṟit
+
+
+
+taṇṭānōy mātar talaittaruti eṉpatuyāṅku  aṟikōm aiya
+
+
+
+vaṇṭal tiraiaḻippak kaiyāl maṇalmukantu  matimēl nīṇṭa
+
+
+
+puṇtōyvēl nīrmalka paratar kaṭaltūrkkum pukārē emmūr. 30
+
+
+
+vēṟu (tiṇai nilaivari)
+
+
+
+puṇarttuṇaiyōṭu āṭum poṟialavaṉ nōkki
+
+
+
+iṇarttataiyum pūṅkāṉal eṉṉaiyum nōkki
+
+
+
+uṇarvuoḻiyap pōṉa olitirainīrc cērppaṉ
+
+
+
+vaṇarcuri aimpālōy vaṇṇam uṇarēṉāl. 31
+
+
+
+ 
+
+
+
+tammuṭaiya taṇṇaḷiyum tāmumtam māṉtērum
+
+
+
+emmai niṉaiyātu viṭṭārō viṭṭuakalka
+
+
+
+ammeṉ iṇara aṭumpukāḷ aṉṉaṅkāḷ
+
+
+
+nammai maṟantārai nāmmaṟakka māṭṭēmāl. 32
+
+
+
+puṉkaṇkūr mālaip pulampumeṉ kaṇṇēpōl
+
+
+
+tuṉpam uḻavāy tuyilap peṟutiyāl
+
+
+
+iṉkaḷvāy neytālnī eytum kaṉaviṉuḷ
+
+
+
+vaṉkaṇār kāṉal varakkaṇṭu aṟitiyō? 33
+
+
+
+puḷiyalmāṉ tērāḻi pōṉa vaḻiellām
+
+
+
+teḷḷunīr ōtam citaittāymaṟṟu eñceykō?
+
+
+
+teḷḷunīr ōtam citaittāymaṟṟu emmōṭuīṅku
+
+
+
+uḷḷārōṭu uḷḷāy uṇarāymaṟṟu eñceykō? 34
+
+
+
+nērntanam kātalar nēmineṭun tiṇtēr
+
+
+
+ūrnta vaḻicitaiya ūrkkiṉṟa ōtamē
+
+
+
+pūntaṇ poḻilē puṇarntuāṭum aṉṉamē
+
+
+
+īrntaṇ tuṟaiyē itutakātu eṉṉīrē. 35
+
+
+
+nērntanam kātalar nēmineṭun tiṇtēr
+
+
+
+ūrnta vaḻicitaiya ūrntāyvāḻi kaṭalōtam
+
+
+
+ūrnta vaḻicitaiya ūrntāymaṟ(ṟu) emmoṭu
+
+
+
+tīrntāypōl tīrntilaiyāl vāḻi kaṭalōtam. 36
+
+
+
+vēṟu (mayaṅku tiṇai nilaivari)
+
+
+
+naṉnit tilattiṉ pūṇaṇintu
+
+
+
+nalamcār pavaḷak kalaiuṭuttuc
+
+
+
+cennel paḻaṉak kaḻaṉitoṟum
+
+
+
+tiraiu lāvu kaṭalcērppa.
+
+
+
+puṉṉaip potumpar makarattiṇ
+
+
+
+koṭiyōṉ eyta putuppuṇkaḷ
+
+
+
+eṉṉaik kāṇā vakaimaṟattāl
+
+
+
+aṉṉai kāṇiṉ eṉceykō? 37
+
+
+
+vārit taraḷa nakaiceytu
+
+
+
+vaṇcem pavaḷa vāymalarntu
+
+
+
+cērip paratar valaimuṉṟil
+
+
+
+tiraiu lāvu kaṭalcērppa.
+
+
+
+mārip pīrattu alarvaṇṇam
+
+
+
+maṭavāḷ koḷḷak kaṭavuḷvaraintu
+
+
+
+ārik koṭumai ceytāreṉṟu
+
+
+
+aṉṉai aṟiyiṉ eṉceykō? 38
+
+
+
+pulavuṟṟu iraṅki atunīṅkap
+
+
+
+poḻiltaṇ ṭalaiyil pukuntuutirnta
+
+
+
+kalavaic cemmal maṇamkamaḻat
+
+
+
+tiraiu lāvu kaṭalcērppa.
+
+
+
+palauṟṟu orunōy tiṇiyāta
+
+
+
+paṭarnōy maṭavāḷ taṉiuḻappa
+
+
+
+alavuṟṟu iraṅki aṟiyānōy
+
+
+
+aṉṉai aṟiyiṉ eṉceykō? 39
+
+
+
+vēṟu
+
+
+
+iḷaiiruḷ parantatuvē elceyvāṉ maṟaintaṉaṉē
+
+
+
+kaḷaivuarum pulampunīr kaṇpoḻīi ukuttaṉavē
+
+
+
+taḷaiaviḻ malarkkuḻalāy taṇantārnāṭṭu uḷatāmkol 
+
+
+
+vaḷainekiḻa ericinti vantaim maruḷmālai? 40
+
+
+
+katiravaṉ maṟaintaṉaṉē kāriruḷ parantatuvē
+
+
+
+etirmalar puraiuṇkaṇ evvanīr ukuttaṉavē
+
+
+
+putumati puraimukattāy pōṉārnāṭṭu uḷatāmkol
+
+
+
+matiumiḻntu katirviḻuṅki vantaim maruḷmālai? 41
+
+
+
+paṟavaipāṭṭu aṭaṅkiṉavē pakalceyvāṉ maṟaintaṉaṉē
+
+
+
+niṟainilā nōykūra neṭuṅkaṇnīr ukuttaṉavē
+
+
+
+tuṟumalar aviḻkuḻalāy tuṟantārnāṭṭu uḷatāmkol
+
+
+
+maṟavaiyāy eṉuyirmēl vantaim maruḷmālai? 42
+
+
+
+vēṟu (cāyal vari)
+
+
+
+kaitai vēlik kaḻivāy vantuem
+
+
+
+poytal aḻittup pōṉār oruvar
+
+
+
+poytal aḻittup pōṉār avarnam
+
+
+
+maiyal maṉamviṭṭu akalvār allar. 43
+
+
+
+kāṉal vēlik kaḻivāy vantu
+
+
+
+nīnalku eṉṟē niṉṟār oruvar
+
+
+
+nīnalku eṉṟē niṉṟār avarnam
+
+
+
+māṉnēr nōkkam maṟappār allar. 44
+
+
+
+aṉṉam tuṇaiyōṭu āṭak kaṇṭu
+
+
+
+neṉṉal nōkki niṉṟār oruvar
+
+
+
+neṉṉal nōkki niṉṟār avarnam
+
+
+
+poṉnēr cuṇaṅkiṟ pōvār allar. 45
+
+
+
+vēṟu (mukam il vari)
+
+
+
+aṭaiyal kurukē aṭaiyalem kāṉal
+
+
+
+aṭaiyal kurukē aṭaiyalem kāṉal
+
+
+
+uṭaitirainīrc cērppaṟku uṟunōy uraiyāy
+
+
+
+aṭaiyal kurukē aṭaiyalem kāṉal. 46
+
+
+
+vēṟu (kāṭurai)
+
+
+
+āṅkaṉam pāṭiya āyiḻai piṉṉarum
+
+
+
+kāntaḷ melviral kaikkiḷai cērkural
+
+
+
+tīntoṭaic cevvaḻip pālai icaieḻīip
+
+
+
+pāṅkiṉil pāṭiōr paṇṇum peyarttāḷ. 47
+
+
+
+vēṟu (mukam il vari)
+
+
+
+nuḷaiyar viḷari noṭitarumtīm pālai
+
+
+
+iḷikiḷaiyil koḷḷa iṟuttāyāl mālai
+
+
+
+iḷikiḷaiyil koḷḷa iṟuttāymaṉ nīyēl
+
+
+
+koḷaivallāy eṉāvi koḷvāḻi mālai. 48
+
+
+
+pirintār parintuuraitta pēraruḷiṉ nīḻal
+
+
+
+iruntuēṅki vāḻvār uyirppuṟattāy mālai
+
+
+
+uyirppuṟattāy nīākil uḷāṟṟā vēntaṉ
+
+
+
+eyilpuṟattu vēntaṉōṭu eṉāti mālai. 49
+
+
+
+paiyuḷnōy kūrap pakalceyvāṉ pōyvīḻa
+
+
+
+vaiyamō kaṇputaippa vantāy maruḷmālai
+
+
+
+mālainī āyiṉ maṇantār avarāyiṉ
+
+
+
+ñālamō nalkūrn tatuvāḻi mālai. 50
+
+
+
+vēṟu
+
+
+
+tīttuḻai vantaic cellal maruḷmālai
+
+
+
+tūkkātu tuṇintait tuyareñcu kiḷaviyāl
+
+
+
+pūkkamaḻ kaṉalil poyccūḷ poṟukka eṉṟu
+
+
+
+mākkaṭal teyvamniṉ malaraṭi vaṇaṅkutum. 51
+
+
+
+vēṟu (kaṭṭurai)
+
+
+
+eṉakkēṭṭu,
+
+
+
+kāṉalvari yāṉpāṭat tāṉoṉṟiṉmēl maṉamvaittu
+
+
+
+māyappoy palakūṭṭum māyattāḷ pāṭiṉāḷeṉa
+
+
+
+yāḻicaimēl vaittuttaṉ ūḻviṉaivantu uruttatuākaliṉ
+
+
+
+uvavuuṟṟa tiṅkaḷmukattāḷaik kavavukkai ñekiḻntaṉaṉāyp
+
+
+
+poḻutuīṅkuk kaḻintatuākaliṉ eḻutumeṉṟu uṭaṉeḻātu
+
+
+
+ēvalāḷar uṭañcūḻak kōvalaṉtāṉ pōṉapiṉṉar,
+
+
+
+tātuaviḻ malarccōlai ōtaiāyattu oliavittuk
+
+
+
+kaiyaṟṟa neñciṉaḷāy vaiyatti ṉuḷpukkuk
+
+
+
+kātalaṉuṭaṉ aṉṟiyē mātavitaṉ maṉaipukkāḷ
+
+
+
+āṅku,
+
+
+
+māyiru ñālattu aracu talaivaṇakkum
+
+
+
+cūḻi yāṉaic cuṭarvāḷ cempiyaṉ
+
+
+
+mālai veṇkuṭai kavippa
+
+
+
+āḻi mālvarai akavaiyā eṉavē. 52
+
+
+
+
+
+
+
+
+
+
+
+8. vēṉil kātai
+
+
+
+(nilaimaṇṭila āciriyappā)
+
+
+
+
+
+
+
+neṭiyōṉ kuṉṟamum toṭiyōḷ peḷavamum
+
+
+
+tamiḻvarampu aṟutta taṇpuṉal nalnāṭṭu
+
+
+
+māṭa maturaiyum pīṭuār uṟantaiyum
+
+
+
+kalikeḻu vañciyum olipuṉal pukārum
+
+
+
+araicuvīṟ ṟirunta uraicāl ciṟappiṉ  5
+
+
+
+maṉṉaṉ māraṉ makiḻtuṇai ākiya
+
+
+
+iṉiḷa vēṉil vantaṉaṉ ivaṇeṉa
+
+
+
+vaḷamkeḻu potiyil māmuṉi payanta
+
+
+
+iḷaṅkāl tūtaṉ icaittaṉaṉ ātaliṉ
+
+
+
+makara velkoṭi maintaṉ cēṉai   10
+
+
+
+pukaraṟu kōlam koḷḷumeṉ patupōl
+
+
+
+koṭimiṭai cōlaik kuyilōṉ eṉṉum
+
+
+
+paṭaiyuḷ paṭuvōṉ paṇimoḻi kūṟa,
+
+
+
+maṭalaviḻ kāṉal kaṭalviḷai yāṭṭiṉuḷ
+
+
+
+kōvalaṉ ūṭak kūṭātu ēkiya   15
+
+
+
+māmalar neṭuṅkaṇ mātavi virumpi
+
+
+
+vāṉuṟa nivanta mēlnilai maruṅkiṉ
+
+
+
+vēṉil paḷḷi ēṟi māṇiḻai
+
+
+
+teṉkaṭal muttum teṉmalaic cāntum
+
+
+
+taṉkaṭaṉ iṟukkum taṉmaiya ātaliṉ   20
+
+
+
+koṅkai muṉṟil kuṅkuma vaḷākattu
+
+
+
+maiaṟu ciṟappiṉ kaiyuṟai ēnti
+
+
+
+atirā marapiṉ yāḻkai vāṅki
+
+
+
+matura kītam pāṭiṉaḷ mayaṅki,
+
+
+
+oṉpāṉ viruttiyuḷ talaikkaṇ virutti   25
+
+
+
+naṉpāl amainta irukkaiyaḷ āki,
+
+
+
+valakkaip patākai kōṭṭoṭu cērtti
+
+
+
+iṭakkai nālviral māṭakam taḻīic
+
+
+
+cempakai ārppē kūṭam atirvē
+
+
+
+vempakai nīkkum virakuḷi aṟintu,  30
+
+
+
+piḻaiyā marapiṉ īrēḻ kōvaiyai
+
+
+
+uḻaimutal kaikkiḷai iṟuvāy kaṭṭi,
+
+
+
+iṇaikiḷai pakainaṭpu eṉṟuin nāṉkiṉ
+
+
+
+icaipuṇar kuṟinilai eyta nōkkik
+
+
+
+kuralvāy iḷivāyk kēṭṭaṉaḷ aṉṟiyum   35
+
+
+
+varaṉmuṟai maruṅkiṉ aintiṉum ēḻiṉum
+
+
+
+uḻaimutal ākavum uḻaiīṟu ākavum
+
+
+
+kuralmutal ākavum kuralīṟu ākavum
+
+
+
+akanilai marutamum puṟanilai marutamum
+
+
+
+arukiyal marutamum perukiyal marutamum   40
+
+
+
+nālvakaic cātiyum nalampeṟa nōkki,
+
+
+
+mūvakai iyakkamum muṟaiyuḷik kaḻippit
+
+
+
+tiṟattu vaḻippaṭūum teḷḷicaik karaṇattup
+
+
+
+puṟattuoru pāṇiyil pūṅkoṭi mayaṅki,
+
+
+
+caṇpakam mātavi tamālam karumukai   45
+
+
+
+veṇpū mallikai vēroṭu miṭainta
+
+
+
+amceṅ kaḻunīr āyitaḻk kattikai
+
+
+
+etirppūñ cevvi iṭainilattu yātta
+
+
+
+mutirpūn tāḻai muṭaṅkalveṇ tōṭṭu
+
+
+
+viraimalar vāḷiyiṉ viyaṉnilam āṇṭa  50
+
+
+
+orutaṉic ceṅkōl orumakaṉ āṇaiyiṉ
+
+
+
+orumukam aṉṟi ulakutoḻutu iṟaiñcum
+
+
+
+tirumukam pōkkum cevviyaḷ āki,
+
+
+
+alattakak koḻuñcēṟu aḷaii ayalatu
+
+
+
+pittikaik koḻumukai āṇi kaikkoṇṭu, 55
+
+
+
+maṉuyir ellām makiḻtuṇai puṇarkkum
+
+
+
+iṉiḷa vēṉil iḷavara cāḷaṉ
+
+
+
+antip pōtakattu arumpiṭart tōṉṟiya
+
+
+
+tiṅkaḷ celvaṉum cevviyaṉ allaṉ
+
+
+
+puṇarnta mākkaḷ poḻutuiṭaip paṭuppiṉum 60
+
+
+
+taṇanta mākkaḷ tamtuṇai maṟappiṉum
+
+
+
+naṟumpū vāḷiyiṉ naluyir kōṭal
+
+
+
+iṟumpūtu aṉṟuaḵtu aṟintī miṉeṉa
+
+
+
+eṇeṇ kalaiyum icaintuuṭaṉ pōka
+
+
+
+paṇṇum tiṟaṉum puṟaṅkūṟu nāviṉ  65
+
+
+
+taḷaivāy aviḻnta taṉippaṭu kāmattu
+
+
+
+viḷaiyā maḻalaiyiṉ virittuurai eḻuti,
+
+
+
+pacanta mēṉiyaḷ paṭaruṟu mālaiyiṉ
+
+
+
+vacanta mālaiyai varukeṉak kūuyt
+
+
+
+tūmalar mālaiyiṉ tuṇiporuḷ ellām 70
+
+
+
+kōvalaṟku aḷittuk koṇarka īṅkueṉa
+
+
+
+mālai vāṅkiya vēlari neṭuṅkaṇ
+
+
+
+kūla maṟukiṟ kōvalaṟku aḷippa,
+
+
+
+tilakamum aḷakamum ciṟukaruñ cilaiyum
+
+
+
+kuvaḷaiyum kumiḻum kovvaiyum koṇṭa 75
+
+
+
+mātar vāḷmukattu mataiiya nōkkamoṭu
+
+
+
+kātaliṉ tōṉṟiya kaṇkūṭu variyum,
+
+
+
+puyalcumantu varuntip poḻikatir matiyattuk
+
+
+
+kayalulāyt tiritarum kāmar cevviyiṉ
+
+
+
+pākupoti pavaḷam tiṟantunilā utaviya 80
+
+
+
+nākuiḷa muttiṉ nakainilam kāṭṭi
+
+
+
+varukeṉa vantu pōkeṉap pōkiya
+
+
+
+karuneṭuṅ kaṇṇi kāṇvarik kōlamum,
+
+
+
+anti mālai vantataṟku iraṅkic
+
+
+
+cintai nōy kūrumeṉ ciṟumai nōkkik85
+
+
+
+kiḷipurai kiḷaviyum maṭaaṉa naṭaiyum
+
+
+
+kaḷimayil cāyalum karantaṉaḷ ākic
+
+
+
+ceruvēl neṭuṅkaṇ cilatiyar kōlattu
+
+
+
+orutaṉi vanta uḷvari āṭalum,
+
+
+
+cilampuvāy pulampavum mēkalai ārppavum 90
+
+
+
+kalampeṟā nucuppiṉaḷ kātal nōkkamoṭu
+
+
+
+tiṟattuvēṟu āyaeṉ ciṟumai nōkkiyum
+
+
+
+puṟattuniṉṟu āṭiya puṉpuṟa variyum,
+
+
+
+kōtaiyum kuḻalum tātucēr aḷakamum
+
+
+
+orukāḻ muttamum tirumulait taṭamum 95
+
+
+
+miṉiṭai varutta naṉṉutal tōṉṟic
+
+
+
+ciṟukuṟun toḻiliyar maṟumoḻi uyppap
+
+
+
+puṇarcciuṭ potinta kalāmtaru kiḷaviyiṉ
+
+
+
+irupuṟa moḻipporuḷ kēṭṭaṉaḷ ākit
+
+
+
+taḷarnta cāyal takaimeṉ kūntal 100
+
+
+
+kiḷarntuvēṟu ākiya kiḷarvarik kōlamum,
+
+
+
+pirintuuṟai kālattup parintaṉaḷ āki
+
+
+
+eṉuṟu kiḷaikaṭkut taṉuṟu tuyaram
+
+
+
+tērntutērntu uraitta tērccivari aṉṟiyum,
+
+
+
+vaṇṭualar kōtai mālaiyuḷ mayaṅkik 105
+
+
+
+kaṇṭavarkku uraitta kāṭci variyum,
+
+
+
+aṭuttuaṭuttu avarmuṉ mayaṅkiya mayakkamum
+
+
+
+eṭuttuavar tīrtta eṭuttukkōḷ variyum,
+
+
+
+āṭal makaḷē ātaliṉ āyiḻai.
+
+
+
+pāṭupeṟ ṟaṉaap paintoṭi taṉakkueṉa, 110
+
+
+
+aṇittōṭṭut tirumukattu āyiḻai eḻutiya,
+
+
+
+maṇittōṭṭut tirumukam maṟuttataṟku iraṅki
+
+
+
+vāṭiya uḷḷattu vacanta mālai
+
+
+
+tōṭualar kōtaikkut tuṉaintuceṉṟu uraippa
+
+
+
+mālai vārār āyiṉum māṇiḻai.   115
+
+
+
+kālaikāṇ kuvameṉak kaiyaṟu neñcamoṭu
+
+
+
+pūmalar amaḷimicaip poruntātu vatintaṉaḷ
+
+
+
+māmalar neṭuṅkaṇ mātavi tāṉeṉ.
+
+
+
+(veṇpā)
+
+
+
+centā maraiviriyat tēmāṅ koḻuntuoḻuka
+
+
+
+maintār acōkam maṭalaviḻak - kontār
+
+
+
+iḷavēṉil vantatāl eṉāmkol iṉṟu
+
+
+
+vaḷavēlnaṟ kaṇṇi maṉam.
+
+
+
+ūṭiṉīr ellām uruilāṉ taṉāṇai
+
+
+
+kūṭumiṉ eṉṟu kuyilcāṟṟa - nīṭiya
+
+
+
+vēṉaṟpā ṇikkalantāḷ meṉpūn tirumukattaik
+
+
+
+kāṉaṟpā ṇikkualantāy kāṇ.
+
+
+
+
+
+
+
+
+
+
+
+9. kaṉāttiṟam uraitta kātai
+
+
+
+
+
+
+
+(kali veṇpā)
+
+
+
+
+
+
+
+akanakar ellām arumpuaviḻ mullai
+
+
+
+nikarmalar nelloṭu tūuyp pakalmāynta
+
+
+
+mālai maṇiviḷakkam kāṭṭi iraviṟkuōr
+
+
+
+kōlam koṭiiṭaiyār tāmkoḷḷa, mēlōrnāḷ:
+
+
+
+mālati māṟṟāḷ makavukkup pālaḷikkap    5
+
+
+
+pālvikkip pālakaṉ tāṉcōra mālatiyum
+
+
+
+pārppā ṉoṭumaṉaiyāḷ eṉmēl paṭātaṉaviṭṭu
+
+
+
+ēṟpaṉa kūṟāreṉṟu ēṅki makakkoṇṭu
+
+
+
+amarar tarukkōṭṭam veḷyāṉaik kōṭṭam
+
+
+
+pukarveḷḷai nākartam kōṭṭam pakalvāyil  10
+
+
+
+uccik kiḻāṉkōṭṭam ūrkkōṭṭam vēlkōṭṭam
+
+
+
+vaccirak kōṭṭam puṟampaṇaiyāṉ vāḻkōṭṭam
+
+
+
+nikkantak kōṭṭam nilākkōṭṭam pukkueṅkum
+
+
+
+tēvirkāḷ emuṟunōy tīrmaṉṟu mēviōr
+
+
+
+pācaṇṭac cāttaṟkup pāṭu kiṭantāḷukku,  15
+
+
+
+ēcum paṭiōr iḷaṅkoṭiyāy ācuilāy
+
+
+
+ceytavam illōrkkut tēvar varamkoṭār
+
+
+
+poyuraiyē aṉṟu poruḷuraiyē kaiyiṟ
+
+
+
+paṭupiṇamtā eṉṟu paṟittuavaḷkaik koṇṭu
+
+
+
+cuṭukāṭṭuk kōṭṭattut tūṅkuiruḷil ceṉṟuāṅku  20
+
+
+
+iṭupiṇam tiṉṉum iṭākiṉippēy vāṅki
+
+
+
+maṭiyakattu iṭṭāḷ makavai, iṭiyuṇṭa
+
+
+
+maññaipōl ēṅki aḻutāḷukku accāttaṉ
+
+
+
+aññainī ēṅki aḻaleṉṟu muṉṉai
+
+
+
+uyirkkuḻavi kāṇāyeṉṟu akkuḻavi yāyōr  25
+
+
+
+kuyilpotumpar nīḻal kuṟuka ayirppuiṉṟi
+
+
+
+māyak kuḻavi eṭuttu maṭittiraittut
+
+
+
+tāykaik koṭuttāḷat taiyalāḷ, tūya
+
+
+
+maṟaiyōṉpiṉ māṇiyāy vāṉporuḷ kēḷvit
+
+
+
+tuṟaipōy avarmuṭinta piṉṉar iṟaiyōṉum  30
+
+
+
+tāyattā rōṭum vaḻakkuuraittut tantaikkum
+
+
+
+tāyarkkum vēṇṭum kaṭaṉkaḻittu mēyanāḷ
+
+
+
+tēvanti eṉpāḷ maṉaivi avaḷukkup
+
+
+
+pūvanta uṇkaṇ poṟukkeṉṟu mēvittaṉ
+
+
+
+mūvā iḷanalam kāṭṭiem kōṭṭattu  35
+
+
+
+nīvā eṉauraittu nīṅkutalum, tūmoḻi
+
+
+
+ārtta kaṇavaṉ akaṉṟaṉaṉ pōyeṅkum
+
+
+
+tīrttat tuṟaipaṭivēṉ eṉṟuavaṉaip pērttuiṅṅaṉ
+
+
+
+mīṭṭut taruvāy eṉaoṉṟaṉ mēliṭṭuk
+
+
+
+kōṭṭam vaḻipāṭu koṇṭiruppāḷ vāṭṭaruñcīrk  40
+
+
+
+kaṇṇaki nallāḷukku uṟṟa kuṟaiuṇṭueṉṟu
+
+
+
+eṇṇiya neñcattu iṉaiyaḷāy naṇṇi
+
+
+
+aṟuku ciṟupūḷai nelloṭu tūuyc ceṉṟu
+
+
+
+peṟuka kaṇavaṉōṭu eṉṟāḷ, peṟukēṉ
+
+
+
+kaṭukkumeṉ neñcam kaṉaviṉāl eṉkai  45
+
+
+
+piṭittaṉaṉ pōyōr perumpatiyuḷ paṭṭēm
+
+
+
+paṭṭa patiyil paṭātatu oruvārttai
+
+
+
+iṭṭaṉar ūrār iṭutēḷiṭṭu eṉtaṉmēl
+
+
+
+kōvalaṟku uṟṟatuōr tīṅkueṉṟu atukēṭṭuk
+
+
+
+kāvalaṉ muṉṉaryāṉ kaṭṭuraittēṉ kāvalaṉōṭu  50
+
+
+
+ūrkkuuṟṟa tīṅkumoṉṟu uṇṭāl uraiyāṭēṉ
+
+
+
+tīkkuṟṟam pōlum ceṟitoṭīi tīkkuṟṟam
+
+
+
+uṟṟēṉōṭu uṟṟa uṟuvaṉoṭu yāṉuṟṟa
+
+
+
+naltiṟam kēṭkiṉ nakaiākum, poṟṟoṭii
+
+
+
+kaittāyum allai kaṇavaṟku orunōṉpu  55
+
+
+
+poyttāy paḻampiṟappil pōykkeṭuka uyttuk
+
+
+
+kaṭaloṭu kāviri ceṉṟualaikkum muṉṟil
+
+
+
+maṭalaviḻ neytalam kāṉal taṭamuḷa
+
+
+
+cōmakuṇṭam cūriya kuṇṭam tuṟaimūḻkik
+
+
+
+kāmavēḷ kōṭṭam toḻutār kaṇavaroṭu  60
+
+
+
+tāmiṉ puṟuvar ulakattut taiyalār
+
+
+
+pōkamcey pūmiyiṉum pōyppiṟappar yāmorunāḷ
+
+
+
+āṭutum eṉṟa aṇiiḻaikkuav āyiḻaiyāḷ
+
+
+
+pīṭuaṉṟu eṉairunta piṉṉarē, nīṭiya
+
+
+
+kāvalaṉ pōlum kaṭaittalaiyāṉ vantunam  65
+
+
+
+kōvalaṉ eṉṟāḷōr kuṟṟiḷaiyāḷ, kōvalaṉum
+
+
+
+pāṭuamai cēkkaiyuḷ pukkuttaṉ paintoṭi
+
+
+
+vāṭiya mēṉi varuttamkaṇṭu, yāvum
+
+
+
+calampuṇar koḷkaic calatiyoṭu āṭik
+
+
+
+kulamtaru vāṉporuḷ kuṉṟam tolainta  70
+
+
+
+ilampāṭu nāṇut tarumeṉakku eṉṉa,
+
+
+
+nalamkēḻ muṟuval nakaimukam kāṭṭic
+
+
+
+cilampuuḷa koṇmiṉ eṉaccēyiḻai kēḷic
+
+
+
+cilampu mutalākac ceṉṟa kalaṉoṭu
+
+
+
+ulantaporuḷ īṭṭutal uṟṟēṉ malarntacīr  75
+
+
+
+māṭa maturai yakattucceṉṟu eṉṉōṭuiṅku
+
+
+
+ēṭualar kōtāy. eḻukeṉṟu nīṭi
+
+
+
+viṉaikaṭaik kūṭṭa viyamkoṇṭāṉ kaṅkul
+
+
+
+kaṉaicuṭar kālcīyā muṉ.
+
+
+
+(veṇpā)
+
+
+
+kātali kaṇṭa kaṉavu karuneṭuṅkaṇ
+
+
+
+mātavitaṉ collai vaṟitākka - mūtai
+
+
+
+viṉaikaṭaik kūṭṭa viyamkoṇṭāṉ kaṅkul
+
+
+
+kaṉaicuṭar kālcīyā muṉ.
+
+
+
+
+
+
+
+
+
+
+
+10. nāṭukāṇ kātai
+
+
+
+
+
+
+
+(nilaimaṇṭila āciriyappā)
+
+
+
+
+
+
+
+vāṉkaṇ viḻiyā vaikaṟai yāmattu
+
+
+
+mīṉtikaḻ vicumpiṉ veṇmati nīṅkak
+
+
+
+kāriruḷ niṉṟa kaṭaināḷ kaṅkul
+
+
+
+ūḻviṉaik kaṭaii uḷḷam turappa
+
+
+
+ēḻakat takarum ekiṉak kavariyum   5
+
+
+
+tūmayir aṉṉamum tuṇaieṉat tiriyum
+
+
+
+tāḷoṭu kuyiṉṟa takaicāl ciṟappiṉ
+
+
+
+nīḷneṭu vāyil neṭuṅkaṭai kaḻintuāṅku,
+
+
+
+aṇikiḷar araviṉ aṟituyil amarnta
+
+
+
+maṇivaṇṇaṉ kōṭṭam valamceyāk kaḻintu, 10
+
+
+
+paṇaiaintu ōṅkiya pācilaip pōti
+
+
+
+aṇitikaḻ nīḻal aṟavōṉ tirumoḻi
+
+
+
+antara cārikaḷ aṟaintaṉar cāṟṟum
+
+
+
+intira vikāram ēḻuṭaṉ pōki,
+
+
+
+pulavuūṇ tuṟantu poyyā viratattu 15
+
+
+
+avalam nīttuaṟintu aṭaṅkiya koḷkai
+
+
+
+meyvakai uṇarnta viḻumiyōr kuḻīiya
+
+
+
+aivakai niṉṟa arukat tāṉattuc
+
+
+
+canti aintum tammuṭaṉ kūṭi
+
+
+
+vantutalai mayaṅkiya vāṉperu maṉṟattup 20
+
+
+
+polampūm piṇṭi nalamkiḷar koḻuniḻal
+
+
+
+nīraṇi viḻaviṉum neṭuntēr viḻaviṉum
+
+
+
+cāraṇar varuum takutiuṇ ṭāmeṉa
+
+
+
+ulaka nōṉpikaḷ oruṅkuṭaṉ iṭṭa
+
+
+
+ilakuoḷic cilātalam toḻutuvalam koṇṭu, 25
+
+
+
+malaitalaik koṇṭa pēryāṟu pōlum
+
+
+
+ulaka iṭaikaḻi oruṅkuṭaṉ nīṅki,
+
+
+
+kalaiyi lāḷaṉ kāmar vēṉiloṭu
+
+
+
+malaiya mārutam maṉṉavaṟku iṟukkum
+
+
+
+paṉmalar aṭukkiya naṉmarap pantar 30
+
+
+
+ilavan tikaiyiṉ eyilpuṟam pōki,
+
+
+
+tāḻpoḻil uṭutta taṇpatap peruvaḻik
+
+
+
+kāviri vāyil kaṭaimukam kaḻintu,
+
+
+
+kuṭaticaik koṇṭu koḻumpuṉal kāviri
+
+
+
+vaṭaperuṅ kōṭṭu malarppoḻil nuḻaintu, 35
+
+
+
+kāvatam kaṭantu kavuntip paḷḷip
+
+
+
+pūmarap potumparp porunti āṅkaṇ
+
+
+
+iṟumkoṭi nucuppōṭu iṉaintuaṭi varunti
+
+
+
+naṟumpal kūntal kuṟumpal uyirttu
+
+
+
+mutirāk kiḷaviyiṉ muḷeyiṟu ilaṅka 40
+
+
+
+maturai mūtūr yātueṉa viṉava,
+
+
+
+āṟuaiṅ kātamnam akalnāṭṭu umpar
+
+
+
+nāṟuaiṅ kūntal naṇittueṉa nakkut,
+
+
+
+tēmoḻi taṉṉoṭum ciṟaiyakattu irunta
+
+
+
+kāvunti aiyaiyaik kaṇṭuaṭi toḻalum, 45
+
+
+
+uruvum kulaṉum uyarppēr oḻukkamum
+
+
+
+perumakaṉ tirumoḻi piṟaḻā nōṉpum
+
+
+
+uṭaiyīr eṉṉō uṟuka ṇāḷariṉ
+
+
+
+kaṭaikaḻintu iṅṅaṉam karutiya vāṟueṉa,
+
+
+
+uraiyāṭṭu illai uṟutavat tīryāṉ 50
+
+
+
+maturai mūtūr varaiporuḷ vēṭkaiyēṉ.
+
+
+
+pāṭakac cīṟaṭi paralpakai uḻavā
+
+
+
+kāṭuiṭai yiṭṭa nāṭunīr kaḻitaṟku
+
+
+
+arituivaḷ cevvi aṟikunar yārō
+
+
+
+uriyatu aṉṟuīṅku oḻikaeṉa oḻiyīr 55
+
+
+
+maṟaurai nītta mācuaṟu kēḷviyar
+
+
+
+aṟaurai kēṭṭuāṅku aṟivaṉai ēttat
+
+
+
+teṉtamiḻ naṉṉāṭṭut tītutīr maturaikku
+
+
+
+oṉṟiya uḷḷam uṭaiyēṉ ākaliṉ
+
+
+
+pōtuval yāṉum pōtumiṉ eṉṟa 60
+
+
+
+kāvunti aiyaiyaik kaitoḻutu ētti
+
+
+
+aṭikaḷ nīrē aruḷitir āyiṉit
+
+
+
+toṭivaḷait tōḷi tuyarttīrt tēṉeṉa,
+
+
+
+kōvalaṉ kāṇāy koṇṭa inneṟikku
+
+
+
+ētam taruvaṉa yāṅkumpala kēṇmō: 65
+
+
+
+veyilniṟam poṟāa meliyal koṇṭu
+
+
+
+payilpūn taṇṭalaip paṭarkuvam eṉiṉē,
+
+
+
+maṇpaka vīḻnta kiḻaṅkuakaḻ kuḻiyaic
+
+
+
+caṇpakam niṟaitta tātucōr poṅkar
+
+
+
+poyyaṟaip paṭuttup pōṟṟā mākkaṭkuk 70
+
+
+
+kaiyaṟu tuṉpam kāṭṭiṉum kāṭṭum,
+
+
+
+utirppūñ cemmaliṉ otuṅkiṉar kaḻivōr
+
+
+
+mutirttēm paḻampakai muṭṭiṉum muṭṭum,
+
+
+
+mañcaḷum iñciyum mayaṅkuaril valayattuc
+
+
+
+ceñcuḷaip palaviṉ paralpakai uṟukkum. 75
+
+
+
+kayalneṭuṅ kaṇṇi kātal kēḷva.
+
+
+
+vayaluḻaip paṭarkkuvam eṉiṉē āṅkup
+
+
+
+pūnāṟu ilañcip porukayal ōṭṭi
+
+
+
+nīrnāy keḷaviya neṭumpuṟa vāḷai
+
+
+
+malaṅkumiḷir ceṟuviṉ vilaṅkap pāyiṉ 80
+
+
+
+kalaṅkalum uṇṭuik kārikai, āṅkaṇ
+
+
+
+karumpil toṭutta peruntēṉ citaintu
+
+
+
+curumpucūḻ poykait tūnīr kalakkum
+
+
+
+aṭaṅkā vēṭkaiyiṉ aṟivuañar eytik
+
+
+
+kuṭaṅkaiyiṉ koṇṭu koḷḷavum kūṭum, 85
+
+
+
+kuṟunar iṭṭa kuvaḷaiam pōtoṭu
+
+
+
+poṟivari vaṇṭiṉam poruntiya kiṭakkai
+
+
+
+neṟicel varuttattu nīrañar eyti
+
+
+
+aṟiyātu aṭiāṅku iṭutalum kūṭum,
+
+
+
+eṟinīr aṭaikarai iyakkam taṉṉil 90
+
+
+
+poṟimāṇ alavaṉum nantum pōṟṟātu
+
+
+
+ūḻaṭi otukkattu uṟunōy kāṇiṉ
+
+
+
+tāḻtaru tuṉpam tāṅkavum oṇṇā,
+
+
+
+vayalum cōlaiyum allatu yāṅkaṇum
+
+
+
+ayalpaṭak kiṭanta neṟiāṅku illai 95
+
+
+
+neṟiiruṅ kuñci nīvey yōḷoṭu
+
+
+
+kuṟiaṟintu avaiavai kuṟukātu ōmpueṉa,
+
+
+
+tōmaṟu kaṭiñaiyum cuvalmēl aṟuvaiyum
+
+
+
+kāvunti aiyaikaip pīliyum koṇṭu
+
+
+
+moḻipporuḷ teyvam vaḻittuṇai ākeṉap 100
+
+
+
+paḻippuaruñ ciṟappiṉ vaḻippaṭar purintōr,
+
+
+
+kariyavaṉ pukaiyiṉum pukaikkoṭi tōṉṟiṉum
+
+
+
+virikatir veḷḷi teṉpulam paṭariṉum
+
+
+
+kālporu nivappiṉ kaṭuṅkural ēṟṟoṭum
+
+
+
+cūlmutir koṇmūp peyalvaḷam curappak 105
+
+
+
+kuṭamalaip piṟanta koḻumpal tāramoṭu
+
+
+
+kaṭalvaḷaṉ etirak kayavāy nerikkum
+
+
+
+kāvirip putunīrk kaṭuvaral vāyttalai
+
+
+
+ōiṟantu olikkum oliyē allatu
+
+
+
+āmpiyum kiḻārum vīṅkuicai ēttamum 110
+
+
+
+ōṅkunīrp piḻāvum olittal cellāk
+
+
+
+kaḻaṉic cennel karumpucūḻ maruṅkil
+
+
+
+paḻaṉat tāmaraip paimpūṅ kāṉattuk
+
+
+
+kampuṭ kōḻiyum kaṉaikural nāraiyum
+
+
+
+ceṅkāl aṉṉamum paiṅkāl kokkum 115
+
+
+
+kāṉak kōḻiyum nīrniṟak kākkaiyum
+
+
+
+uḷḷum ūralum puḷḷum putāvum
+
+
+
+velpōr vēntar muṉaiyiṭam pōlap
+
+
+
+palvēṟu kuḻūukkural paranta ōtaiyum,
+
+
+
+uḻāa nuṇtoḷi uḷpukku aḻuntiya 120
+
+
+
+kaḻāamayir yākkaic ceṅkaṇ kārāṉ
+
+
+
+coripuṟam uriñcap puriñekiḻpu uṟṟa
+
+
+
+kumarik kūṭṭil koḻumpal uṇavu
+
+
+
+kavaric cennel kāyttalaic coriyak
+
+
+
+karuṅkai viṉaiñarum kaḷamaruṅ kūṭi 125
+
+
+
+oruṅkuniṉṟu ārkkum oliyē aṉṟiyum,
+
+
+
+kaṭimalar kaḷaintu muṭināṟu aḻuttit
+
+
+
+toṭivaḷait tōḷum ākamum tōyntu
+
+
+
+cēṟuāṭu kōlamoṭu vīṟupeṟat tōṉṟic
+
+
+
+ceṅkayal neṭuṅkaṇ ciṉmoḻik kaṭaiciyar 130
+
+
+
+veṅkaḷ tolaicciya viruntiṟ pāṇiyum,
+
+
+
+koḻuṅkoṭi aṟukaiyum kuvaḷaiyum kalantu
+
+
+
+viḷaṅkukatirt toṭutta viriyal cūṭṭip
+
+
+
+pāruṭaip paṉarppōl paḻicciṉar kaitoḻa
+
+
+
+ēroṭu niṉṟōr ērmaṅ kalamum, 135
+
+
+
+arintukāl kuvittōr arikaṭā vuṟutta
+
+
+
+peruñceyn nelliṉ mukavaip pāṭṭum,
+
+
+
+teṇkiṇaip porunar cerukkuṭaṉ eṭutta
+
+
+
+maṇkaṉai muḻaviṉ makiḻicai ōtaiyum,
+
+
+
+pēryāṟṟu aṭaikarai nīriṟ kēṭṭuāṅku 140
+
+
+
+ārva neñcamōṭu avalam koḷḷār,
+
+
+
+uḻaippulik koṭittēr uravōṉ koṟṟamoṭu
+
+
+
+maḻaikkaru uyirkkum aḻaltikaḻ aṭṭil
+
+
+
+maṟaiyōr ākkiya āvūti naṟumpukai
+
+
+
+iṟaiuyar māṭam eṅkaṇum pōrttu 145
+
+
+
+mañcucūḻ malaiyiṉ māṇat tōṉṟum
+
+
+
+maṅkala maṟaiyōr irukkai aṉṟiyum,
+
+
+
+parappunīrk kāvirip pāvaitaṉ putalvar
+
+
+
+irappōr cuṟṟamum purappōr koṟṟamum
+
+
+
+uḻaviṭai viḷaippōr paḻaviṟal ūrkaḷum, 150
+
+
+
+poṅkaḻi ālaip pukaiyoṭum parantu
+
+
+
+maṅkul vāṉattu malaiyiṉ tōṉṟum
+
+
+
+ūriṭai yiṭṭa nāṭuuṭaṉ kaṇṭu
+
+
+
+kāvatam allatu kaṭavār ākip
+
+
+
+paṉṉāḷ taṅkic celnāḷ orunāḷ: 155
+
+
+
+āṟṟuvī araṅkattu vīṟṟuvīṟṟu ākik
+
+
+
+kuraṅkuamai uṭutta marampayil aṭukkattu,
+
+
+
+vāṉavar uṟaiyum pūnāṟu oruciṟaip
+
+
+
+paṭṭiṉap pākkam viṭṭaṉar nīṅkāp
+
+
+
+perumpeyar aiyar oruṅkuṭaṉ iṭṭa 160
+
+
+
+ilaṅkuoḷic cilātalam mēlirun taruḷip
+
+
+
+perumakaṉ aticayam piṟaḻā vāymait
+
+
+
+tarumam cāṟṟum cāraṇar tōṉṟap,
+
+
+
+paṇṭait tolviṉai pāṟuka eṉṟē
+
+
+
+kaṇṭuaṟi kavuntiyoṭu kāluṟa vīḻntōr 165
+
+
+
+vanta kāraṇam vayaṅkiya koḷkaic
+
+
+
+cintai viḷakkil terintōṉ āyiṉum
+
+
+
+ārvamum ceṟṟamum akala nīkkiya
+
+
+
+vīraṉ ākaliṉ viḻumam koḷḷāṉ,
+
+
+
+kaḻipperuñ ciṟappiṉ kavunti kāṇāy: 170
+
+
+
+oḻikeṉa oḻiyātu ūṭṭum valviṉai
+
+
+
+iṭṭa vittiṉ etirvantu eyti
+
+
+
+oṭṭuṅ kālai oḻikkavum oṇṇā
+
+
+
+kaṭuṅkāl neṭuveḷi iṭumcuṭar eṉṉa
+
+
+
+oruṅkuṭaṉ nillā uṭampiṭai uyirkaḷ 175
+
+
+
+aṟivaṉ aṟavōṉ aṟivuvarampu ikantōṉ
+
+
+
+ceṟivaṉ ciṉēntiraṉ cittaṉ pakavaṉ
+
+
+
+taruma mutalvaṉ talaivaṉ tarumaṉ
+
+
+
+poruḷaṉ puṉitaṉ purāṇaṉ pulavaṉ
+
+
+
+ciṉavaraṉ tēvaṉ civakati nāyakaṉ 180
+
+
+
+paramaṉ kuṇavataṉ parattil oḷiyōṉ
+
+
+
+tattuvaṉ cātuvaṉ cāraṇaṉ kāraṇaṉ
+
+
+
+cittaṉ periyavaṉ cemmal tikaḻoḷi
+
+
+
+iṟaivaṉ kuravaṉ iyalkuṇaṉ emkōṉ
+
+
+
+kuṟaivil pukaḻōṉ kuṇapperuṅ kōmāṉ 185
+
+
+
+caṅkaraṉ īcaṉ cayampu catumukaṉ
+
+
+
+aṅkam payantōṉ arukaṉ aruḷmuṉi
+
+
+
+paṇṇavaṉ eṇkuṇaṉ pāttil paḻamporuḷ
+
+
+
+viṇṇavaṉ vēta mutalvaṉ viḷaṅkuōḷi
+
+
+
+ōtiya vētattu oḷiuṟiṉ allatu 190
+
+
+
+pōtār piṟavip potiaṟai yōreṉac
+
+
+
+cāraṇar vāymoḻi kēṭṭut tavamutal
+
+
+
+kāvunti yumtaṉ kaitalai mēṟkoṇṭu
+
+
+
+orumūṉṟu avittōṉ ōtiya ñāṉat
+
+
+
+tirumoḻikku allatueṉ ceviyakam tiṟavā, 195
+
+
+
+kāmaṉai veṉṟōṉ āyirattu eṭṭu
+
+
+
+nāmam allatu navilātu eṉnā,
+
+
+
+aivarai veṉṟōṉ aṭiyiṇai allatu
+
+
+
+kaivaraik kāṇiṉum kāṇā eṉkaṇ,
+
+
+
+aruḷaṟam pūṇṭōṉ tirumeykku allatueṉ 200
+
+
+
+poruḷil yākkai pūmiyil poruntātu,
+
+
+
+arukar aṟavaṉ aṟivōṟku allatueṉ
+
+
+
+irukaiyum kūṭi oruvaḻik kuviyā,
+
+
+
+malarmicai naṭantōṉ malaraṭi allatueṉ
+
+
+
+talaimicai ucci tāṉaṇip poṟāatu 205
+
+
+
+iṟutiil iṉpattu iṟaimoḻikku allatu
+
+
+
+maṟutira ōtieṉ maṉampuṭai peyarātu
+
+
+
+eṉṟavaṉ icaimoḻi ēttak kēṭṭuataṟku
+
+
+
+oṉṟiya mātavar uyarmicai ōṅki
+
+
+
+nivantuāṅku orumuḻam nīḷnilam nīṅkip 210
+
+
+
+pavamtaru pācam kavunti keṭukeṉṟu
+
+
+
+antaram āṟāp paṭarvōrt toḻutu
+
+
+
+pantam aṟukeṉap paṇintaṉar pōntu,
+
+
+
+kāraṇi pūmpoḻil kāvirip pēryāṟṟu
+
+
+
+nīraṇi māṭattu neṭuntuṟai pōki 215
+
+
+
+mātarum kaṇavaṉum mātavat tāṭṭiyum
+
+
+
+tītutīr niyamat teṉkarai eytip
+
+
+
+pōtucūḻ kiṭakkaiōr pūmpoḻil iruntuḻi
+
+
+
+vampap parattai vaṟumoḻi yāḷaṉoṭu
+
+
+
+koṅkualar pūmpoḻil kuṟukiṉar ceṉṟōr 220
+
+
+
+kāmaṉum tēviyum pōlum īṅkuivar
+
+
+
+āreṉak kēṭṭuīṅku aṟikuvam eṉṟē,
+
+
+
+nōṟṟuuṇal yākkai nocitavat tīruṭaṉ
+
+
+
+āṟṟuvaḻip paṭṭōr āreṉa viṉava,eṉ
+
+
+
+makkaḷ kāṇīr māṉiṭa yākkaiyar 225
+
+
+
+pakkam nīṅkumiṉ paripulam piṉareṉa,
+
+
+
+uṭaṉvayiṟ ṟōrkkaḷ oruṅkuṭaṉ vāḻkkai
+
+
+
+kaṭavatum uṇṭō? kaṟṟaṟin tīreṉat,
+
+
+
+tīmoḻi kēṭṭuc ceviyakam putaittuk
+
+
+
+kātalaṉ muṉṉark kaṇṇaki naṭuṅka, 230
+
+
+
+eḷḷunar pōlumivar eṉpūṅ kōtaiyai
+
+
+
+muḷuṭaik kāṭṭiṉ mutunari ākeṉak
+
+
+
+kavunti iṭṭa tavamtaru cāpam
+
+
+
+kaṭṭiyatu ātaliṉ, paṭṭatai aṟiyār
+
+
+
+kuṟunari neṭuṅkural kūviḷi kēṭṭu 235
+
+
+
+naṟumalark kōtaiyum nampiyum naṭuṅki,
+
+
+
+neṟiyiṉ nīṅkiyōr nīrala kūṟiṉum
+
+
+
+aṟiyā maieṉṟu aṟiyal vēṇṭum
+
+
+
+ceytavat tīrnum tirumuṉ piḻaittōrkku
+
+
+
+uytik kālam uraiyī rōeṉa, 240
+
+
+
+aṟiyā maiyiṉiṉṟu iḻipiṟappu uṟṟōr
+
+
+
+uṟaiyūr nocci orupuṭai otuṅkip
+
+
+
+paṉṉiru matiyam paṭarnōy uḻantapiṉ
+
+
+
+muṉṉai uruvam peṟukaīṅku ivareṉac
+
+
+
+cāpaviṭai ceytu, tavapperuñ ciṟappiṉ 245
+
+
+
+kāvunti aiyaiyum tēviyum kaṇavaṉum
+
+
+
+muṟamcevi vāraṇam muñcamam murukkiya
+
+
+
+puṟañciṟai vāraṇam pukkaṉar purintueṉ.
+
+
+
+
+
+
+
+ (kaṭṭurai)
+
+
+
+
+
+
+
+muṭiuṭai vēntar mūva ruḷḷum
+
+
+
+toṭiviḷaṅku taṭakkaic cōḻarkkulattu utittōr
+
+
+
+aṟaṉum maṟaṉum āṟṟalum avartam
+
+
+
+paḻaviṟal mūtūrp paṇpumēm paṭutalum
+
+
+
+viḻavumali ciṟappum viṇṇavar varavum 5
+
+
+
+oṭiyā iṉpattu avaruṟai nāṭṭuk
+
+
+
+kuṭiyum kūḻiṉ perukkamum avartam
+
+
+
+teyvak kāvirit tītutīr ciṟappum
+
+
+
+poyyā vāṉam putuppuṉal poḻitalum
+
+
+
+araṅkum āṭalum tūkkum variyum 10
+
+
+
+parantuicai eytiya pārati viruttiyum
+
+
+
+tiṇainilai variyum iṇainilai variyum
+
+
+
+aṇaivuṟak kiṭanta yāḻiṉ tokutiyum
+
+
+
+īrēḻ cakōṭamum iṭanilaip pālaiyum
+
+
+
+tārattu ākkamum tāṉteri paṇṇum 15
+
+
+
+ūrakat tērum oḷiyuṭaip pāṇiyum
+
+
+
+eṉṟuivai aṉaittum piṟaporuḷ vaippōṭu
+
+
+
+oṉṟit tōṉṟum taṉikkōḷ nilaimaiyum
+
+
+
+oru paricā nōkkik kiṭanta
+
+
+
+pukārk kāṇṭam muṟṟiṟṟu. 20
+
+
+
+(veṇpā)
+
+
+
+kālai arumpi malarum katiravaṉum
+
+
+
+mālai matiyamumpōl vāḻiyarō - vēlai
+
+
+
+akaḻāl amainta avaṉikku mālaip
+
+
+
+pukaḻāl amainta pukār.
+
+
+
+
+
+
+
+(pukārk kāṇṭam muṟṟiṟṟu.)
+
+
+
+
+
+
+
+ 
+
+
+
+This file was first put up on 13 Jan 2000. 
+
+
+
+Revised version in table form put up on 10 May 2001 
+
+
+
+Please click here to send in your corrections to the Webmaster of the site
+```
