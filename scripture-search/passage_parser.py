@@ -76,6 +76,35 @@ def parse_muktabodha(raw, edition_id, title, source_url):
         row['passage_set_version'] = hashlib.sha256(f"{row['source_version'][7:]}:{parser_id}:{version}".encode()).hexdigest()
     return rows
 
+def parse_multipart_muktabodha(raw, edition_id, title, parts):
+    """Parse each verified embedded source volume and retain exact combined offsets."""
+    combined_hash = hashlib.sha256(raw).hexdigest()
+    rows = []
+    previous_end = 0
+    for part in parts:
+        start, end = part['combined_byte_start'], part['combined_byte_end']
+        if not isinstance(start, int) or not isinstance(end, int) or start < previous_end or end <= start or end > len(raw):
+            raise ValueError('Invalid or overlapping part range')
+        source = raw[start:end]
+        if hashlib.sha256(source).hexdigest() != part['sha256']:
+            raise ValueError('Source part checksum mismatch')
+        extracted = parse_muktabodha(source, part['source_id'], title, part['source_url'])
+        for row in extracted:
+            row['source_document_id'] = part['source_id']
+            row['source_byte_start'], row['source_byte_end'] = row['byte_start'], row['byte_end']
+            row['byte_start'] += start
+            row['byte_end'] += start
+            row['document_id'] = edition_id
+            row['source_version'] = 'sha256:' + combined_hash
+            row['chunk_id'] = f"{edition_id}:seq{len(rows)+1:06d}"
+            row['parser_id'] = 'multipart-muktabodha-header-paragraph'
+            row['passage_set_version'] = hashlib.sha256((combined_hash + ':multipart-muktabodha-header-paragraph:0.1.0').encode()).hexdigest()
+            rows.append(row)
+        previous_end = end
+    if not rows:
+        raise ValueError('No source parts')
+    return rows
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('markdown', type=Path); p.add_argument('--edition-id', required=True)

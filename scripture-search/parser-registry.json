@@ -97,6 +97,16 @@
       "implementation": "scripture-search/experiments/gretil_verse_profile.py",
       "validation": "Synthetic tests and limited source comparisons; not corpus-wide boundary validation.",
       "fail_behavior": "Preserve source and flag unclear boundaries."
+    },
+    {
+      "id": "multipart-muktabodha-header-paragraph",
+      "version": "0.1.0",
+      "status": "experimental",
+      "supported_input": "Combined UTF-8 Markdown with a manifest identifying exact byte ranges, checksums, catalogue IDs and source URLs of Muktabodha source volumes",
+      "output": "Source-linked paragraph spans with combined and per-volume byte offsets",
+      "limitations": "Function interface only; no full corpus coverage or verse/commentary boundary validation; manifest must account for correct volume selection.",
+      "validation": "Synthetic test and two real combined candidates verified for exact extracted bytes and distinct source volume URLs.",
+      "fail_behavior": "Reject invalid or overlapping ranges, checksum mismatches, unsupported publisher headers and empty output."
     }
   ],
   "selection_policy": "Profiles are candidates until validated on a specific input; source byte fidelity does not validate scripture boundaries. Do not silently fall back to indexing."
