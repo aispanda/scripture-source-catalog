@@ -391,5 +391,31 @@
       "action": "M00280 removed from live bucket by generation match; M00251 verified present",
       "observed_at": "2026-11-28T15:16:39.592423+00:00"
     }
+  ],
+  "source_header_corrections": [
+    {
+      "group": "Īśānaśivagurudevapaddhati",
+      "status": "retain_all_parts_pending_assembly",
+      "reason": "Source headers identify volumes 1–4 of the same work with matching editor and publisher. The later Gemini suggestion to exclude volume 4 conflicts with its header.",
+      "source_ids": [
+        "muktabodha-m00016",
+        "muktabodha-m00017",
+        "muktabodha-m00018",
+        "muktabodha-m00233"
+      ],
+      "source_sha256": {
+        "M00016": "7329a6f630dbf3a338cbd622a254132a5f115ccfc15d02abef166a079e14c5ec",
+        "M00017": "58493c6110f1ae6061f15639ced929ee2e7e63efda67be11984ed921f6f500ec",
+        "M00018": "a2a0524333d33d0e2e6e99039b5eaf7412a4edaa64b082b9ab855b35a8cd8175",
+        "M00233": "592421d5f4cd1d11eb320e3a3bd5ba039cbd938a6d209cf565d8355174260edf"
+      },
+      "source_urls": [
+        "https://muktabodha-digital-library.org/texts/IAST/M00016",
+        "https://muktabodha-digital-library.org/texts/IAST/M00017",
+        "https://muktabodha-digital-library.org/texts/IAST/M00018",
+        "https://muktabodha-digital-library.org/texts/IAST/M00233"
+      ],
+      "gemini_conversation": "https://gemini.google.com/app/2baa5613e260571d"
+    }
   ]
 }
